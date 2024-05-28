@@ -1,0 +1,185 @@
+import React, { useState } from 'react';
+import Cookies from 'js-cookie';
+import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@mui/material';
+import LocationPicker from './locationPicker'; // Ajusta la ruta según tu estructura de carpetas
+import { LatLngLiteral } from 'leaflet';
+
+export default function CreatePostPage() {
+    const [formData, setFormData] = useState({
+        title: '',
+        images: [] as string[],
+        description: '',
+        tag_ppl: '',
+        location: '',
+        alias: '',
+    });
+
+    const [imagePreviews, setImagePreviews] = useState<string[]>([]);
+    const [loading, setLoading] = useState(false);
+    const [confirmation, setConfirmation] = useState(false);
+    const [error, setError] = useState<string | null>(null);
+    const [mapOpen, setMapOpen] = useState(false);
+    const [latitude, setLatitude] = useState<number | null>(null);
+    const [longitude, setLongitude] = useState<number | null>(null);
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value, files } = e.target as HTMLInputElement;
+        if (name === 'images' && files) {
+            if (files.length > 0) {
+                const totalImages = formData.images.length + files.length;
+                if (totalImages > 10) {
+                    setError('No se pueden subir más de 10 imágenes.');
+                    return;
+                }
+                setLoading(true);
+                setConfirmation(false);
+                setError(null);
+                const promises: Promise<string>[] = [];
+                const newImages: string[] = [];
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+                    promises.push(
+                        new Promise((resolve) => {
+                            const reader = new FileReader();
+                            reader.onload = () => {
+                                const result = reader.result as string;
+                                newImages.push(result);
+                                resolve(result);
+                            };
+                            reader.readAsDataURL(file);
+                        })
+                    );
+                }
+
+                Promise.all(promises).then((results) => {
+                    setImagePreviews((prevPreviews) => [...prevPreviews, ...results]);
+                    setFormData((prevData) => ({
+                        ...prevData,
+                        images: [...prevData.images, ...newImages]
+                    }));
+                    setLoading(false);
+                });
+            } else {
+                setImagePreviews([]);
+            }
+        } else {
+            setFormData((prevData) => ({
+                ...prevData,
+                [name]: value
+            }));
+        }
+    };
+
+    const getCsrfToken = async () => {
+        const response = await fetch(`${process.env.LARAVEL}/sanctum/csrf-cookie`, {
+            credentials: 'include'
+        });
+        if (!response.ok) {
+            throw new Error('Failed to fetch CSRF token');
+        }
+    };
+
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        await getCsrfToken();
+        let token = Cookies.get('auth_token');
+
+        try {
+            setLoading(true);
+            setConfirmation(false);
+            const response = await fetch(`${process.env.LARAVEL}/api/newpost`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`,
+                },
+                body: JSON.stringify({
+                    ...formData,
+                    latitude,
+                    longitude
+                }),
+                credentials: 'include'
+            });
+
+            if (!response.ok) {
+                const res = await response.json();
+                throw new Error(res.message || 'Error al crear la publicación');
+            }
+
+            setConfirmation(true);
+            setLoading(false);
+        } catch (err) {
+            if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError('An unknown error occurred');
+            }
+            setLoading(false);
+        }
+    };
+
+    const handleLocationSelected = (latlng: LatLngLiteral) => {
+        setLatitude(latlng.lat);
+        setLongitude(latlng.lng);
+        setMapOpen(false);
+        setFormData((prevData) => ({
+            ...prevData,
+            location: `Lat: ${latlng.lat}, Lng: ${latlng.lng}`
+        }));
+    };
+
+    return (
+        <div className="max-w-md mx-auto">
+            <h1 className="text-black text-bold text-center mt-8 mb-2 font-sans text-2xl">Nuevo Post</h1>
+            <form onSubmit={handleSubmit}>
+                <div className="mb-4">
+                    <label htmlFor="images" className="block text-gray-700 font-semibold mb-4">Imágenes</label>
+                    <label className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-green-500 hover:to-blue-500 text-white font-semibold py-2 px-4 rounded-md cursor-pointer transition duration-200 ease-in-out w-full text-center">
+                        Subir Imágenes
+                        <input type="file" id="images" name="images" accept="image/*" multiple style={{ display: 'none' }} onChange={handleChange} />
+                    </label>
+                    {loading && <div className="text-center mt-2">Cargando...</div>}
+                    {imagePreviews.length > 0 && !loading && (
+                        <div className="mt-2">
+                            {imagePreviews.map((preview, index) => (
+                                <img key={index} src={preview} alt="Preview" className="rounded-md border mb-2" style={{ maxWidth: '200px', maxHeight: '200px' }} />
+                            ))}
+                        </div>
+                    )}
+                    {error && <div className="text-red-500 text-center mt-2">{error}</div>}
+                    {confirmation && <div className="text-green-500 text-center mt-2">Las imágenes se han cargado correctamente. Post publicado</div>}
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="title" className="block text-gray-700 font-semibold">Título </label>
+                    <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" required />
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="tag_ppl" className="block text-gray-700 font-semibold">Etiqueta Personas</label>
+                    <input type="text" id="tag_ppl" name="tag_ppl" value={formData.tag_ppl} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" />
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="description" className="block text-gray-700 font-semibold">Descripción</label>
+                    <textarea id="description" name="description" value={formData.description} onChange={handleChange} rows={4} className="text-black mt-1 p-2 border rounded-md w-full"></textarea>
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="location" className="block text-gray-700 font-semibold">Ubicacion</label>
+                    <input type="text" id="location" name="location" value={formData.location} readOnly className="text-black mt-1 p-2 border rounded-md w-full" hidden />
+                    <button type="button" onClick={() => setMapOpen(true)} className="mt-2 p-2 bg-blue-500 text-white rounded-md">Seleccionar Ubicación</button>
+                </div>
+                <button type="submit" className="bg-gradient-to-bl from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:via-pink-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4 mt-2 w-full">Publicar</button>
+            </form>
+
+            <Dialog open={mapOpen} onClose={() => setMapOpen(false)} fullWidth maxWidth="md">
+                <DialogTitle>Selecciona la Ubicación</DialogTitle>
+                <DialogContent>
+                    <LocationPicker onLocationSelected={handleLocationSelected} />
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={() => setMapOpen(false)} color="primary">
+                        Cerrar
+                    </Button>
+                </DialogActions>
+            </Dialog>
+        </div>
+    );
+}
