@@ -1,6 +1,17 @@
 'use client';
-import Messages from "../../../components/ui/messages/messages";
-import MessagesDos from "@/components/component/messages";
+import dynamic from 'next/dynamic';
+import LoadingSpinner from '@/components/loading/spinner';
+
+// Cargar los componentes dinámicamente
+// const Messages = dynamic(
+//   () => import('@/components/messages/messages'),
+//   { ssr: false, loading: () => <LoadingSpinner /> }
+// );
+
+const MessagesDos = dynamic(
+  () => import('@/components/vercel/component/messages'),
+  { ssr: false, loading: () => <LoadingSpinner /> }
+);
 
 export default function Mensajeria() {
   return (

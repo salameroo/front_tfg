@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 // import Feed from "@/app/components/ui/Seguidores/feed";
 const Feed = dynamic(
   // Utiliza una función anónima que retorna una promesa con el componente importado.
-  () => import('@/app/components/ui/Seguidores/feed'),
+  () => import('@/components/Seguidores/feed'),
   // Establece la opción 'ssr' en 'false' para deshabilitar el pre-renderizado en el lado del servidor.
   { ssr: false }
 );

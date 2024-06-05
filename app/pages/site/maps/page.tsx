@@ -1,10 +1,10 @@
 'use client';
 import dynamic from 'next/dynamic';
-import LoadingSpinner from '@/app/components/ui/loading/spinner';
+import LoadingSpinner from '@/components/loading/spinner';
 
 // Cargar el componente `MapView` dinámicamente
 const MapView = dynamic(
-    () => import('@/app/components/ui/posts/locations'),
+    () => import('@/components/posts/locations'),
     { ssr: false, loading: () => <LoadingSpinner /> }
 );
 

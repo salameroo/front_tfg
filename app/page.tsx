@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect, useMemo, useCallback } from 'react';
-import AnimatedSection from './components/ui/Bienvenida/ScrollInicio';
+import AnimatedSection from '../components/Bienvenida/ScrollInicio';
 import Cookies from 'js-cookie';
 
 const Home = () => {

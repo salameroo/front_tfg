@@ -1,4 +1,4 @@
-import LogoutButton from "../../../components/ui/Login_Logout/LogoutButton";
+import LogoutButton from "../../../../components/Login_Logout/LogoutButton";
 
 const Navbar = () => {
     return (

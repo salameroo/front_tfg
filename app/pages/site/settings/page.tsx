@@ -1,8 +1,27 @@
 'use client';
-import Settings from "@/app/components/ui/Perfil/settings";
-import Logout from "@/app/components/ui/Login_Logout/LogoutButton";
-import ProfileUpdate from "@/app/components/ui/Perfil/updateProfile";
-import Ajustes from "@/app/components/ui/settings/settings";
+import dynamic from 'next/dynamic';
+import LoadingSpinner from '@/components/loading/spinner';
+
+// Cargar los componentes dinámicamente
+const Settings = dynamic(
+    () => import('@/components/Perfil/settings'),
+    { ssr: false, loading: () => <LoadingSpinner /> }
+);
+
+const Logout = dynamic(
+    () => import('@/components/Login_Logout/LogoutButton'),
+    { ssr: false, loading: () => <LoadingSpinner /> }
+);
+
+const ProfileUpdate = dynamic(
+    () => import('@/components/Perfil/updateProfile'),
+    { ssr: false, loading: () => <LoadingSpinner /> }
+);
+
+const Ajustes = dynamic(
+    () => import('@/components/settings/settings'),
+    { ssr: false, loading: () => <LoadingSpinner /> }
+);
 
 const PageAjustes = () => {
     return (

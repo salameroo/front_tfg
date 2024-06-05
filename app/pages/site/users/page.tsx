@@ -1,13 +1,13 @@
 'use client';
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
-import SearchBarDos from '../../../components/ui/Seguidores/searchBar';
-import FollowButton from '@/app/components/ui/Seguidores/seguir';
-import User from '@/app/components/ui/Seguidores/type';
-import LoadingSpinner from '@/app/components/ui/loading/spinner';
+import SearchBarDos from '../../../../components/Seguidores/searchBar';
+import FollowButton from '@/components/Seguidores/seguir';
+import User from '@/components/Seguidores/type';
+import LoadingSpinner from '@/components/loading/spinner';
 
 // Cargar el componente `RandomPostsGrid` dinámicamente
-const DynamicRandomPostsGrid = dynamic(() => import('@/app/components/ui/posts/randomPostGrid'), {
+const DynamicRandomPostsGrid = dynamic(() => import('@/components/posts/randomPostGrid'), {
     ssr: false,
     loading: () => <LoadingSpinner />, // Usar el componente de carga personalizado
 });

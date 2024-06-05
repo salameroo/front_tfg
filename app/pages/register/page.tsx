@@ -1,5 +1,5 @@
 'use client';
-import { RegisterForm } from "../../components/ui/Login_Logout/RegisterForm"
+import { RegisterForm } from "../../../components/Login_Logout/RegisterForm"
 
 const RegisterPage = () => {
     return (
