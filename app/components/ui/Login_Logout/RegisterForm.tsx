@@ -1,4 +1,3 @@
-"use client";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z, ZodType } from "zod";
@@ -70,7 +69,7 @@ const RegisterForm = () => {
                 // Guardar el token JWT en las cookies
                 Cookies.set('auth_token', res.token, { expires: 7 });
                 // Redirigir al usuario a la página principal (o a la que desees)
-                window.location.href = `${process.env.NEXT}/pages/site/dashboard`;
+                window.location.href = `${process.env.NEXT}/pages/site/settings`;
             } else {
                 setErr(true);
                 setToast(true);

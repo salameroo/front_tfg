@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "../../../globals.css";
+// import "../../../globals.css";
 import { Navbar, MobileNavbar } from "../../components/ui/Global/Navbar";
 import { ThemeProvider } from '../../../context/context';
 
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <div className="">
                 <Navbar />
                 <MobileNavbar />
-                <main className="flex-grow p-6 md:p-12 md:ml-64"> {/* Ajusta el margen izquierdo según el tamaño de tu navbar */}
+                <main className="flex-grow p-0 md:p-12 md:ml-64"> {/* Ajusta el margen izquierdo según el tamaño de tu navbar */}
                     {children}
                 </main>
             </div>

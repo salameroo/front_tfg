@@ -1,21 +1,19 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+module.exports = {
+  darkMode: 'class', // Habilitar el modo oscuro usando la clase 'dark'
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'dark-bg': '#1a1a2e', // Color de fondo personalizado para modo oscuro
+        'dark-text': '#e0e0e0', // Color de texto personalizado para modo oscuro
+        'light-bg': '#f8f9fa', // Color de fondo personalizado para modo claro
+        'light-text': '#333333', // Color de texto personalizado para modo claro
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
-export default config;

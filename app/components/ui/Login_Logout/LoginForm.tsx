@@ -47,6 +47,7 @@ export function Form() {
         await getCsrfToken();
         let token = Cookies.get('auth_token');
 
+
         if (!token) {
             try {
                 setLoading(true);
@@ -60,7 +61,7 @@ export function Form() {
                 const res = await response.json();
                 if (response.ok) {
                     Cookies.set('auth_token', res.auth_token, { expires: 7, path: '' });
-                    window.location.href = `${process.env.NEXT}/pages/site/dashboard`;
+                    window.location.href = `${process.env.NEXT}/pages/site/settings`;
                 } else {
                     setErrorMessage("Error: " + (res.message || 'Failed to login.'));
                 }
@@ -95,7 +96,7 @@ export function Form() {
                     <form onSubmit={handleSubmit(handleFormSubmit)}>
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                Email Address
+                                Correo electronico
                             </label>
                             <div className="flex items-center border rounded px-3 py-2">
                                 <EmailIcon className="mr-2 text-gray-400" />
@@ -103,7 +104,7 @@ export function Form() {
                                     className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
                                     id="email"
                                     type="email"
-                                    placeholder="Your email address"
+                                    placeholder="Tu correo electronico"
                                     {...register("email")}
                                 />
                             </div>
@@ -115,7 +116,7 @@ export function Form() {
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-                                Password
+                                Contraseña
                             </label>
                             <div className="flex items-center border rounded px-3 py-2">
                                 <LockIcon className="mr-2 text-gray-400" />
@@ -123,7 +124,7 @@ export function Form() {
                                     className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
                                     id="password"
                                     type="password"
-                                    placeholder="Your secure password"
+                                    placeholder="Contraseña segura"
                                     {...register("password")}
                                 />
                             </div>
@@ -142,7 +143,7 @@ export function Form() {
                                 disabled={loading}
                                 type="submit"
                             >
-                                {loading ? "Signing In..." : <><SendIcon className="mr-2" />Sign In</>}
+                                {loading ? "Signing In..." : <><SendIcon className="mr-2" />Iniciar Sesión</>}
                             </button>
                         </div>
                     </form>

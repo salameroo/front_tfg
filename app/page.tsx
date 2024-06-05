@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import AnimatedSection from './components/ui/Bienvenida/ScrollInicio';
+import Cookies from 'js-cookie';
 
 const Home = () => {
   const images = useMemo(() => [
@@ -36,6 +37,13 @@ const Home = () => {
     setBgImages(getUniqueRandomImages(images, 4));
   }, [getUniqueRandomImages, images]);
 
+  const deleteCookies = async () => {
+    Cookies.remove('XSRF-TOKEN', { path: '/' });
+    Cookies.remove('auth_token', { path: '/' });
+    Cookies.remove('auth__token', { path: '/' });
+    Cookies.remove('laravel_session', { path: '/' });
+  };
+
   return (
     <div>
       <div className="text-black">
@@ -69,6 +77,8 @@ const Home = () => {
           showJoinNow={true}
         />
       </div>
+      {/* Botón para borrar las cookies */}
+      <button onClick={deleteCookies} className="mt-4 p-2 bg-red-500 text-white rounded">Borrar Cookies</button>
     </div>
   );
 };

@@ -4,7 +4,7 @@ export default interface User {
     name: string;
     email: string;
     is_following: boolean;
-    profile_image?: string;
+    profile_photo?: string;
     // Hacer que la imagen de perfil sea opcional
 }
 
@@ -23,4 +23,5 @@ export interface Message {
     updated_at: string;
     sender: User;
     receiver: User;
+    sender_name?: string;
 }

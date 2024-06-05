@@ -11,6 +11,8 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { useTheme } from '../../../../context/context';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import MapIcon from '@mui/icons-material/Map';
+import ThemeToggle from './tema';
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +34,9 @@ export function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/pages/site/posts" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2">
-                                <AddAPhotoIcon />
-                                <span>Posts</span>
+                            <Link href="/pages/site/users" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2">
+                                <PeopleIcon />
+                                <span>Usuarios</span>
                             </Link>
                         </li>
                         <li>
@@ -44,25 +46,28 @@ export function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/pages/site/users" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2">
-                                <PeopleIcon />
-                                <span>Usuarios</span>
+                            <Link href="/pages/site/maps" className='flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2'>
+                                <MapIcon />
+                                <span>Mapa</span>
                             </Link>
                         </li>
                         <li>
+                            <Link href="/pages/site/posts" className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2">
+                                <AddAPhotoIcon />
+                                <span>Posts</span>
+                            </Link>
+                        </li>
+                        {/* <li>
                             <Link href="/pages/site/settings" className='flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2'>
                                 <SettingsIcon />
                                 <span>Ajustes</span>
                             </Link>
+                        </li> */}
+                        <li>
+                            <ThemeToggle />
                         </li>
                         <li>
-                            <button onClick={toggleTheme} className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2 w-full">
-                                {theme === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
-                                <span>{theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro'}</span>
-                            </button>
-                        </li>
-                        <li>
-                            <Link href="/pages/site/dashboard" className="fixed bottom-0 mb-2 w-90 flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2">
+                            <Link href="/pages/site/settings" className="fixed bottom-0 mb-2 w-90 flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2">
                                 <AccountCircleIcon />
                                 <span>Perfil</span>
                             </Link>

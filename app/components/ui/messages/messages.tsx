@@ -1,28 +1,59 @@
+import MessageCard from './messageCard';
 import React, { useState, useEffect, FormEvent, Fragment } from 'react';
-import axios from 'axios';
 import Cookies from 'js-cookie';
 import { Dialog, Transition } from '@headlessui/react';
 import { Close } from '@mui/icons-material';
-import { Button, TextField, Box, CircularProgress, Typography, MenuItem, Select, FormControl, InputLabel } from '@mui/material';
+import { Button, TextField, Box, CircularProgress, Typography, List, ListItem, ListItemText } from '@mui/material';
 import { Message, UserDos } from '@/app/components/ui/Seguidores/type';
 
 const Messages: React.FC = () => {
+    const [conversations, setConversations] = useState<UserDos[]>([]);
     const [messages, setMessages] = useState<Message[]>([]);
     const [newMessage, setNewMessage] = useState('');
-    const [receiverId, setReceiverId] = useState<number | null>(null);
+    const [selectedUser, setSelectedUser] = useState<UserDos | null>(null);
     const [isOpen, setIsOpen] = useState(false);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
-    const [followedUsers, setFollowedUsers] = useState<UserDos[]>([]);
 
     useEffect(() => {
-        fetchMessages();
-        fetchFollowedUsers();
+        fetchConversations();
     }, []);
 
-    const fetchMessages = async () => {
+    const fetchConversations = async () => {
         try {
-            const response = await fetch(`${process.env.LARAVEL}/api/messages`, {
+            const response = await fetch(`${process.env.LARAVEL}/api/conversations`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${Cookies.get('auth_token')}`
+                },
+                credentials: 'include',
+            });
+            if (!response.ok) {
+                throw new Error('Failed to fetch conversations');
+            }
+            const data = await response.json();
+
+            if (Array.isArray(data)) {
+                setConversations(data);
+            } else {
+                throw new Error('Unexpected response format');
+            }
+
+            setLoading(false);
+        } catch (err) {
+            if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError('An unknown error occurred');
+            }
+            setLoading(false);
+        }
+    };
+
+    const fetchMessages = async (userId: number) => {
+        try {
+            const response = await fetch(`${process.env.LARAVEL}/api/messages/${userId}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -46,29 +77,9 @@ const Messages: React.FC = () => {
         }
     };
 
-    const fetchFollowedUsers = async () => {
-        try {
-            const response = await fetch(`${process.env.LARAVEL}/api/followed-users`, {
-                method: 'GET',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${Cookies.get('auth_token')}`
-                },
-                credentials: 'include',
-            });
-            if (!response.ok) {
-                throw new Error('Failed to fetch followed users');
-            }
-            const data = await response.json();
-            setFollowedUsers(data);
-        } catch (error) {
-            console.error('Error fetching followed users:', error);
-        }
-    };
-
     const handleSendMessage = async (e: FormEvent) => {
         e.preventDefault();
-        if (receiverId === null || newMessage.trim() === '') return;
+        if (selectedUser === null || newMessage.trim() === '') return;
 
         try {
             const response = await fetch(`${process.env.LARAVEL}/api/messages`, {
@@ -78,7 +89,7 @@ const Messages: React.FC = () => {
                     'Authorization': `Bearer ${Cookies.get('auth_token')}`
                 },
                 credentials: 'include',
-                body: JSON.stringify({ receiver_id: receiverId, message: newMessage }),
+                body: JSON.stringify({ receiver_id: selectedUser.id, message: newMessage }),
             });
 
             if (!response.ok) {
@@ -89,20 +100,26 @@ const Messages: React.FC = () => {
             const messageData: Message = await response.json();
             setMessages([...messages, messageData]);
             setNewMessage('');
-            setReceiverId(null);
-            closeModal();
         } catch (error) {
             if (error instanceof Error) {
                 setError(error.message);
             } else {
                 setError('An unknown error occurred');
             }
-            setLoading(false);
         }
     };
 
-    const openModal = () => setIsOpen(true);
-    const closeModal = () => setIsOpen(false);
+    const openModal = (user: UserDos) => {
+        setSelectedUser(user);
+        fetchMessages(user.id);
+        setIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsOpen(false);
+        setSelectedUser(null);
+        setMessages([]);
+    };
 
     if (loading) {
         return (
@@ -118,25 +135,14 @@ const Messages: React.FC = () => {
     }
 
     return (
-        <div className="p-4">
-            <h2 className="text-2xl font-bold mb-4">Messages</h2>
-            <div className="mb-4">
-                {messages.map((msg) => (
-                    <div key={msg.id} className="mb-2 p-2 border rounded-lg">
-                        <p>
-                            <strong>{msg.sender.name}:</strong> {msg.message}
-                        </p>
-                        <p className="text-sm text-gray-500">{new Date(msg.created_at).toLocaleString()}</p>
-                    </div>
+        <div className="p-4">MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root
+            <List>
+                {Array.isArray(conversations) && conversations.map((user) => (
+                    <ListItem button key={user.id} onClick={() => openModal(user)}>
+                        <ListItemText primary={user.name} />
+                    </ListItem>
                 ))}
-            </div>
-            <Button
-                onClick={openModal}
-                variant="contained"
-                color="primary"
-            >
-                New Message
-            </Button>
+            </List>
 
             <Transition appear show={isOpen} as={Fragment}>
                 <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -168,28 +174,22 @@ const Messages: React.FC = () => {
                                         as="h3"
                                         className="text-lg font-medium leading-6 text-gray-900"
                                     >
-                                        New Message
+                                        Chat with {selectedUser?.name}
                                     </Dialog.Title>
                                     <div className="mt-2">
+                                        <div className="mb-4">
+                                            {messages.map((msg) => (
+                                                <div key={msg.id} className="mb-2 p-2 border rounded-lg">
+                                                    <p>
+                                                        <strong>{msg.sender_id === selectedUser?.id ? selectedUser.name : 'You'}:</strong> {msg.message}
+                                                    </p>
+                                                    <p className="text-sm text-gray-500">{new Date(msg.created_at).toLocaleString()}</p>
+                                                </div>
+                                            ))}
+                                        </div>
                                         <form onSubmit={handleSendMessage} className="space-y-4">
-                                            <FormControl fullWidth>
-                                                <InputLabel id="receiver-label">Receiver</InputLabel>
-                                                <Select
-                                                    labelId="receiver-label"
-                                                    value={receiverId ?? ''}
-                                                    onChange={(e) => setReceiverId(Number(e.target.value))}
-                                                    label="Receiver"
-                                                    required
-                                                >
-                                                    {followedUsers.map((user) => (
-                                                        <MenuItem key={user.id} value={user.id}>
-                                                            {user.name}
-                                                        </MenuItem>
-                                                    ))}
-                                                </Select>
-                                            </FormControl>
                                             <TextField
-                                                label="Write your message"
+                                                label="Escribe tu mensaje"
                                                 value={newMessage}
                                                 onChange={(e) => setNewMessage(e.target.value)}
                                                 multiline

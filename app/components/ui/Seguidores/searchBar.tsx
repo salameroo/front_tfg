@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { TextField, InputAdornment } from '@mui/material';
 import { Search as SearchIcon } from '@mui/icons-material';
 import { motion } from 'framer-motion';
@@ -20,11 +20,19 @@ const SearchBarDos: React.FC<SearchBarDosProps> = ({ setResults }) => {
     const [query, setQuery] = useState('');
     const [users, setUsers] = useState<User[]>([]);
     const [isFocused, setIsFocused] = useState(false);
+    const resultsRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const fetchResults = async () => {
             try {
-                const response = await fetch(`${process.env.LARAVEL}/api/users/search?query=${query}`, {
+                const trimmedQuery = query.trim();
+                if (trimmedQuery.length === 0) {
+                    setUsers([]);
+                    setResults([]);
+                    return;
+                }
+
+                const response = await fetch(`${process.env.LARAVEL}/api/users/search?query=${trimmedQuery}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -45,7 +53,7 @@ const SearchBarDos: React.FC<SearchBarDosProps> = ({ setResults }) => {
             }
         };
 
-        if (query.length > 0) {
+        if (query.trim().length > 0) {
             fetchResults();
         } else {
             setResults([]);
@@ -90,6 +98,12 @@ const SearchBarDos: React.FC<SearchBarDosProps> = ({ setResults }) => {
         }
     };
 
+    const handleMouseDown = (event: React.MouseEvent) => {
+        if (resultsRef.current && resultsRef.current.contains(event.target as Node)) {
+            event.preventDefault();
+        }
+    };
+
     return (
         <motion.div
             className="flex flex-col items-center justify-center py-4 w-full top-2"
@@ -101,10 +115,14 @@ const SearchBarDos: React.FC<SearchBarDosProps> = ({ setResults }) => {
                 value={query}
                 onChange={handleInputChange}
                 onFocus={() => setIsFocused(true)}
-                onBlur={() => setIsFocused(false)}
+                onBlur={(event) => {
+                    if (resultsRef.current && !resultsRef.current.contains(event.relatedTarget as Node)) {
+                        setIsFocused(false);
+                    }
+                }}
                 placeholder="Buscar..."
                 variant="outlined"
-                className={`transition-all duration-300 ${isFocused ? 'w-full' : 'w-full max-w-md'}`}
+                className="w-full max-w-md"
                 InputProps={{
                     startAdornment: (
                         <InputAdornment position="start">
@@ -133,10 +151,12 @@ const SearchBarDos: React.FC<SearchBarDosProps> = ({ setResults }) => {
             />
             {isFocused && (
                 <motion.div
-                    className={`mt-4 ${isFocused ? 'w-full' : 'w-full max-w-md'}`}
+                    ref={resultsRef}
+                    className="mt-4 w-full max-w-md"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.3 }}
+                    onMouseDown={handleMouseDown}
                 >
                     {users.map(user => (
                         <UserCard

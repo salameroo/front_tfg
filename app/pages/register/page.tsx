@@ -1,3 +1,4 @@
+'use client';
 import { RegisterForm } from "../../components/ui/Login_Logout/RegisterForm"
 
 const RegisterPage = () => {

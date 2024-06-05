@@ -19,7 +19,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
       </head>
-      <body className="text-black bg-gray-200 h-full m-0">
+      <body className="text-black bg-gray-200 h-full m-0 md:bg-gray-200">
         <div className="flex h-full min-h-screen flex-col md:flex-row md:overflow-hidden bg-gray-200 dark:bg-gray-900 transition-colors duration-300">
           <main className="flex-grow md:overflow-y-auto">
             {children}

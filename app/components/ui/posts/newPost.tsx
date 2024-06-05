@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Cookies from 'js-cookie';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@mui/material';
-import LocationPicker from './locationPicker'; // Ajusta la ruta según tu estructura de carpetas
+import LocationPicker from '../maps/locationPicker'; // Ajusta la ruta según tu estructura de carpetas
+import SearchBox from '../maps/search'; // Ajusta la ruta según tu estructura de carpetas
 import { LatLngLiteral } from 'leaflet';
 
 export default function CreatePostPage() {
@@ -21,6 +22,7 @@ export default function CreatePostPage() {
     const [mapOpen, setMapOpen] = useState(false);
     const [latitude, setLatitude] = useState<number | null>(null);
     const [longitude, setLongitude] = useState<number | null>(null);
+    const [center, setCenter] = useState<LatLngLiteral>({ lat: 51.505, lng: -0.09 }); // Centro predeterminado
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value, files } = e.target as HTMLInputElement;
@@ -118,13 +120,13 @@ export default function CreatePostPage() {
         }
     };
 
-    const handleLocationSelected = (latlng: LatLngLiteral) => {
+    const handleLocationSelected = (latlng: LatLngLiteral, displayName: string) => {
         setLatitude(latlng.lat);
         setLongitude(latlng.lng);
-        setMapOpen(false);
+        setCenter(latlng); // Actualizar el centro del mapa
         setFormData((prevData) => ({
             ...prevData,
-            location: `Lat: ${latlng.lat}, Lng: ${latlng.lng}`
+            location: displayName
         }));
     };
 
@@ -151,28 +153,31 @@ export default function CreatePostPage() {
                 </div>
                 <div className="mb-4">
                     <label htmlFor="title" className="block text-gray-700 font-semibold">Título </label>
-                    <input type="text" id="title" name="title" value={formData.title} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" required />
+                    <input type="text" id="title" name="title" value={formData.title || ''} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" required />
                 </div>
                 <div className="mb-4">
                     <label htmlFor="tag_ppl" className="block text-gray-700 font-semibold">Etiqueta Personas</label>
-                    <input type="text" id="tag_ppl" name="tag_ppl" value={formData.tag_ppl} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" />
+                    <input type="text" id="tag_ppl" name="tag_ppl" value={formData.tag_ppl || ''} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" />
                 </div>
                 <div className="mb-4">
                     <label htmlFor="description" className="block text-gray-700 font-semibold">Descripción</label>
-                    <textarea id="description" name="description" value={formData.description} onChange={handleChange} rows={4} className="text-black mt-1 p-2 border rounded-md w-full"></textarea>
+                    <textarea id="description" name="description" value={formData.description || ''} onChange={handleChange} rows={4} className="text-black mt-1 p-2 border rounded-md w-full"></textarea>
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="location" className="block text-gray-700 font-semibold">Ubicacion</label>
-                    <input type="text" id="location" name="location" value={formData.location} readOnly className="text-black mt-1 p-2 border rounded-md w-full" hidden />
-                    <button type="button" onClick={() => setMapOpen(true)} className="mt-2 p-2 bg-blue-500 text-white rounded-md">Seleccionar Ubicación</button>
+                    <label htmlFor="location" className="block text-gray-700 font-semibold">Ubicación</label>
+                    <input type="text" id="location" name="location" value={formData.location || ''} readOnly className="text-black mt-1 p-2 border rounded-md w-full" hidden />
+                    <Button onClick={() => setMapOpen(true)} className="mt-2 p-2 bg-blue-500 text-white rounded-md">Seleccionar Ubicación</Button>
                 </div>
-                <button type="submit" className="bg-gradient-to-bl from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:via-pink-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4 mt-2 w-full">Publicar</button>
+                <Button type="submit" className="bg-gradient-to-bl from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:via-pink-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4 mt-2 w-full">
+                    Publicar
+                </Button>
             </form>
 
             <Dialog open={mapOpen} onClose={() => setMapOpen(false)} fullWidth maxWidth="md">
                 <DialogTitle>Selecciona la Ubicación</DialogTitle>
                 <DialogContent>
-                    <LocationPicker onLocationSelected={handleLocationSelected} />
+                    <SearchBox onLocationSelected={handleLocationSelected} />
+                    <LocationPicker onLocationSelected={handleLocationSelected} center={center} />
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setMapOpen(false)} color="primary">
