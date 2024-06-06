@@ -38,17 +38,9 @@ export default function Component() {
         resolver: zodResolver(schema),
     });
 
-    const getCsrfToken = async () => {
-        const response = await fetch(`${process.env.LARAVEL}/sanctum/csrf-cookie`, {
-            credentials: 'include'
-        });
-        if (!response.ok) {
-            throw new Error('Failed to fetch CSRF token');
-        }
-    };
+
 
     const handleFormSubmit = async (data: TLoginForm) => {
-        await getCsrfToken();
         let token = Cookies.get('auth_token');
 
 
