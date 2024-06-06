@@ -208,7 +208,7 @@ const RegisterForm = () => {
                         <p className="text-gray-700">¿Ya tienes cuenta?</p>
                         <button
                             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center w-full mt-2"
-                            onClick={() => window.location.href = `${process.env.NEXT}/pages/site/login`}
+                            onClick={() => window.location.href = `${process.env.NEXT}/pages/login`}
                         >
                             Iniciar sesión
                         </button>
