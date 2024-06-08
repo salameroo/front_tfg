@@ -174,7 +174,7 @@ const Messages: React.FC = () => {
                                         as="h3"
                                         className="text-lg font-medium leading-6 text-gray-900"
                                     >
-                                        Chat with {selectedUser?.name}
+                                        Chat con {selectedUser?.name}
                                     </Dialog.Title>
                                     <div className="mt-2">
                                         <div className="mb-4">
@@ -204,7 +204,7 @@ const Messages: React.FC = () => {
                                                     color="secondary"
                                                     onClick={closeModal}
                                                 >
-                                                    Cancel
+                                                    Cancelar
                                                 </Button>
                                                 <Button
                                                     type="submit"
@@ -212,7 +212,7 @@ const Messages: React.FC = () => {
                                                     color="primary"
                                                     className="ml-2"
                                                 >
-                                                    Send
+                                                    Enviar
                                                 </Button>
                                             </div>
                                         </form>

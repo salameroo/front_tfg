@@ -1,7 +1,9 @@
-
 import Link from "next/link";
+import { SVGProps } from "react";
 
-export default function CarIcon(props) {
+interface CarIconProps extends SVGProps<SVGSVGElement> { }
+
+export default function CarIcon(props: CarIconProps) {
     return (
         <div className="pl-4 lg:pl-6 pt-2">
             <Link className="flex items-center" href={"/"}>
@@ -25,5 +27,5 @@ export default function CarIcon(props) {
                 <span className="text-xl font-bold">Cargram</span>
             </Link>
         </div>
-    )
+    );
 }

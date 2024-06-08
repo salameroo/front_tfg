@@ -9,18 +9,18 @@ const CACHE_DIR = path.resolve(process.cwd(), 'cache');
 const CACHE_FILE_PATH = path.join(CACHE_DIR, 'newsCache.json');
 const CACHE_EXPIRY_TIME = 24 * 60 * 60 * 1000; // 24 horas en milisegundos
 
-const fetchNewsFromApi = async () => {
+export const fetchNewsFromApi = async () => {
     const response = await axios.get(NEWS_API_URL);
     const news = response.data.articles;
     return news;
 };
 
-const isCacheExpired = (timestamp: number) => {
+export const isCacheExpired = (timestamp: number) => {
     const currentTime = new Date().getTime();
     return currentTime - timestamp > CACHE_EXPIRY_TIME;
 };
 
-const ensureCacheDirExists = () => {
+export const ensureCacheDirExists = () => {
     if (!fs.existsSync(CACHE_DIR)) {
         fs.mkdirSync(CACHE_DIR);
     }

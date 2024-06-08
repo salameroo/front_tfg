@@ -1,72 +1,46 @@
-import { useState, useEffect, JSX, SVGProps } from 'react';
-import axios from 'axios';
+import { useState, useEffect } from 'react';
+import { AvatarImage, AvatarFallback, Avatar } from "@/components/vercel/ui/avatar";
+import { Input } from "@/components/vercel/ui/input";
+import { Button } from "@/components/vercel/ui/button";
 import Cookies from 'js-cookie';
-import Image from 'next/image';
+import axios from 'axios';
 import Link from 'next/link';
-import SinglePost from '../posts/PostMaloneMap';
+import Image from 'next/image';
+import SinglePostMalone from '../posts/postAlone'; // Import your SinglePostMalone component
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import LoadingSpinner from '../loading/spinner';
 
-export default function Ajustes() {
-    interface User {
-        id: number;
-        name: string;
-        followers_count: number;
-        following_count: number;
-    }
+interface User {
+    id: number;
+    name: string;
+    avatar?: string;
+    profile_image?: string;
+    followers_count?: string;
+    following_count?: string;
+}
 
-    interface Like {
-        id: number;
-        user_id: number;
-        created_at: string;
-        updated_at: string;
-    }
+interface Post {
+    id: number;
+    content: string;
+    created_at: string;
+}
 
-    interface Comment {
-        id: number;
-        user?: User;
-        text: string;
-        created_at: string;
-    }
+interface Follower {
+    id: number;
+    name: string;
+    avatar?: string;
+}
 
-    interface Image {
-        id: number;
-        post_id: number;
-        url: string;
-        created_at: string;
-        updated_at: string;
-    }
-
-    interface Post {
-        id: number;
-        title: string;
-        content: string;
-        images: Image[];
-        user_id: number;
-        user: User;
-        created_at: string;
-        likes: Like[];
-        comments: Comment[];
-    }
-
-    interface SinglePostProps {
-        post: Post;
-        postId: number;
-        isOpen: boolean;
-        onClose: () => void;
-    }
-
+export default function SettingsPage() {
     const [user, setUser] = useState<User | null>(null);
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [profilePhoto, setProfilePhoto] = useState('');
-    const [password, setPassword] = useState('********');
     const [posts, setPosts] = useState<Post[]>([]);
-    const [privacySettings, setPrivacySettings] = useState('public');
-    const [notifications, setNotifications] = useState({
-        newPosts: true,
-        mentions: true,
-        messages: true,
-    });
-
+    const [followers, setFollowers] = useState<Follower[]>([]);
+    const [following, setFollowing] = useState<Follower[]>([]);
+    const [showFollowersModal, setShowFollowersModal] = useState(false);
+    const [showFollowingModal, setShowFollowingModal] = useState(false);
     const [selectedPostId, setSelectedPostId] = useState<number | null>(null);
 
     useEffect(() => {
@@ -82,7 +56,7 @@ export default function Ajustes() {
                 setUsername(data.name);
                 setEmail(data.email);
                 setProfilePhoto(data.profile_photo);
-                setPosts(data.posts); // Asegúrate de que la respuesta contenga un array de posts
+                setPosts(data.posts);
             })
             .catch(error => {
                 console.error('Error loading user data:', error);
@@ -149,18 +123,86 @@ export default function Ajustes() {
         }
     };
 
+    const handleShowFollowers = () => {
+        axios.get(`${process.env.LARAVEL}/api/followers`, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${Cookies.get('auth_token')}`
+            },
+        })
+            .then(response => {
+                setFollowers(response.data.followers);
+                setShowFollowersModal(true);
+            })
+            .catch(error => {
+                console.error('Error fetching followers:', error);
+                alert('Error fetching followers. Please try again.');
+            });
+    };
+
+    const handleShowFollowing = () => {
+        axios.get(`${process.env.LARAVEL}/api/following`, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${Cookies.get('auth_token')}`
+            },
+        })
+            .then(response => {
+                setFollowing(response.data.following);
+                setShowFollowingModal(true);
+            })
+            .catch(error => {
+                console.error('Error fetching following:', error);
+                alert('Error fetching following. Please try again.');
+            });
+    };
+
+    const handleUnfollow = (userId: number) => {
+        axios.post(`${process.env.LARAVEL}/api/unfollow`, { user_id: userId }, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${Cookies.get('auth_token')}`
+            },
+        })
+            .then(response => {
+                setFollowing(following.filter(user => user.id !== userId));
+                alert('Unfollowed successfully.');
+            })
+            .catch(error => {
+                console.error('Error unfollowing user:', error);
+                alert('Error unfollowing user. Please try again.');
+            });
+    };
+
+    const handleRemoveFollower = (followerId: number) => {
+        axios.post(`${process.env.LARAVEL}/api/unfollow`, { follower_id: followerId }, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${Cookies.get('auth_token')}`
+            },
+        })
+            .then(response => {
+                setFollowers(followers.filter(follower => follower.id !== followerId));
+                alert('Follower removed successfully.');
+            })
+            .catch(error => {
+                console.error('Error removing follower:', error);
+                alert('Error removing follower. Please try again.');
+            });
+    };
+
     const handlePostClose = () => {
         setSelectedPostId(null);
     };
 
     if (!user) {
-        return <p>Loading...</p>;
+        return <LoadingSpinner></LoadingSpinner>;
     }
 
     return (
         <div className="w-full max-w-5xl mx-auto p-4">
-            <div className="hidden md:grid grid-cols-3 gap-4">
-                <div className="col-span-3 md:col-span-1 flex flex-col gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="flex flex-col gap-4 md:col-span-1">
                     <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center gap-4">
                         <div className="w-16 h-16 relative rounded-full overflow-hidden">
                             <Image
@@ -193,14 +235,26 @@ export default function Ajustes() {
                         <div className="flex flex-col items-center">
                             <div className="text-2xl font-bold">{user.followers_count}</div>
                             <div className="text-gray-500 dark:text-gray-400 text-sm">Followers</div>
+                            <button
+                                className="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600"
+                                onClick={handleShowFollowers}
+                            >
+                                View Followers
+                            </button>
                         </div>
                         <div className="flex flex-col items-center">
                             <div className="text-2xl font-bold">{user.following_count}</div>
                             <div className="text-gray-500 dark:text-gray-400 text-sm">Following</div>
+                            <button
+                                className="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600"
+                                onClick={handleShowFollowing}
+                            >
+                                View Following
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div className="col-span-3 md:col-span-2 space-y-6">
+                <div className="space-y-6 md:col-span-2">
                     <div className="bg-white shadow-md rounded-lg p-6">
                         <div className="text-lg font-medium">Username</div>
                         <div className="text-sm text-gray-500">Update your username to be displayed on your profile.</div>
@@ -274,14 +328,13 @@ export default function Ajustes() {
                     </div>
                     <div className="bg-white shadow-md rounded-lg p-6">
                         <div className="text-lg font-medium">Posts</div>
-                        <div className="grid grid-cols-3 gap-4 mt-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
                             {posts.map((post) => (
-                                <SinglePost
+                                <SinglePostMalone
                                     key={post.id}
                                     postId={post.id}
                                     isOpen={selectedPostId === post.id}
                                     onClose={handlePostClose}
-                                    post={post}
                                 />
                             ))}
                         </div>
@@ -289,52 +342,67 @@ export default function Ajustes() {
                 </div>
             </div>
 
-            <div className="md:hidden p-4 mt-8">
-                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 space-y-4">
-                    <div className="text-lg font-medium">Settings</div>
-                    <div className="space-y-2">
-                        <Link href="#" className="flex items-center justify-between text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">
-                            <span>Username</span>
-                            <ChevronRightIcon className="w-4 h-4" />
-                        </Link>
-                        <Link href="#" className="flex items-center justify-between text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">
-                            <span>Password</span>
-                            <ChevronRightIcon className="w-4 h-4" />
-                        </Link>
-                        <Link href="#" className="flex items-center justify-between text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">
-                            <span>Email</span>
-                            <ChevronRightIcon className="w-4 h-4" />
-                        </Link>
-                        <Link href="#" className="flex items-center justify-between text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">
-                            <span>Privacy</span>
-                            <ChevronRightIcon className="w-4 h-4" />
-                        </Link>
-                        <Link href="#" className="flex items-center justify-between text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-50">
-                            <span>Notifications</span>
-                            <ChevronRightIcon className="w-4 h-4" />
-                        </Link>
+            {/* Followers Modal */}
+            {showFollowersModal && (
+                <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
+                    <div className="bg-white dark:bg-gray-900 p-6 rounded-lg">
+                        <h2 className="text-xl font-bold mb-4">Followers</h2>
+                        <ul>
+                            {followers.map(follower => (
+                                <li
+                                    key={follower.id}
+                                    className="flex items-center justify-between p-2 border-b border-gray-300 dark:border-gray-700"
+                                >
+                                    <div className="flex items-center gap-4">
+                                        <Avatar className="w-8 h-8">
+                                            <AvatarImage alt={`@${follower.name}`} src={follower.avatar || "/placeholder-user.jpg"} />
+                                            <AvatarFallback>{follower.name[0]}</AvatarFallback>
+                                        </Avatar>
+                                        <span>{follower.name}</span>
+                                    </div>
+                                    <Button size="sm" variant="ghost" onClick={() => handleRemoveFollower(follower.id)}>
+                                        Remove
+                                    </Button>
+                                </li>
+                            ))}
+                        </ul>
+                        <Button className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowFollowersModal(false)}>
+                            Close
+                        </Button>
                     </div>
                 </div>
-            </div>
-        </div>
-    );
-}
+            )}
 
-function ChevronRightIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="m9 18 6-6-6-6" />
-        </svg>
+            {/* Following Modal */}
+            {showFollowingModal && (
+                <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
+                    <div className="bg-white dark:bg-gray-900 p-6 rounded-lg">
+                        <h2 className="text-xl font-bold mb-4">Following</h2>
+                        <ul>
+                            {following.map(user => (
+                                <li
+                                    key={user.id}
+                                    className="flex items-center justify-between p-2 border-b border-gray-300 dark:border-gray-700"
+                                >
+                                    <div className="flex items-center gap-4">
+                                        <Avatar className="w-8 h-8">
+                                            <AvatarImage alt={`@${user.name}`} src={user.avatar || "/placeholder-user.jpg"} />
+                                            <AvatarFallback>{user.name[0]}</AvatarFallback>
+                                        </Avatar>
+                                        <span>{user.name}</span>
+                                    </div>
+                                    <Button size="sm" variant="ghost" onClick={() => handleUnfollow(user.id)}>
+                                        Unfollow
+                                    </Button>
+                                </li>
+                            ))}
+                        </ul>
+                        <Button className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowFollowingModal(false)}>
+                            Close
+                        </Button>
+                    </div>
+                </div>
+            )}
+        </div>
     );
 }

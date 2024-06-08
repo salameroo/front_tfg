@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Modal from "@/components/ui/modal"; // Asegúrate de que la ruta sea correcta
+import { SVGProps } from "react";
 
 export default function Landing() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -206,7 +207,9 @@ export default function Landing() {
   );
 }
 
-function CarIcon(props) {
+interface CarIconProps extends SVGProps<SVGSVGElement> { }
+
+function CarIcon(props: CarIconProps) {
   return (
     <svg
       {...props}
@@ -227,3 +230,5 @@ function CarIcon(props) {
     </svg>
   )
 }
+
+export { CarIcon };

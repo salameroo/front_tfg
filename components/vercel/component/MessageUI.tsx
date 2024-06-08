@@ -14,7 +14,7 @@ interface Message {
     id: number;
     sender_id: number;
     receiver_id: number;
-    content: string;
+    message: string; // Actualiza la propiedad a 'message' en lugar de 'content'
     created_at: string;
 }
 
@@ -45,6 +45,7 @@ const MessageUI: React.FC<MessageUIProps> = ({ selectedUser, onClose }) => {
                         throw new Error('Failed to fetch messages');
                     }
                     const data: Message[] = await response.json();
+                    console.log('Fetched messages:', data); // Añadir log para verificar los datos
                     setMessages(data);
                     setLoading(false);
                 } catch (err) {
@@ -66,6 +67,7 @@ const MessageUI: React.FC<MessageUIProps> = ({ selectedUser, onClose }) => {
         if (!newMessage.trim() || !selectedUser) return;
 
         try {
+            console.log('Sending message:', { receiver_id: selectedUser.id, message: newMessage });
             const response = await fetch(`${process.env.LARAVEL}/api/messages`, {
                 method: 'POST',
                 headers: {
@@ -145,7 +147,7 @@ const MessageUI: React.FC<MessageUIProps> = ({ selectedUser, onClose }) => {
                             className={`px-4 py-2 rounded-lg max-w-[70%] ${message.sender_id === selectedUser.id ? 'bg-gray-100 dark:bg-gray-800 rounded-bl-none' : 'bg-blue-500 text-white rounded-br-none'
                                 }`}
                         >
-                            {message.content}
+                            {message.message} {/* Actualiza la referencia aquí */}
                         </div>
                         {message.sender_id === selectedUser.id && (
                             <Avatar className="w-8 h-8">

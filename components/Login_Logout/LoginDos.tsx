@@ -67,7 +67,7 @@ export default function Component() {
                 setLoading(false);
             }
         } else {
-            window.location.href = `${process.env.NEXT}/pages/site/dashboard`;
+            window.location.href = `${process.env.NEXT}/pages/site/settings`;
         }
     };
 

@@ -19,7 +19,7 @@ export default function Userguide() {
                 <li>Accede a la página de registro de Cargram.</li>
                 <li>Completa los campos de nombre, correo electrónico y contraseña.</li>
                 <li>Revisa y acepta los términos y condiciones.</li>
-                <li>Haz clic en el botón "Registrarse" para completar el proceso.</li>
+                <li>Haz clic en el botón &quot;Registrarse&quot; para completar el proceso.</li>
               </ol>
             </div>
             <div>
@@ -28,7 +28,7 @@ export default function Userguide() {
               <ol className="list-decimal pl-6 space-y-2">
                 <li>Accede a la página de inicio de sesión de Cargram.</li>
                 <li>Ingresa tu correo electrónico y contraseña registrados.</li>
-                <li>Haz clic en el botón "Iniciar sesión" para acceder a tu cuenta.</li>
+                <li>Haz clic en el botón &quot;Iniciar sesión&quot; para acceder a tu cuenta.</li>
               </ol>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Userguide() {
               <p className="mb-4">Para editar tu información de perfil, sigue estos pasos:</p>
               <ol className="list-decimal pl-6 space-y-2">
                 <li>Accede a la sección de perfil en la aplicación de Cargram.</li>
-                <li>Haz clic en el botón "Editar perfil".</li>
+                <li>Haz clic en el botón &quot;Editar perfil&quot;.</li>
                 <li>Actualiza tu foto de perfil y otras configuraciones.</li>
                 <li>Guarda los cambios para que se reflejen en tu perfil público.</li>
               </ol>
@@ -72,7 +72,7 @@ export default function Userguide() {
               <p className="mb-4">Para crear una nueva publicación en Cargram, sigue estos pasos:</p>
               <ol className="list-decimal pl-6 space-y-2">
                 <li>Accede a la sección de publicaciones en la aplicación.</li>
-                <li>Haz clic en el botón "Crear publicación".</li>
+                <li>Haz clic en el botón &quot;Crear publicación&quot;.</li>
                 <li>Agrega texto, imágenes y/o tu ubicación actual.</li>
                 <li>Revisa y publica tu contenido para que sea visible en el feed.</li>
               </ol>
@@ -81,7 +81,7 @@ export default function Userguide() {
               <h3 className="text-xl font-bold mb-2">Interactuar con publicaciones</h3>
               <p className="mb-4">Puedes interactuar con las publicaciones de otros usuarios de la siguiente manera:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Dar "Me gusta" a las publicaciones que te gusten.</li>
+                <li>Dar &quot;Me gusta&quot; a las publicaciones que te gusten.</li>
                 <li>Dejar comentarios en las publicaciones para interactuar con otros usuarios.</li>
               </ul>
             </div>

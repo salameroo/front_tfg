@@ -14,6 +14,7 @@ export default function MessagesDos() {
     id: number;
     name: string;
     avatar?: string;
+    profile_image?: string;
   }
 
   interface Message {
@@ -50,12 +51,14 @@ export default function MessagesDos() {
           credentials: 'include',
         });
         if (!response.ok) {
-          throw new Error('Failed to fetch conversations');
+          throw new Error(`Failed to fetch conversations: ${response.statusText}`);
         }
         const data: Conversation[] = await response.json();
+        console.log('Fetched conversations:', data); // Añadir log para verificar los datos
         setConversations(data);
         setLoading(false);
       } catch (err) {
+        console.error('Error fetching conversations:', err);
         if (err instanceof Error) {
           setError(err.message);
         } else {
@@ -86,13 +89,17 @@ export default function MessagesDos() {
         },
         credentials: 'include',
       });
+
       if (!response.ok) {
-        throw new Error('Failed to fetch users');
+        throw new Error(`Failed to fetch users: ${response.statusText}`);
       }
-      const data: User[] = await response.json();
-      setUsers(data);
+
+      const data = await response.json();
+      console.log('Fetched users:', data.users); // Añadir log para verificar los datos
+      setUsers(data.users);
       setShowNewConversationModal(true);
     } catch (err) {
+      console.error('Error fetching users:', err);
       if (err instanceof Error) {
         setError(err.message);
       } else {
@@ -115,7 +122,7 @@ export default function MessagesDos() {
   }
 
   return (
-    <div className="w-full max-w-4xl mx-auto py-6 px-4 md:px-6">
+    <div className="w-full mx-auto py-6 px-4 md:px-6">
       {selectedUser ? (
         <MessageUI selectedUser={selectedUser} onClose={handleCloseMessageUI} />
       ) : (
@@ -137,16 +144,16 @@ export default function MessagesDos() {
                 <DropdownMenuTrigger asChild>
                   <Button className="rounded-full" size="icon" variant="ghost">
                     <FilterAltIcon className="w-5 h-5" />
-                    <span className="sr-only">Filter messages</span>
+                    <span className="sr-only">Filtrar mensajes</span>
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-48">
-                  <DropdownMenuLabel>Sort by</DropdownMenuLabel>
+                  <DropdownMenuLabel>Ordenar por</DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   <DropdownMenuRadioGroup value="recent">
-                    <DropdownMenuRadioItem value="recent">Recent</DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="unread">Unread</DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="oldest">Oldest</DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="recent">Recientes</DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="unread">No leidos</DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="oldest">Antiguedad</DropdownMenuRadioItem>
                   </DropdownMenuRadioGroup>
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -187,7 +194,6 @@ export default function MessagesDos() {
               <div className="bg-white dark:bg-gray-900 p-6 rounded-lg">
                 <h2 className="text-xl font-bold mb-4">Empieza una nueva Conversación</h2>
                 <ul>
-                  
                   {Array.isArray(users) && users.length > 0 ? (
                     users.map((user) => (
                       <li
@@ -196,18 +202,18 @@ export default function MessagesDos() {
                         onClick={() => handleStartConversation(user)}
                       >
                         <Avatar className="w-8 h-8">
-                          <AvatarImage alt={`@${user.name}`} src={user.avatar || "/placeholder-user.jpg"} />
+                          <AvatarImage alt={`@${user.name}`} src={user.profile_image || "/placeholder-user.jpg"} />
                           <AvatarFallback>{user.name[0]}</AvatarFallback>
                         </Avatar>
                         <span>{user.name}</span>
                       </li>
                     ))
                   ) : (
-                    <li>No users found.</li>
+                    <li>No se han encontrado usuarios.</li>
                   )}
                 </ul>
                 <Button className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowNewConversationModal(false)}>
-                  Cancel
+                  Cancelar
                 </Button>
               </div>
             </div>
