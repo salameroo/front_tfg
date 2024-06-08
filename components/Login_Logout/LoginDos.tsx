@@ -39,7 +39,6 @@ export default function Component() {
     });
 
 
-
     const handleFormSubmit = async (data: TLoginForm) => {
         let token = Cookies.get('auth_token');
 
@@ -91,7 +90,7 @@ export default function Component() {
             <div className="mx-auto w-full max-w-md space-y-6 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-800">
                 <div className="space-y-2 text-center">
                     <h1 className="text-3xl font-bold">Bienvenido a Cargram</h1>
-                    <p className="text-gray-500 dark:text-gray-400">Inicie sesión para continuar</p>
+                    <p className="text-gray-500 dark:text-gray-400">Inicia sesión para continuar</p>
                 </div>
                 <div className="space-y-4">
                     <div className="space-y-2">
@@ -159,7 +158,7 @@ export default function Component() {
                     <Link
                         href="/pages/register"
                         className="font-medium text-gray-900 underline hover:text-gray-700 dark:text-gray-50 dark:hover:text-gray-300"
-                        prefetch={false}
+                        prefetch={true}
                     >
                         Registrarse
                     </Link>

@@ -1,10 +1,10 @@
 'use client';
-import { RegisterForm } from "../../../components/Login_Logout/RegisterForm"
+import RegisterFormDos from "@/components/Login_Logout/RegisterForm";
 
 const RegisterPage = () => {
     return (
         <div className="bg-grey-lighter min-h-screen flex flex-col">
-            <RegisterForm />
+            <RegisterFormDos />
         </div>
     )
 }

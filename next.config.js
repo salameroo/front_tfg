@@ -1,15 +1,20 @@
 // next.config.js
+
 require('dotenv').config();
+
+/*
+* Este archivo es para hacer accesibles las variables del .env
+* Y para configurar los dominios de las imagenes
+*/
+
 
 module.exports = {
     env: {
         LARAVEL: process.env.LARAVEL,
         NEXT: process.env.NEXT,
-        AUTH_URL: process.env.AUTH_URL,
-        NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
-        NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+        NEWS_API_KEY: process.env.NEWS_API_KEY,
     },
     images: {
-        domains: ['i.blogs.es', 'i.imgur.com', 'localhost'], // Reemplaza 'example.com' con el dominio de tus imágenes externas
+        domains: ['i.blogs.es', 'i.imgur.com', 'localhost', 'e00-expansion.uecdn.es'],
     },
 };

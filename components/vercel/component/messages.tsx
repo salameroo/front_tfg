@@ -35,6 +35,8 @@ export default function MessagesDos() {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
+  const [showNewConversationModal, setShowNewConversationModal] = useState<boolean>(false);
+  const [users, setUsers] = useState<User[]>([]); // Lista de usuarios para iniciar nuevas conversaciones
 
   useEffect(() => {
     const fetchConversations = async () => {
@@ -50,7 +52,7 @@ export default function MessagesDos() {
         if (!response.ok) {
           throw new Error('Failed to fetch conversations');
         }
-        const data: Conversation[] = await response.json();  // Usa el tipo Conversation
+        const data: Conversation[] = await response.json();
         setConversations(data);
         setLoading(false);
       } catch (err) {
@@ -72,6 +74,36 @@ export default function MessagesDos() {
 
   const handleCloseMessageUI = () => {
     setSelectedUser(null);
+  };
+
+  const handleNewConversation = async () => {
+    try {
+      const response = await fetch(`${process.env.LARAVEL}/api/users`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${Cookies.get('auth_token')}`
+        },
+        credentials: 'include',
+      });
+      if (!response.ok) {
+        throw new Error('Failed to fetch users');
+      }
+      const data: User[] = await response.json();
+      setUsers(data);
+      setShowNewConversationModal(true);
+    } catch (err) {
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('An unknown error occurred');
+      }
+    }
+  };
+
+  const handleStartConversation = (user: User) => {
+    setShowNewConversationModal(false);
+    setSelectedUser(user);
   };
 
   if (loading) {
@@ -98,6 +130,9 @@ export default function MessagesDos() {
                   type="search"
                 />
               </div>
+              <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleNewConversation}>
+                Nuevo chat
+              </Button>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button className="rounded-full" size="icon" variant="ghost">
@@ -146,6 +181,37 @@ export default function MessagesDos() {
               </div>
             </div>
           </div>
+
+          {showNewConversationModal && (
+            <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center">
+              <div className="bg-white dark:bg-gray-900 p-6 rounded-lg">
+                <h2 className="text-xl font-bold mb-4">Empieza una nueva Conversación</h2>
+                <ul>
+                  
+                  {Array.isArray(users) && users.length > 0 ? (
+                    users.map((user) => (
+                      <li
+                        key={user.id}
+                        className="flex items-center gap-4 p-2 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-800 rounded"
+                        onClick={() => handleStartConversation(user)}
+                      >
+                        <Avatar className="w-8 h-8">
+                          <AvatarImage alt={`@${user.name}`} src={user.avatar || "/placeholder-user.jpg"} />
+                          <AvatarFallback>{user.name[0]}</AvatarFallback>
+                        </Avatar>
+                        <span>{user.name}</span>
+                      </li>
+                    ))
+                  ) : (
+                    <li>No users found.</li>
+                  )}
+                </ul>
+                <Button className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowNewConversationModal(false)}>
+                  Cancel
+                </Button>
+              </div>
+            </div>
+          )}
         </>
       )}
     </div>

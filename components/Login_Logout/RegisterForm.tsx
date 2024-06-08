@@ -4,16 +4,13 @@ import { z, ZodType } from "zod";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Cookies from "js-cookie";
-import EmailIcon from '@mui/icons-material/Email';
-import LockIcon from '@mui/icons-material/Lock';
-import PersonIcon from '@mui/icons-material/Person';
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
 type TRegisterForm = {
     name: string;
     email: string;
     password: string;
     cPassword: string;
+    ip: string;
 };
 
 const schema: ZodType<TRegisterForm> = z
@@ -30,6 +27,7 @@ const schema: ZodType<TRegisterForm> = z
                     "La contraseña debe contener al menos un número y un carácter especial",
             }),
         cPassword: z.string(),
+        ip: z.string(),
     })
     .refine((data) => data.password === data.cPassword, {
         message: "Las contraseñas no coinciden",
@@ -49,10 +47,26 @@ const RegisterForm = () => {
         register,
         handleSubmit,
         reset,
+        setValue,
         formState: { errors },
     } = useForm<TRegisterForm>({
         resolver: zodResolver(schema),
     });
+
+    useEffect(() => {
+        // Obtener la IP del usuario
+        const fetchIP = async () => {
+            try {
+                const response = await fetch('https://api64.ipify.org?format=json');
+                const data = await response.json();
+                setValue('ip', data.ip);
+            } catch (error) {
+                console.error("Error al obtener la IP:", error);
+            }
+        };
+
+        fetchIP();
+    }, [setValue]);
 
     const handleFormSubmit = async (data: TRegisterForm) => {
         try {
@@ -97,126 +111,102 @@ const RegisterForm = () => {
     }, [toast]);
 
     return (
-        <div className="font-sans antialiased bg-gradient-to-r from-blue-500 to-purple-500 h-screen flex justify-center items-center relative">
-            <div className="w-full max-w-md bg-white rounded-lg shadow-lg overflow-hidden relative z-10">
+        <div className="font-sans antialiased h-screen flex justify-center items-center">
+            <div className="w-full max-w-md bg-white rounded-lg shadow-lg overflow-hidden">
                 {toast && (
                     <div
                         className={`flex justify-between py-4 px-8 ${err
-                            ? "bg-[#fad2e1]  text-[#7c193d]"
-                            : "bg-[#98f5e1]  text-[#236c5b]"
+                            ? "bg-[#fad2e1] text-[#7c193d]"
+                            : "bg-[#98f5e1] text-[#236c5b]"
                             }`}
                     >
                         <p className="font-sans">{message}</p>
-                        <button className="font-bold">&#10005;</button>
+                        <button className="font-bold" onClick={() => setToast(false)}>&#10005;</button>
                     </div>
                 )}
-                <div className="p-8">
-                    <h2 className="text-2xl font-bold text-center mb-6">Registrarse</h2>
-                    <form onSubmit={handleSubmit(handleFormSubmit)}>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-                                Nombre
-                            </label>
+                <div className="mx-auto max-w-md space-y-6 p-8">
+                    <div className="space-y-2 text-center">
+                        <h1 className="text-3xl font-bold">Cargram</h1>
+                        <p className="text-gray-500 dark:text-gray-400">Regístrate para unirte a la comunidad de Cargram.</p>
+                    </div>
+                    <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-4">
+                        <div className="space-y-2">
+                            <label htmlFor="name" className="block text-gray-700 text-sm font-bold mb-2">Nombre de usuario</label>
                             <div className="flex items-center border rounded px-3 py-2">
-                                <PersonIcon className="mr-2 text-gray-400" />
                                 <input
                                     className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
                                     id="name"
-                                    type="text"
-                                    placeholder="Nombre completo"
+                                    placeholder="Ingresa tu nombre de usuario"
+                                    required
                                     {...register("name")}
                                 />
                             </div>
                             {errors.name && (
-                                <p className="text-red-500 text-xs mt-1">
-                                    {errors.name?.message}
-                                </p>
+                                <p className="text-red-500 text-xs mt-1">{errors.name?.message}</p>
                             )}
                         </div>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                Dirección de Email
-                            </label>
+                        <div className="space-y-2">
+                            <label htmlFor="email" className="block text-gray-700 text-sm font-bold mb-2">Correo electrónico</label>
                             <div className="flex items-center border rounded px-3 py-2">
-                                <EmailIcon className="mr-2 text-gray-400" />
                                 <input
                                     className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
                                     id="email"
+                                    placeholder="Ingresa tu correo electrónico"
+                                    required
                                     type="email"
-                                    placeholder="Tu dirección de email"
                                     {...register("email")}
                                 />
                             </div>
                             {errors.email && (
-                                <p className="text-red-500 text-xs mt-1">
-                                    {errors.email?.message}
-                                </p>
+                                <p className="text-red-500 text-xs mt-1">{errors.email?.message}</p>
                             )}
                         </div>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-                                Contraseña
-                            </label>
+                        <div className="space-y-2">
+                            <label htmlFor="password" className="block text-gray-700 text-sm font-bold mb-2">Contraseña</label>
                             <div className="flex items-center border rounded px-3 py-2">
-                                <LockIcon className="mr-2 text-gray-400" />
                                 <input
                                     className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
                                     id="password"
+                                    placeholder="Ingresa tu contraseña"
+                                    required
                                     type="password"
-                                    placeholder="Tu contraseña segura"
                                     {...register("password")}
                                 />
                             </div>
-                            <p className="text-grey text-xs mt-1">Al menos 8 caracteres</p>
                             {errors.password && (
-                                <p className="text-red-500 text-xs mt-1">
-                                    {errors.password?.message}
-                                </p>
+                                <p className="text-red-500 text-xs mt-1">{errors.password?.message}</p>
                             )}
                         </div>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="cPassword">
-                                Confirmar Contraseña
-                            </label>
+                        <div className="space-y-2">
+                            <label htmlFor="confirm-password" className="block text-gray-700 text-sm font-bold mb-2">Confirmar contraseña</label>
                             <div className="flex items-center border rounded px-3 py-2">
-                                <LockIcon className="mr-2 text-gray-400" />
                                 <input
                                     className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none"
-                                    id="cPassword"
-                                    type="password"
+                                    id="confirm-password"
                                     placeholder="Confirma tu contraseña"
+                                    required
+                                    type="password"
                                     {...register("cPassword")}
                                 />
                             </div>
                             {errors.cPassword && (
-                                <p className="text-red-500 text-xs mt-1">
-                                    {errors.cPassword?.message}
-                                </p>
+                                <p className="text-red-500 text-xs mt-1">{errors.cPassword?.message}</p>
                             )}
                         </div>
-                        <div className="flex items-center justify-between mt-8">
-                            <button
-                                type="submit"
-                                className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center w-full"
-                                disabled={loading}
-                            >
-                                {loading ? "Registrando..." : <><PersonAddIcon className="mr-2" />Registrarse</>}
-                            </button>
+                        <button className="w-full bg-black text-white p-2 rounded-lg" type="submit">
+                            {loading ? "Registrando..." : "Registrarse"}
+                        </button>
+                        <div className="text-center text-sm text-gray-500 dark:text-gray-400">
+                            ¿Ya tienes una cuenta?
+                            <Link className="font-medium underline underline-offset-4" href="#">
+                                Inicia sesión
+                            </Link>
                         </div>
                     </form>
-                    <div className="text-center mt-6">
-                        <p className="text-gray-700">¿Ya tienes cuenta?</p>
-                        <button
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full flex items-center justify-center w-full mt-2"
-                            onClick={() => window.location.href = `${process.env.NEXT}/pages/login`}
-                        >
-                            Iniciar sesión
-                        </button>
-                    </div>
                 </div>
             </div>
         </div>
     );
 }
 
-export { RegisterForm };
+export default RegisterForm;

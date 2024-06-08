@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Primero, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -14,23 +13,54 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puedes comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que editas el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-## Learn More
+## Aprender Más
 
-To learn more about Next.js, take a look at the following resources:
+Para aprender más sobre Next.js, consulta los siguientes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Documentación de Next.js](https://nextjs.org/docs): Aprende sobre las características y la API de Next.js.
+* [Aprende Next.js](https://nextjs.org/learn): Un tutorial interactivo de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Puedes visitar [el repositorio de Next.js en GitHub](https://github.com/vercel/next.js/): tus comentarios y contribuciones son bienvenidos.
 
-## Deploy on Vercel
+## Despliegue en Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+La forma más fácil de desplegar tu aplicación Next.js es usar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Consulta nuestra [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
+
+## Adicional
+
+### Estructura del Proyecto
+
+Este proyecto sigue una estructura básica típica de un proyecto Next.js. Aquí hay un breve resumen de los directorios y archivos principales:
+
+* `/pages`: Contiene las rutas de tu aplicación. Cada archivo en este directorio se convierte en una ruta.
+* `/pages/site`: Contiene las rutas protegidas de autenticacion. Cada archivo en este directorio se convierte en una página.
+* `/components`: Contiene los componentes reutilizables de la UI.
+* `/public`: Archivos estáticos como imágenes, archivos JSON, etc. que se servirán directamente.
+* `next.config.js`: Archivo de configuración de Next.js.
+
+### Scripts Disponibles
+
+En el directorio del proyecto, puedes ejecutar los siguientes scripts:
+
+* `npm run dev`: Inicia el servidor de desarrollo.
+* `npm run build`: Construye la aplicación para producción.
+* `npm start`: Inicia un servidor Node.js para servir tu aplicación en producción.
+* `npm run lint`: Ejecuta linter en los archivos del proyecto.
+
+### Consideraciones de Despliegue
+
+Antes de desplegar tu aplicación, asegúrate de:
+
+1. Configurar las variables de entorno necesarias en tu entorno de producción.
+2. Ejecutar `npm run build` para crear la versión optimizada de tu aplicación.
+3. Verificar que todas las dependencias estén correctamente instaladas y configuradas.
+
+Para más detalles sobre las mejores prácticas y configuraciones de despliegue, consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment).

@@ -120,7 +120,7 @@ const Settings = () => {
     const profileImage = user?.profile_photo ? user.profile_photo : defaultProfileImage;
 
     return (
-        <Container className="mt-10">
+        <Container className="mt-14">
             <MuiCard className="p-4 shadow-md mb-4">
                 <CardContent className="flex items-center justify-between">
                     <Box className="flex items-center">
