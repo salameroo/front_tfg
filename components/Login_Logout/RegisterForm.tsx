@@ -198,7 +198,7 @@ const RegisterForm = () => {
                         </button>
                         <div className="text-center text-sm text-gray-500 dark:text-gray-400">
                             ¿Ya tienes una cuenta?
-                            <Link className="font-medium underline underline-offset-4" href="#">
+                            <Link className="font-medium underline underline-offset-4" href={"/pages/login"}>
                                 Inicia sesión
                             </Link>
                         </div>
