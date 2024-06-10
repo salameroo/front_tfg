@@ -9,6 +9,8 @@ import Image from 'next/image';
 import SinglePostMalone from '../posts/postAlone'; // Import your SinglePostMalone component
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import LoadingSpinner from '../loading/spinner';
+import LogoutIcon from '@mui/icons-material/Logout';
+import Logout from '@/components/Login_Logout/LogoutButton';
 
 interface User {
     id: number;
@@ -201,8 +203,8 @@ export default function SettingsPage() {
 
     return (
         <div className="w-full max-w-5xl mx-auto p-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="flex flex-col gap-4 md:col-span-1">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-4 w-full mx-auto">
+                <div className="flex flex-col gap-4">
                     <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 flex items-center gap-4">
                         <div className="w-16 h-16 relative rounded-full overflow-hidden">
                             <Image
@@ -213,7 +215,7 @@ export default function SettingsPage() {
                             />
                         </div>
                         <div className="flex-1 grid gap-1">
-                            <div className="text-lg font-medium">{username}</div>
+                            <div className="text-lg font-medium text-gray-900 dark:text-white">{username}</div>
                             <div className="text-gray-500 dark:text-gray-400 text-sm">{email}</div>
                         </div>
                         <input
@@ -224,40 +226,40 @@ export default function SettingsPage() {
                             id="profile-photo-upload"
                         />
                         <label htmlFor="profile-photo-upload" className="cursor-pointer inline-block px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-700 hover:bg-gray-800">
-                            Edit Profile
+                            Cambiar
                         </label>
                     </div>
                     <div className="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 grid grid-cols-3 gap-4">
                         <div className="flex flex-col items-center">
-                            <div className="text-2xl font-bold">{posts.length}</div>
+                            <div className="text-2xl font-bold text-gray-900 dark:text-white">{posts.length}</div>
                             <div className="text-gray-500 dark:text-gray-400 text-sm">Posts</div>
                         </div>
                         <div className="flex flex-col items-center">
-                            <div className="text-2xl font-bold">{user.followers_count}</div>
-                            <div className="text-gray-500 dark:text-gray-400 text-sm">Followers</div>
+                            <div className="text-2xl font-bold text-gray-900 dark:text-white">{user.followers_count}</div>
+                            <div className="text-gray-500 dark:text-gray-400 text-sm">Seguidores</div>
                             <button
                                 className="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600"
                                 onClick={handleShowFollowers}
                             >
-                                View Followers
+                                Seguidores
                             </button>
                         </div>
                         <div className="flex flex-col items-center">
-                            <div className="text-2xl font-bold">{user.following_count}</div>
-                            <div className="text-gray-500 dark:text-gray-400 text-sm">Following</div>
+                            <div className="text-2xl font-bold text-gray-900 dark:text-white">{user.following_count}</div>
+                            <div className="text-gray-500 dark:text-gray-400 text-sm">Siguiendo</div>
                             <button
-                                className="mt-2 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600"
+                                className="mt-2 inline-flex items-center mx-2 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600"
                                 onClick={handleShowFollowing}
                             >
-                                View Following
+                                Siguiendo
                             </button>
                         </div>
                     </div>
                 </div>
-                <div className="space-y-6 md:col-span-2">
-                    <div className="bg-white shadow-md rounded-lg p-6">
-                        <div className="text-lg font-medium">Username</div>
-                        <div className="text-sm text-gray-500">Update your username to be displayed on your profile.</div>
+                <div className="space-y-6">
+                    <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+                        <div className="text-lg font-medium text-gray-900 dark:text-white">Nombre de usuario</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">Actualiza el nombre de usuario que será mostrado en tu perfil.</div>
                         <input
                             type="text"
                             value={username}
@@ -269,15 +271,15 @@ export default function SettingsPage() {
                             className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-700 hover:bg-gray-800"
                             onClick={handleSaveChanges}
                         >
-                            Save
+                            Guardar
                         </button>
                     </div>
-                    <div className="bg-white shadow-md rounded-lg p-6">
-                        <div className="text-lg font-medium">Password</div>
-                        <div className="text-sm text-gray-500">Update your password to secure your account.</div>
+                    <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+                        <div className="text-lg font-medium text-gray-900 dark:text-white">Contraseña</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">Actualiza tu contraseña para mantener segura tu cuenta.</div>
                         <div className="space-y-4">
                             <div className="space-y-2">
-                                <label htmlFor="current-password" className="block text-sm font-medium text-gray-700">Current Password</label>
+                                <label htmlFor="current-password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Contraseña actual</label>
                                 <input
                                     id="current-password"
                                     type="password"
@@ -285,7 +287,7 @@ export default function SettingsPage() {
                                 />
                             </div>
                             <div className="space-y-2">
-                                <label htmlFor="new-password" className="block text-sm font-medium text-gray-700">New Password</label>
+                                <label htmlFor="new-password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Nueva Contraseña</label>
                                 <input
                                     id="new-password"
                                     type="password"
@@ -293,7 +295,7 @@ export default function SettingsPage() {
                                 />
                             </div>
                             <div className="space-y-2">
-                                <label htmlFor="confirm-password" className="block text-sm font-medium text-gray-700">Confirm Password</label>
+                                <label htmlFor="confirm-password" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Confirmar Contraseña</label>
                                 <input
                                     id="confirm-password"
                                     type="password"
@@ -306,12 +308,12 @@ export default function SettingsPage() {
                             className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-700 hover:bg-gray-800"
                             onClick={handleSaveChanges}
                         >
-                            Save
+                            Guardar
                         </button>
                     </div>
-                    <div className="bg-white shadow-md rounded-lg p-6">
-                        <div className="text-lg font-medium">Email</div>
-                        <div className="text-sm text-gray-500">Update your email address to receive notifications.</div>
+                    <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+                        <div className="text-lg font-medium text-gray-900 dark:text-white">Email</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">Actualiza tu email para estar sincronizado.</div>
                         <input
                             type="email"
                             value={email}
@@ -323,11 +325,11 @@ export default function SettingsPage() {
                             className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-700 hover:bg-gray-800"
                             onClick={handleSaveChanges}
                         >
-                            Save
+                            Guardar
                         </button>
                     </div>
-                    <div className="bg-white shadow-md rounded-lg p-6">
-                        <div className="text-lg font-medium">Posts</div>
+                    <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+                        <div className="text-lg font-medium text-gray-900 dark:text-white">Posts</div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
                             {posts.map((post) => (
                                 <SinglePostMalone
@@ -346,7 +348,7 @@ export default function SettingsPage() {
             {showFollowersModal && (
                 <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
                     <div className="bg-white dark:bg-gray-900 p-6 rounded-lg">
-                        <h2 className="text-xl font-bold mb-4">Followers</h2>
+                        <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Seguidores</h2>
                         <ul>
                             {followers.map(follower => (
                                 <li
@@ -358,16 +360,16 @@ export default function SettingsPage() {
                                             <AvatarImage alt={`@${follower.name}`} src={follower.avatar || "/placeholder-user.jpg"} />
                                             <AvatarFallback>{follower.name[0]}</AvatarFallback>
                                         </Avatar>
-                                        <span>{follower.name}</span>
+                                        <span className="text-gray-900 dark:text-white">{follower.name}</span>
                                     </div>
-                                    <Button size="sm" variant="ghost" onClick={() => handleRemoveFollower(follower.id)}>
-                                        Remove
+                                    <Button size="sm" variant="ghost" className='bg-red-500 ml-2 hover:bg-red-700' onClick={() => handleRemoveFollower(follower.id)}>
+                                        Quitar
                                     </Button>
                                 </li>
                             ))}
                         </ul>
-                        <Button className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowFollowersModal(false)}>
-                            Close
+                        <Button className="mt-4 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowFollowersModal(false)}>
+                            Cerrar
                         </Button>
                     </div>
                 </div>
@@ -377,7 +379,7 @@ export default function SettingsPage() {
             {showFollowingModal && (
                 <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
                     <div className="bg-white dark:bg-gray-900 p-6 rounded-lg">
-                        <h2 className="text-xl font-bold mb-4">Following</h2>
+                        <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Siguiendo</h2>
                         <ul>
                             {following.map(user => (
                                 <li
@@ -389,20 +391,26 @@ export default function SettingsPage() {
                                             <AvatarImage alt={`@${user.name}`} src={user.avatar || "/placeholder-user.jpg"} />
                                             <AvatarFallback>{user.name[0]}</AvatarFallback>
                                         </Avatar>
-                                        <span>{user.name}</span>
+                                        <span className="text-gray-900 dark:text-white">{user.name}</span>
                                     </div>
-                                    <Button size="sm" variant="ghost" onClick={() => handleUnfollow(user.id)}>
-                                        Unfollow
+                                    <Button size="sm" variant="ghost" className='bg-red-500 ml-2 hover:bg-red-700' onClick={() => handleUnfollow(user.id)}>
+                                        Dejar de seguir
                                     </Button>
                                 </li>
                             ))}
                         </ul>
-                        <Button className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowFollowingModal(false)}>
-                            Close
+                        <Button className="mt-4 bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded" onClick={() => setShowFollowingModal(false)}>
+                            Cerrar
                         </Button>
                     </div>
                 </div>
             )}
+            <div className='flex justify-center'>
+                <Logout></Logout>
+            </div>
         </div>
     );
+
+
+
 }

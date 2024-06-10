@@ -42,9 +42,9 @@ const Logout = () => {
             <h1 className="text-3xl font-bold mb-8 text-white"></h1>
             <button
                 onClick={handleLogout}
-                className="px-6 py-3 text-white bg-green-500 hover:bg-green-600 rounded-md shadow-md transition duration-300 ease-in-out transform hover:scale-105"
+                className="px-6 py-3 font-bold text-black bg-yellow-500 hover:bg-green-500 rounded-md shadow-md transition duration-300 ease-in-out transform hover:scale-105"
             >
-                Logout
+                Cerrar Sesión
             </button>
         </div>
     );

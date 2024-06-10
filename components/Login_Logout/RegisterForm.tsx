@@ -4,6 +4,7 @@ import { z, ZodType } from "zod";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Cookies from "js-cookie";
+import CarIcon from "../ui/CarIcon";
 
 type TRegisterForm = {
     name: string;
@@ -126,7 +127,7 @@ const RegisterForm = () => {
                 )}
                 <div className="mx-auto max-w-md space-y-6 p-8">
                     <div className="space-y-2 text-center">
-                        <h1 className="text-3xl font-bold">Cargram</h1>
+                        <h1 className="text-3xl font-bold"><Link href={"/"}>CarGram</Link></h1>
                         <p className="text-gray-500 dark:text-gray-400">Regístrate para unirte a la comunidad de Cargram.</p>
                     </div>
                     <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-4">

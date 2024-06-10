@@ -122,7 +122,7 @@ export default function MessagesDos() {
   }
 
   return (
-    <div className="w-full mx-auto py-6 px-4 md:px-6">
+    <div className="w-full mx-auto py-0 px-0 sm:px-4 sm:py-0 md:px-6">
       {selectedUser ? (
         <MessageUI selectedUser={selectedUser} onClose={handleCloseMessageUI} />
       ) : (
@@ -140,23 +140,25 @@ export default function MessagesDos() {
               <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleNewConversation}>
                 Nuevo chat
               </Button>
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button className="rounded-full" size="icon" variant="ghost">
-                    <FilterAltIcon className="w-5 h-5" />
-                    <span className="sr-only">Filtrar mensajes</span>
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end" className="w-48">
-                  <DropdownMenuLabel>Ordenar por</DropdownMenuLabel>
-                  <DropdownMenuSeparator />
-                  <DropdownMenuRadioGroup value="recent">
-                    <DropdownMenuRadioItem value="recent">Recientes</DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="unread">No leidos</DropdownMenuRadioItem>
-                    <DropdownMenuRadioItem value="oldest">Antiguedad</DropdownMenuRadioItem>
-                  </DropdownMenuRadioGroup>
-                </DropdownMenuContent>
-              </DropdownMenu>
+              <div className='hidden sm:block'>
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button className="rounded-full" size="icon" variant="ghost">
+                      <FilterAltIcon className="w-5 h-5" />
+                      <span className="sr-only">Filtrar mensajes</span>
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="end" className="w-48">
+                    <DropdownMenuLabel>Ordenar por</DropdownMenuLabel>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuRadioGroup value="recent">
+                      <DropdownMenuRadioItem value="recent">Recientes</DropdownMenuRadioItem>
+                      <DropdownMenuRadioItem value="unread">No leidos</DropdownMenuRadioItem>
+                      <DropdownMenuRadioItem value="oldest">Antiguedad</DropdownMenuRadioItem>
+                    </DropdownMenuRadioGroup>
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              </div>
             </div>
             <div className="h-[calc(100vh_-_theme(spacing.24)_-_theme(spacing.6))] overflow-y-auto">
               <div className="grid gap-4 p-4">

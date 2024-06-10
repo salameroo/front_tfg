@@ -16,7 +16,7 @@ const MessagesDos = dynamic(
 export default function Mensajeria() {
   return (
     <div className=''>
-      <h1 className="text-2xl text-center font-bold mb-4">Tus Mensajes</h1>
+      <h1 className="text-2xl text-center font-bold mb-4 hidden sm:block">Tus Mensajes</h1>
       <MessagesDos />
     </div>
   );

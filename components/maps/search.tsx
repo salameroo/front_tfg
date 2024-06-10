@@ -25,20 +25,24 @@ const SearchBox: React.FC<SearchBoxProps> = ({ onLocationSelected }) => {
 
     return (
         <div>
-            <form onSubmit={handleSearch}>
-                <input
-                    type="text"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Buscar ubicación..."
-                    className="p-2 border rounded"
-                />
-                <button type="submit" className="ml-2 p-2 bg-blue-500 text-white rounded">Buscar</button>
+            <form onSubmit={handleSearch} className='p-2'>
+                <div className="flex flex-col sm:flex-row sm:items-center">
+                    <input
+                        type="text"
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                        placeholder="Buscar ubicación..."
+                        className="p-2 border rounded w-full"
+                    />
+                    <button type="submit" className="mt-2 sm:mt-0 sm:ml-2 p-2 bg-yellow-500 text-white rounded self-center sm:self-auto">
+                        Buscar
+                    </button>
+                </div>
             </form>
             {results.length > 0 && (
-                <ul className="mt-2 border rounded p-2">
+                <ul className="mt-2 mb-2 border rounded p-2">
                     {results.map((result) => (
-                        <li key={result.place_id} onClick={() => handleSelectLocation(result.lat, result.lon, result.display_name)} className="cursor-pointer p-2 hover:bg-gray-200">
+                        <li key={result.place_id} onClick={() => handleSelectLocation(result.lat, result.lon, result.display_name)} className="cursor-pointer p-4 hover:bg-gray-200">
                             {result.display_name}
                         </li>
                     ))}

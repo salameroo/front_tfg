@@ -1,4 +1,4 @@
-// File: C:\Users\gabri\Desktop\Repos\front_tfg\app\pages\site\posts\page.tsx
+// File: C:\Users\Usuario\Desktop\laravel\front_tfg\app\pages\site\posts\page.tsx
 import * as entry from '../../../../../../app/pages/site/posts/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

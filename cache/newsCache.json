@@ -1,473 +1,31 @@
 {
-  "timestamp": 1717843293138,
+  "timestamp": 1718007485618,
   "news": [
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "Xataka.com"
       },
-      "author": "Will Shanklin",
-      "title": "Spotify’s Car Thing will soon transform into Spotify’s Car Brick",
-      "description": "Spotify’s Car Thing, a limited hardware “test” the company began shipping only three years ago, is about to bite the dust. The company wrote on Thursday that the device, which brought Spotify to automobiles without Apple CarPlay or Android Auto, will “no long…",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7f0334a1-2e26-45cb-ab9b-34aa9ea42d8b",
-      "urlToImage": null,
-      "publishedAt": "2024-05-23T18:02:08Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+      "author": "Javier Lacort",
+      "title": "Spotify abandona su Car Thing tras tres años. Quienes lo compraron van a tener un pisapapeles",
+      "description": "Abril de 2021: Spotify lanza Car Thing, un adaptador físico para coches antiguos.\n<!-- BREAK 1 -->\nJulio de 2022: Spotify cancela Car Thing y deja de venderlo.\n<!-- BREAK 2 -->\nMayo de 2024: Spotify inutilizará los Car Thing que vendió en su momento. A partir…",
+      "url": "https://www.xataka.com/streaming/spotify-abandona-su-car-thing-tres-anos-quienes-compraron-van-a-tener-pisapapeles",
+      "urlToImage": "https://i.blogs.es/be2e34/1366_2000/840_560.jpeg",
+      "publishedAt": "2024-05-24T08:40:48Z",
+      "content": "Abril de 2021: Spotify lanza Car Thing, un adaptador físico para coches antiguos.\r\nJulio de 2022: Spotify cancela Car Thing y deja de venderlo.\r\nUn vistazo a\r\n27 TRUCOS de SPOTIFY - ¡Controla toda tu… [+2026 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "BBC News"
+        "name": "Wwwhatsnew.com"
       },
-      "author": null,
-      "title": "Police officer 'intentionally' hit by car",
-      "description": "The officer was taken to hospital with injuries after attempting to approach the vehicle.",
-      "url": "https://www.bbc.com/news/articles/ck773p013gyo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8b01/live/98ac9120-20cf-11ef-9ab0-3729d80343be.jpg",
-      "publishedAt": "2024-06-02T11:09:12Z",
-      "content": "A police officer has been injured after a driver \"intentionally\" hit him with a car, a force has said.\r\nWiltshire Police said the officer had left his car to speak to the occupants of a parked vehicl… [+715 chars]"
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Boone Ashworth",
-      "title": "Apple Makes It Easier to Stare at Your Phone in the Car",
-      "description": "Plus: Sony Music tries to keep its catalog out of the clutches of AI, there’s a towering new Lord of the Rings Lego set, and Google’s new AI features march onto the web.",
-      "url": "https://www.wired.com/story/apple-vehicle-motion-cues/",
-      "urlToImage": "https://media.wired.com/photos/6647d1202840f013a58dfcc0/191:100/w_1280,c_limit/iOS-Motion-Features.jpg",
-      "publishedAt": "2024-05-18T11:30:00Z",
-      "content": "Youve been there, sitting in the passenger seat of a car, trying to focus intently on your phone as a way to ignore all your karaoke-belting seatmates. And then theres a lurch, or a buildup of motion… [+2981 chars]"
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Boone Ashworth",
-      "title": "Android Now Lets You Edit Text Messages",
-      "description": "Plus: Spotify will refund owners of its discontinued Car Thing, Amazon gets FAA clearance for more drone deliveries, and we’re in love with the new Rafa Nadal watch collaboration.",
-      "url": "https://www.wired.com/story/android-now-lets-you-edit-text-messages/",
-      "urlToImage": "https://media.wired.com/photos/665a16de0bc60d1439e308b4/191:100/w_1280,c_limit/Android-Edit-Text-Message-Gear.jpg",
-      "publishedAt": "2024-06-01T12:00:00Z",
-      "content": "Hey u up? I miss u babbe.\r\nThats the kind of immediately regrettable text youll now be able to salvage on Android Messages. This week, Google announced a bunch of new features coming to its Android m… [+4667 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Dua Rashid",
-      "title": "Spotify Is Bricking Car Thing, Leaving Users (Rightfully) Furious",
-      "description": "Spotify recently emailed its customers, informing them that Car Thing will be discontinued and no longer operational after December 9, 2024. This oddly-named device is the streaming company’s first-ever attempt at hardware and allows users to control Spotify …",
-      "url": "https://gizmodo.com/spotify-car-thing-bricked-music-streaming-1851498953",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/0499f2c3b13b9d001a65f96d0825947c.jpg",
-      "publishedAt": "2024-05-24T15:40:00Z",
-      "content": "Spotify recently emailed its customers, informing them that Car Thing will be discontinued and no longer operational after December 9, 2024. This oddly-named device is the streaming companys first-ev… [+1955 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Slovak PM Robert Fico carried to car after being shot",
-      "description": "PM Robert Fico was shot in what the Slovak Interior Ministry said was an assassination attempt.",
-      "url": "https://www.bbc.co.uk/news/av/world-69017009",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14A97/production/_133313648_p0hy57t3.jpg",
-      "publishedAt": "2024-05-15T14:19:45Z",
-      "content": "Slovak Prime Minister Robert Fico has been shot multiple times, in what the Slovak Interior Ministry said was an assassination attempt. \r\nHe was shot in front of a building in the central Slovak town… [+109 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "https://www.facebook.com/bbcnews",
-      "title": "Man in his 60s dies in Cultra car crash",
-      "description": "It happened at about 14:00 BST near the Ulster Folk and Transport Museum.",
-      "url": "https://www.bbc.co.uk/news/uk-northern-ireland-68984239",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C179/production/_133292594_gettyimages-1590191649-1.jpg",
-      "publishedAt": "2024-05-09T20:39:57Z",
-      "content": "A man in his 60s has died after a single-car crash in Cultra in County Down.\r\nIt happened at about 14:00 BST near the Ulster Folk and Transport Museum.\r\nThe A2 Belfast to Bangor dual carriageway had … [+508 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Musk opposes US tariffs on Chinese electric cars",
-      "description": "He previously warned Chinese car makers would \"demolish\" rivals if there were no trade barriers.",
-      "url": "https://www.bbc.com/news/articles/cq55zd2xjreo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0e6b/live/f37cd640-1969-11ef-85ca-29accfebede0.jpg",
-      "publishedAt": "2024-05-24T03:11:12Z",
-      "content": "Peter Hoskins,Business reporter\r\nTesla boss Elon Musk says he opposes US tariffs on Chinese electric vehicles (EVs), just days after President Joe Biden quadrupled levies on EVs imported from China.\r… [+1961 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "[Removed]"
-      },
-      "author": null,
-      "title": "[Removed]",
-      "description": "[Removed]",
-      "url": "https://removed.com",
-      "urlToImage": null,
-      "publishedAt": "1970-01-01T00:00:00Z",
-      "content": "[Removed]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "'I had to tell my four children their mum was dead'",
-      "description": "Speaking on The GAA Social podcast, 2002 All-Ireland winner, Kevin McElvanna, talks about losing his wife and two friends in a car crash.",
-      "url": "https://www.bbc.com/news/articles/c977xxgyxlno",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/23b5/live/6ec702f0-2340-11ef-a13a-0b8c563da930.jpg",
-      "publishedAt": "2024-06-05T13:36:45Z",
-      "content": "\"Nothing would prepare you to tell your children that their mummy isn't coming home.\"\r\nFather of four Kevin McElvanna, who lost his wife in a car crash last year, has been speaking about the trauma o… [+2385 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Scharon Harding",
-      "title": "“Unacceptable”: Spotify bricking Car Thing devices in Dec. without refunds",
-      "description": "Spotify stopped making Car Things in July 2022 but kept selling them.",
-      "url": "https://arstechnica.com/gadgets/2024/05/pleas-for-open-sourcing-refunds-as-spotify-plans-to-brick-car-thing-devices/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/07/car-thing-760x380.jpg",
-      "publishedAt": "2024-05-23T20:32:02Z",
-      "content": "50\r\nOwners of Spotify's soon-to-be-bricked Car Thing device are begging the company to open-source the gadgets to save some the landfill. Spotify hasn't responded to pleas to salvage the hardware, wh… [+4641 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Scharon Harding",
-      "title": "Spotify won’t open-source Car Thing, but starts refund process",
-      "description": "Spotify will brick the hardware it released in 2022 this December.",
-      "url": "https://arstechnica.com/gadgets/2024/05/spotify-wont-open-source-car-thing-but-starts-refund-process/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/02/vent-1920-760x380.jpg",
-      "publishedAt": "2024-05-30T22:00:58Z",
-      "content": "Enlarge/ Spotify's Car Thing thing in a car. \r\n1\r\nSpotify will refund owners of Car Thing, its Spotify-playing device that mounts to car dashboards, Ars Technica confirmed today. On May 23, Spotify a… [+4235 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Jonathan M. Gitlin",
-      "title": "Lighter, nimbler, more hybrid power: The F1 car of 2026",
-      "description": "Moveable wings cut drag on the straights, hybrid boost will help overtakes.",
-      "url": "https://arstechnica.com/cars/2024/06/lighter-nimbler-more-hybrid-power-he-f1-car-of-2026/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/2026_car_render_1_4-760x380.jpg",
-      "publishedAt": "2024-06-06T17:23:11Z",
-      "content": "Enlarge/ For 2026, F1 cars are going on a little bit of a diet.\r\n3\r\nEarlier today, the Fédération Internationale de l'Automobile laid out the direction for Formula 1's next set of technical regulatio… [+3569 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Sarah Fielding",
-      "title": "Tesla recalls over 125,000 vehicles to fix seat belt issues",
-      "description": "Tesla is no stranger to safety issue recalls, and now there's another to add to its list. The company is recalling 125,227 vehicles due to a problem with the seat belt warning system, Reuters reports. According to the National Highway Traffic Safety Administr…",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b1bc7dec-7538-4db6-a11e-f2b09fc74f90",
-      "urlToImage": null,
-      "publishedAt": "2024-05-31T12:15:46Z",
-      "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Collin Woodard, Jalopnik",
-      "title": "New Cybertruck Sends Owner to the Emergency Room Before He Even Gets a Chance to Drive It",
-      "description": "The Tesla Cybertruck’s launch has been far from smooth, to say the least. We’ve heard about the time a car wash bricked a Cybertruck, the frunk’s taste for fingers and that coolant leaks aren’t covered by the warranty even if you’ve only driven 35 miles since…",
-      "url": "https://gizmodo.com/new-cybertruck-sends-owner-to-the-emergency-room-before-1851503680",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/5eb5a98c7b0a8363abf6c2ded7cfd64b.jpg",
-      "publishedAt": "2024-05-28T15:50:00Z",
-      "content": "The Tesla Cybertrucks launch has been far from smooth, to say the least. Weve heard about the time a car wash bricked a Cybertruck, the frunks taste for fingers and that coolant leaks arent covered b… [+3192 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Matt Novak",
-      "title": "Tesla in Full Self-Driving Mode Allegedly Tries to Drive Into Speeding Train",
-      "description": "A Tesla owner in Ohio had a terrifying experience recently when his car tried to drive him right into a crossing train, according to multiple videos posted to the Tesla Motors Club forum. The vehicle was in Full Self-Driving (FSD) mode and allegedly, this isn…",
-      "url": "https://gizmodo.com/tesla-train-crash-fsd-autopilot-elon-musk-video-ohio-1851490746",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/98083b667ec4655d9acf19406226ccec.gif",
-      "publishedAt": "2024-05-21T16:05:00Z",
-      "content": "A Tesla owner in Ohio had a terrifying experience recently when his car tried to drive him right into a crossing train, according to multiple videos posted to the Tesla Motors Club forum. The vehicle… [+2134 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Lawrence Hodge, Jalopnik",
-      "title": "The Big Problem With Hertz's Used Teslas",
-      "description": "Hertz gambled and lost when it placed its big EV bet on Tesla a few years ago. It was a chance for the rental car company to shake up the industry, instead the company bought 30,000 Teslas, got scared away by depreciation and expensive repairs and now wants t…",
-      "url": "https://gizmodo.com/the-big-problem-with-hertzs-used-teslas-1851482836",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/764d2720aa4f6fa177325c67407d2464.png",
-      "publishedAt": "2024-05-16T19:51:58Z",
-      "content": "Hertz gambled and lost when it placed its big EV bet on Tesla a few years ago. It was a chance for the rental car company to shake up the industry, instead the company bought 30,000 Teslas, got scare… [+3239 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Slashdot.org"
-      },
-      "author": "BeauHD",
-      "title": "Minor Car Crashes Mean High Tech Repairs",
-      "description": "\"With all the improvements in car safety over the decades, the recent addition of a plethora of high tech sensors and warnings comes with increased costs,\" writes longtime Slashdot reader smooth wombat. \"And not just to have to have them on your car. Any time…",
-      "url": "https://tech.slashdot.org/story/24/05/07/2245251/minor-car-crashes-mean-high-tech-repairs",
-      "urlToImage": "https://a.fsdn.com/sd/topics/transportation_64.png",
-      "publishedAt": "2024-05-08T00:45:00Z",
-      "content": "Some vehicles require \"dynamic calibration,\" which means, once the sensors and cameras are back in place, a driver needs to take the vehicle out on real roads for testing. With proper equipment attac… [+2018 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "‘It’s car after car after car’: Police target dangerous intersections as traffic deaths rise",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9ba6fa78-0e49-482d-b98a-f8ce07d18fbd",
-      "urlToImage": null,
-      "publishedAt": "2024-05-10T01:00:14Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Jonathan M. Gitlin",
-      "title": "Porsche builds a hybrid 911 at long last",
-      "description": "The iconic sports car gets an electrified option as part of the 992-generation refresh.",
-      "url": "https://arstechnica.com/cars/2024/05/porsche-builds-a-hybrid-911-at-long-last/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/0881_nevada_coupe_u-crane_AKOS2546_edit_V02__A3_RGB-760x380.jpg",
-      "publishedAt": "2024-05-28T13:30:22Z",
-      "content": "Enlarge/ The current 911known to Porschephiles as the 992 generationhas just been given its midlife refresh. The most obvious visual indicator is the presence of vertical strakes in the front air int… [+4833 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MacRumors"
-      },
-      "author": "Tim Hardwick",
-      "title": "Apple Car Interest Revived by Rivian Partnership Rumor",
-      "description": "Apple canceled its Apple Car project in February 2024 and stopped all internal work on autonomous, electric vehicles. But the company still has its sights set on impacting the EV market, and Rivian could be the avenue for its ambitions, according to rumors ou…",
-      "url": "https://www.macrumors.com/2024/05/07/apple-car-interest-revived-by-rivian-partnership/",
-      "urlToImage": "https://images.macrumors.com/t/ZeKzwqs0RNnHihDGW_swJu43R-k=/1856x/article-new/2024/05/rivian-r2.jpg",
-      "publishedAt": "2024-05-07T12:57:25Z",
-      "content": "Apple canceled its Apple Car project in February 2024 and stopped all internal work on autonomous, electric vehicles. But the company still has its sights set on impacting the EV market, and Rivian c… [+1374 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Would-be thieves crash stolen sports car into York County car dealership, trying to steal second sports car",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1d1a30fb-ca3c-40c4-88be-8227e47a0934",
-      "urlToImage": null,
-      "publishedAt": "2024-05-13T20:38:03Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Benjamin Zhang",
-      "title": "15 car brands that disappeared in the last 25 years",
-      "description": "More than a dozen car brands have disappeared over the past 25 years, including Pontiac, Plymouth, Oldsmobile, and Mercury.",
-      "url": "https://www.businessinsider.com/car-brands-that-disappeared-automakers-discontinued-list-2024-5",
-      "urlToImage": "https://i.insider.com/663e45d1b4abc992e8c81cbc?width=1200&format=jpeg",
-      "publishedAt": "2024-05-12T12:16:01Z",
-      "content": "A 1999 Plymouth Prowler.Stellantis\r\n<ul><li>More than a dozen car brands have been discontinued over the past 25 years.</li><li>Some of the brands fell victim to corporate restructuring, while others… [+6763 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": "BBC Sport",
-      "title": "Does Newey guarantee success and should Red Bull replace Perez? - F1 Q&A",
-      "description": "BBC Sport's F1 correspondent Andrew Benson answers your questions before this weekend's Monaco Grand Prix.",
-      "url": "https://www.bbc.com/sport/formula1/articles/c4nnd86pgn9o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_sport/5c5d/live/e45c1090-15fe-11ef-9b12-1ba8f95c4917.jpg",
-      "publishedAt": "2024-05-21T05:50:34Z",
-      "content": "What has happened to Aston Martin? They were battling with Ferrari and Mercedes with Alonso in China Ryan\r\nGood question. Fernando Alonso qualified in the top six in four of the first five races, but… [+1529 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Ars Contributors",
-      "title": "The refreshed 2024 Hyundai Elantra N remains a darn good enthusiast car",
-      "description": "Good engine, great front-end feel, so-so manual gearshift, and under $34,000.",
-      "url": "https://arstechnica.com/cars/2024/06/the-refreshed-2024-hyundai-elantra-n-remains-a-darn-good-enthusiast-car/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/2024-Hyundai-Elantra-N-1-760x380.jpg",
-      "publishedAt": "2024-06-01T12:30:14Z",
-      "content": "Enlarge/ The regular Hyundai Elantra is a perfectly fine compact sedan. But once the boffins at Hyundai N got hold of it, they transformed it into something with a lot more character.\r\n0\r\nHyundai pro… [+2581 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Nora Naughton",
-      "title": "EV range is making huge strides, but there still aren't enough places to charge.",
-      "description": "Car companies hoped public charging infrastructure would improve along with them. That hasn't really happened.",
-      "url": "https://www.businessinsider.com/electric-vehicle-range-ev-charging-station-infrastructure-issues-2024-5",
-      "urlToImage": "https://i.insider.com/66562d10239fda2da6cc41c0?width=1200&format=jpeg",
-      "publishedAt": "2024-05-28T20:29:33Z",
-      "content": "A Volkswagen ID.4 charges at a charging station in California. More than a decade into the EV transition, chargers still aren't ubiquitous enough to replace gas stations. PATRICK T. FALLON/AFP via Ge… [+4300 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Joey Hadden",
-      "title": "I toured an Arizona neighborhood that banned cars and found a walkable oasis in the middle of a Phoenix suburb",
-      "description": "Culdesac is a car-free neighborhood in Tempe, Arizona, where residents ride electric bikes and scooters.",
-      "url": "https://www.businessinsider.com/culdesac-arizona-neighborhood-with-no-cars-tour-photos-2024-5",
-      "urlToImage": "https://i.insider.com/66424063f27898f532d70f96?width=1200&format=jpeg",
-      "publishedAt": "2024-05-22T13:24:02Z",
-      "content": "Culdesac is a housing startup with a car-free neighborhood in Tempe, Arizona.Joey Hadden/Business Insider\r\n<ul><li>Culdesac is a car-free neighborhood in Tempe, Arizona.</li><li>The housing startup h… [+7885 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gizmodo.com"
-      },
-      "author": "Bradley Brownell, Jalopnik",
-      "title": "Electric Vehicles Are More Likely to Hit Pedestrians Than Gas Cars Are, Study Finds",
-      "description": "An analysis of British road traffic accidents in a recent study concluded that battery electric vehicles and hybrids are significantly more likely to strike pedestrians than gas or diesel vehicles. According to data compiled from 32 billion miles of BEV and H…",
-      "url": "https://gizmodo.com/electric-vehicles-are-more-likely-to-hit-pedestrians-th-1851494358",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/9dd171cb3dfa7215e8fdd8352ccaed7f.png",
-      "publishedAt": "2024-05-22T18:51:31Z",
-      "content": "An analysis of British road traffic accidents in a recent study concluded that battery electric vehicles and hybrids are significantly more likely to strike pedestrians than gas or diesel vehicles. A… [+2915 chars]"
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Aarian Marshall",
-      "title": "Biden's New Import Rules Will Hit Ebike Batteries Too",
-      "description": "When it comes to EVs, China has also dominated bicycle manufacturing; it was responsible for some 80 percent of US imports in 2021. Now, with Biden's new tariffs, ebike batteries will be impacted too.",
-      "url": "https://www.wired.com/story/biden-tariffs-ebike-batteries/",
-      "urlToImage": "https://media.wired.com/photos/664e10aebfa0bd9ee8ae1808/191:100/w_1280,c_limit/E-Bike-Tariffs-Gear-GettyImages-1441734830.jpg",
-      "publishedAt": "2024-05-23T17:40:36Z",
-      "content": "Last week, the Biden administration announced it would levy dramatic new tariffs on electric vehicles, electric vehicle batteries, and battery components imported into the United States from China. T… [+3682 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": "BBC",
-      "title": "Motorcycle patrol pulls over Japanese 'police' car",
-      "description": "The driver was on the way to the Santa Pod Raceway for an event showcasing Japanese cars and motorbikes.",
-      "url": "https://www.bbc.com/news/articles/cy0lzrny2mpo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/0gYdyPV4Wfd3GGLOkIkMLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/bbc_us_articles_995/099d7ec44bef50a86fd3caf5f09d638e",
-      "publishedAt": "2024-05-12T13:13:00Z",
-      "content": "A car painted to look like a Japanese police vehicle has been seized by motorcycle patrol officers.\r\nIt was being driven to the Santa Pod Raceway, near Wellingborough, where a one-day event showcasin… [+538 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Lamborghini Aventador Stolen By Fake Car Shoppers",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_42901f62-5725-4e90-b79c-1b1be321ee6f",
-      "urlToImage": null,
-      "publishedAt": "2024-05-19T19:00:00Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Car seen ‘dangling’ from Charlotte parking garage",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_027a5a60-3fd8-49c0-acc4-ddc737f56acf",
-      "urlToImage": null,
-      "publishedAt": "2024-06-06T14:09:27Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Android Central"
-      },
-      "author": "techkritiko@gmail.com (Jay Bonggolto)",
-      "title": "Google wants to make long car rides more fun with new features",
-      "description": "Google is rolling out new apps and features for Android Auto and Google Built-in.",
-      "url": "https://www.androidcentral.com/apps-software/google-wants-to-make-car-rides-more-fun-with-new-entertainment-and-navigation-apps",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/pWa7G7EJ7ZWSLz2QTAS6FR-1200-80.jpg",
-      "publishedAt": "2024-05-15T17:00:50Z",
-      "content": "What you need to know\r\n<ul><li>Google is releasing new apps for cars with Android Auto and Google built-in, like Max, Peacock, and Angry Birds, to make your drive a little less dull.</li><li>Google C… [+2837 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Android Central"
-      },
-      "author": "bradypsnyder@gmail.com (Brady Snyder)",
-      "title": "Spotify killing Car Thing shows why you shouldn't buy hardware from a software company",
-      "description": "Spotify's tone-deaf email to customers informing them their devices will be bricked is the icing on the cake for an awful decision.",
-      "url": "https://www.androidcentral.com/accessories/audio/spotify-kills-car-thing",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/QPMaSwHCGXjqqiQ8QxLQab-1200-80.jpg",
-      "publishedAt": "2024-05-24T18:14:03Z",
-      "content": "What you need to know\r\n<ul><li>Spotify announced that as of Dec. 9, 2024, it will discontinue the Car Thing and render all existing hardware useless. </li><li>The company started selling Car Things i… [+9025 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Daringfireball.net"
-      },
-      "author": "John Gruber",
-      "title": "★ Spotify’s Car Things to Be Rebranded as Car Bricks",
-      "description": "So let’s be clear about Spotify’s position: it’s OK — for them at least — to create a new hardware platform with no support at all for third-party software, but not OK for another company to create a hardware platform that charges a commission for access, if …",
-      "url": "https://daringfireball.net/2024/05/spotify_car_brick",
-      "urlToImage": "https://daringfireball.net/graphics/df-wide-card.png",
-      "publishedAt": "2024-05-24T19:42:07Z",
-      "content": "Chris Welch, writing for The Verge, “Spotify Is Going to Break Every Car Thing Gadget It Ever Sold”:\n\n\n Unfortunately for those owners, Spotify isn’t offering any kind of\nsubscription credit or autom… [+5683 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "[Removed]"
-      },
-      "author": null,
-      "title": "[Removed]",
-      "description": "[Removed]",
-      "url": "https://removed.com",
-      "urlToImage": null,
-      "publishedAt": "1970-01-01T00:00:00Z",
-      "content": "[Removed]"
+      "author": "Juan Diego Polo",
+      "title": "Spotify se despide de Car Thing: ¿Qué significa para los usuarios?",
+      "description": "Spotify ha anunciado que descontinuará Car Thing, su primer dispositivo de hardware que permitía a los usuarios controlar Spotify a través de los altavoces del coche. Este dispositivo, lanzado con la intención de facilitar la experiencia musical en el coche, …",
+      "url": "https://wwwhatsnew.com/2024/05/24/spotify-se-despide-de-car-thing-que-significa-para-los-usuarios/",
+      "urlToImage": "https://wwwhatsnew.com/wp-content/uploads/2024/05/car-things.jpg",
+      "publishedAt": "2024-05-24T14:00:12Z",
+      "content": "Spotify ha anunciado que descontinuará Car Thing, su primer dispositivo de hardware que permitía a los usuarios controlar Spotify a través de los altavoces del coche. Este dispositivo, lanzado con la… [+2650 chars]"
     },
     {
       "source": {
@@ -475,831 +33,1273 @@
         "name": "Hipertextual"
       },
       "author": "Gabriel Erard",
-      "title": "Apple analizaría una alianza con Rivian: ¿Renace el Apple Car?",
-      "description": "A fines de febrero, Apple mató el proyecto del Apple Car para centrarse en la inteligencia artificial. Y si bien parte de la tecnología desarrollada a lo largo de una década se reorientaría hacia otras iniciativas internas, como la experimentación con robots …",
-      "url": "http://hipertextual.com/2024/05/apple-rivian-alianza-apple-car",
-      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2024/03/Rivian-R3-22.jpg",
-      "publishedAt": "2024-05-07T12:56:11Z",
-      "content": "A fines de febrero, Applemató el proyecto del Apple Car para centrarse en la inteligencia artificial. Y si bien parte de la tecnología desarrollada a lo largo de una década se reorientaría hacia otra… [+3173 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Kyle Wilson",
-      "title": "Waymo, the self-driving car company owned by Google's parent, Alphabet: How to ride, cost, accident record",
-      "description": "Waymo was previously known as the Google Self-Driving Car Project. Alphabet's robotaxi service now offers rides in Phoenix, San Francisco, and LA.",
-      "url": "https://www.businessinsider.com/waymo",
-      "urlToImage": "https://i.insider.com/66198f5716bde8d4ead88db7?width=1200&format=jpeg",
-      "publishedAt": "2024-05-15T21:56:01Z",
-      "content": "Waymo is Alphabet's robotaxi service currently operating in multiple US cities, with plans to launch in more.Getty Images\r\n<ul><li>Waymo is Alphabet's robotaxi service formerly known as the Google Se… [+4205 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Joey Hadden",
-      "title": "I visited a car-free neighborhood in Arizona and was surprised that it felt 15 degrees cooler than the surrounding blocks",
-      "description": "Residents of Culdesac in Tempe, Arizona, use bikes and scooters to get around the car-free neighborhood. It was built without asphalt to combat heat.",
-      "url": "https://www.businessinsider.com/car-free-arizona-neighborhood-designed-to-combat-summer-heat-culdesac-2024-5",
-      "urlToImage": "https://i.insider.com/664f592da961b37edf392ced?width=1200&format=jpeg",
-      "publishedAt": "2024-06-05T20:14:32Z",
-      "content": "Business Insider's reporter visited Tempe, Arizona's Culdesac neighborhood. Joey Hadden/Business Insider\r\n<ul><li>Culdesac is a car-free neighborhood outside of Phoenix, Arizona, the hottest city in … [+4613 chars]"
+      "title": "Por qué Apple ha elegido integrar ChatGPT, y no Gemini, en iOS 18",
+      "description": "Estamos a menos de una semana de la keynote inaugural de la WWDC 2024, donde la inteligencia artificial tendrá un papel protagónico. Las nuevas funciones de IA de iOS 18 se llevarán todas las miradas, en especial por el acuerdo entre Apple y OpenAI para integ…",
+      "url": "http://hipertextual.com/2024/06/por-que-apple-ha-elegido-chatgpt-ios-18",
+      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2024/06/solen-feyissa-_XtH7BBRPtA-unsplash-scaled.jpg",
+      "publishedAt": "2024-06-05T14:41:35Z",
+      "content": "Estamos a menos de una semana de la keynote inaugural de la WWDC 2024, donde la inteligencia artificial tendrá un papel protagónico. Las nuevas funciones de IA de iOS 18 se llevarán todas las miradas… [+3259 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Hackaday"
+        "name": "Hipertextual"
       },
-      "author": "Tom Nardi",
-      "title": "Old Spotify Car Thing Hacks Gain New Attention",
-      "description": "If you haven’t heard by now, Spotify is shutting down support for their “Car Thing” on December 9th of this year. Once that happens the automotive media player will officially …read more",
-      "url": "https://hackaday.com/2024/05/30/old-spotify-car-thing-hacks-gain-new-attention/",
-      "urlToImage": "https://hackaday.com/wp-content/uploads/2024/05/carthing_feat.jpg",
-      "publishedAt": "2024-05-30T17:00:41Z",
-      "content": "If you haven’t heard by now, Spotify is shutting down support for their “Car Thing” on December 9th of this year. Once that happens the automotive media player will officially be useless, with users … [+1989 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Beatrice Nolan",
-      "title": "I slept in my car and showered in the factory to work 12-hour shifts at Tesla. I still got laid off after 5 years.",
-      "description": "Nico Murillo slept in his car for a year at Tesla's Fremont factory to reduce his commuting time, but still fell victim to Elon Musk's April layoffs.",
-      "url": "https://www.businessinsider.com/tesla-worker-slept-car-work-long-shifts-still-laid-off-2024-5",
-      "urlToImage": "https://i.insider.com/66437b2cf27898f532d7665e?width=1200&format=jpeg",
-      "publishedAt": "2024-05-19T11:04:01Z",
-      "content": "Nico Murillo was laid off from Tesla after five yearsNico Murillo\r\n<ul><li>Nico Murillo, a former Tesla production supervisor, was laid off after five years at the company.</li><li>Murillo lived in h… [+3899 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Jacob Zinkula",
-      "title": "A millennial who made over $300,000 secretly working 2 remote jobs says he'll do whatever he can to ensure he never has to commute to work again",
-      "description": "A millennial says secretly working two remote jobs has helped him buy a car and pay off debt. But remote jobs have gotten harder to come by.",
-      "url": "https://www.businessinsider.com/overemployed-worker-remote-jobs-declining-side-gig-extra-income-2024-5",
-      "urlToImage": "https://i.insider.com/664f87d8a961b37edf396596?width=1200&format=jpeg",
-      "publishedAt": "2024-05-27T09:17:01Z",
-      "content": "An overemployed remote worker says he's clinging to his remote jobs so he can avoid commuting to work. The worker in the story is not pictured. JulPo/Getty Images\r\n<ul><li>A US millennial made over $… [+4769 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Eliza Relman,Madison Hoff",
-      "title": "Delivering food on an e-bike or moped is a deadly endeavor in New York City",
-      "description": "The fatality rate for app-based delivery drivers using non-car transport is five times as high as construction workers in New York.",
-      "url": "https://www.businessinsider.com/delivery-drivers-e-bikes-mopeds-danger-traffic-crashes-nyc-2024-6",
-      "urlToImage": "https://i.insider.com/6658bf2fcc442a2f676c4ec5?width=1200&format=jpeg",
-      "publishedAt": "2024-06-04T09:58:01Z",
-      "content": "A delivery person rides a bicycle on the Upper West Side during a snow storm on February 2, 2021 in New York City.Noam Galai/Getty Images\r\n<ul><li>The roads are perilous for NYC's app-based delivery … [+7980 chars]"
+      "author": "Gabriel Erard",
+      "title": "Lo nuevo de Apple te permitirá controlar un iPhone o iPad solo con la mirada",
+      "description": "Con la WWDC 2024 a la vuelta de la esquina, Apple ha aprovechado para anunciar varias características de accesibilidad que llegarán pronto al iPhone, iPad y otros dispositivos. La más llamativa se llama Eye Tracking (Seguimiento ocular) y permitirá controlar …",
+      "url": "http://hipertextual.com/2024/05/ios-ipados-18-controlar-iphone-ipad-mirada",
+      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2024/05/eye-tracking-apple-scaled.jpg",
+      "publishedAt": "2024-05-15T15:43:55Z",
+      "content": "Con la WWDC 2024 a la vuelta de la esquina, Apple ha aprovechado para anunciar varias características de accesibilidad que llegarán pronto al iPhone, iPad y otros dispositivos. La más llamativa se ll… [+3598 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "ReadWrite"
+        "name": "Xataka Android"
       },
-      "author": "Sophie Atkinson",
-      "title": "Humane AI is reportedly looking for a buyer, weeks after car crash Pin launch",
-      "description": "Artificial intelligence startup Humane Inc is reportedly seeking a buyer for its business, just weeks after its first wearable AI… Continue reading Humane AI is reportedly looking for a buyer, weeks after car crash Pin launch\nThe post Humane AI is reportedly …",
-      "url": "https://readwrite.com/humane-ai-is-reportedly-looking-for-a-buyer-weeks-after-car-crash-pin-launch/",
-      "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/ioFBVW4fRXq3l4LY1FkSQA.png",
-      "publishedAt": "2024-05-22T15:15:54Z",
-      "content": "Artificial intelligence startup Humane Inc is reportedly seeking a buyer for its business, just weeks after its first wearable AI device’s disastrous reception upon launch.\r\nBloomberg reports say the… [+2246 chars]"
+      "author": "Pepu Ricca",
+      "title": "Este launcher sustituye a Android Auto e incluye más ventajas, como abrir cualquier aplicación",
+      "description": "Ya hay en el mercado multitud de coches que tienen Android Auto, pero tampoco es que sea algo a lo que podamos acceder de manera sencilla. Al final, cambiar de coche cuesta muchísimo dinero y puede que nos encante Android Auto, pero no vamos a cambiar de vehí…",
+      "url": "https://www.xatakandroid.com/aplicaciones-android/este-launcher-sustituye-a-android-auto-e-incluye-ventajas-como-abrir-cualquier-aplicacion-1",
+      "urlToImage": "https://i.blogs.es/a0d0c0/logitech-g-cloud-analisis-50/840_560.jpeg",
+      "publishedAt": "2024-05-10T18:01:33Z",
+      "content": "Ya hay en el mercado multitud de coches que tienen Android Auto, pero tampoco es que sea algo a lo que podamos acceder de manera sencilla. Al final, cambiar de coche cuesta muchísimo dinero y puede q… [+3029 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "JUAN CASTRO",
+      "title": "Falcao, en MARCA: \"Ha sido un año difícil en el Rayo y ahora me tocará viajar para buscar continuidad\"",
+      "description": "Radamel Falcao García Zárate (Santa Marta, Colombia, 1986) atiende a MARCA gracias a Enterprise Rent-A-Car, patrocinador de la recién acabada UEFA Europa League. El colombiano part",
+      "url": "https://www.marca.com/futbol/rayo/2024/05/24/664cf96946163f51b78b45c6.html",
+      "urlToImage": "https://ak.uecdn.es/p/110/thumbnail/entry_id/0_24hiikz1/width/657/type/2/bgcolor/000000/0_24hiikz1.jpg",
+      "publishedAt": "2024-05-24T04:00:42Z",
+      "content": "Radamel Falcao García Zárate (Santa Marta, Colombia, 1986) atiende a MARCA gracias a Enterprise Rent-A-Car, patrocinador de la recién acabada UEFA Europa League. El colombiano participó en la competi… [+3737 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "NPR"
+        "name": "La Vanguardia"
       },
-      "author": "Mac Margolis",
-      "title": "A car-free town in the Amazon serves lessons for pedaling to net zero emissions",
-      "description": "Afuá, a remote town in the Brazilian Amazon, banned motor vehicles over 20 years ago. Writer Mac Margolis and photographer Stefan Kolumban paid the town a visit to see what life is like.",
-      "url": "https://www.npr.org/2024/05/12/1248537199/climate-net-zero-amazon-rainforest-brazil-cycling",
-      "urlToImage": "https://media.npr.org/assets/img/2024/05/08/afua-_-para-_brazil-_01_2024-2-edit_wide-29877384ffbd68f167b8e7e1c9a0e6bda26267c6.jpg?s=1400&c=100&f=jpeg",
-      "publishedAt": "2024-05-12T10:00:39Z",
-      "content": "People cycle along the street in Afuá, a city in northern Brazil's Pará state, in January. Since 2002, this city on the banks of the Amazon River has been famously off limits to motor vehicles.\r\nStef… [+5515 chars]"
+      "author": "Silvia Fernández",
+      "title": "Fue uno de los proyectos más prometedores de Spotify. Ahora, va a dejar de funcionar para siempre",
+      "description": "Después del cambio de tipografía de Spotify, hoy amanecemos con otra noticia de la aplicación de música, aunque en este caso no se trata de algo precisamente bueno. Probablemente, ni siquiera lo recuerdes, pero hace unos años Spotify se adentró en el terreno …",
+      "url": "https://www.lavanguardia.com/andro4all/aplicaciones-de-musica/fue-uno-de-los-proyectos-mas-prometedores-de-spotify-ahora-va-a-dejar-de-funcionar-para-siempre",
+      "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2024/05/car-thing-spotify.png?width=1200",
+      "publishedAt": "2024-05-24T08:08:40Z",
+      "content": "Car Thing, el reproductor de música para el coche de Spotify\r\nDespués del cambio de tipografía de Spotify, hoy amanecemos con otra noticia de la aplicación de música, aunque en este caso no se trata … [+2437 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "CARLOS FERNÁNDEZ",
+      "title": "El Valencia sigue sin encajar y es el primer semifinalista de LaLiga FC Futures",
+      "description": "Derbi valenciano para estrenar los cuartos de final de LaLiga FC Futures 2024. Dos de los equipos que mejor fútbol habían hecho se cruzaban en la primera de las eliminatorias a car",
+      "url": "https://www.marca.com/futbol/2024/06/08/666489b2268e3ed5068b45aa.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/ecc1e740f858786b4cb28fcec0ce6a6c/resize/1200/f/webp/assets/multimedia/imagenes/2024/06/08/17178651418789.jpg",
+      "publishedAt": "2024-06-08T16:42:00Z",
+      "content": "Derbi valenciano para estrenar los cuartos de final de LaLiga FC Futures 2024. Dos de los equipos que mejor fútbol habían hecho se cruzaban en la primera de las eliminatorias a cara o cruz. Ambos se … [+1284 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Slashdot.org"
+        "name": "Enriquedans.com"
       },
-      "author": "BeauHD",
-      "title": "UK Startup 'Wayve' Gets $1 Billion Funding For Self-Driving Car Tech",
-      "description": "Wayve, a UK-based AI firm focused on developing self-driving car technology, has secured a record $1.05 billion in funding, with Microsoft and Nvidia participating in the round led by SoftBank. According to the BBC, this investment is the largest for an AI co…",
-      "url": "https://news.slashdot.org/story/24/05/07/219202/uk-startup-wayve-gets-1-billion-funding-for-self-driving-car-tech",
-      "urlToImage": "https://a.fsdn.com/sd/topics/transportation_64.png",
-      "publishedAt": "2024-05-07T23:20:00Z",
-      "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+      "author": "Enrique Dans",
+      "title": "La enshittificación del automóvil",
+      "description": "Un buen artículo de Joaquín Peña en su página, «Your new car is 100% yours«, describe una tendencia común en muchos productos a medida que progresa la digitalización: convertirse en un mixto de producto con servicio, en el que las partes correspondientes a es…",
+      "url": "https://www.enriquedans.com/2024/05/la-enshittificacion-del-automovil.html",
+      "urlToImage": "https://www.enriquedans.com/wp-content/uploads/2024/05/Car-enshittification.jpg",
+      "publishedAt": "2024-05-17T14:38:29Z",
+      "content": "Un buen artículo de Joaquín Peña en su página, «Your new car is 100% yours«, describe una tendencia común en muchos productos a medida que progresa la digitalización: convertirse en un mixto de produ… [+5587 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "FRANCISCO J. JURADO",
+      "title": "Rodri explica la clave para ganar la Premier al Arsenal: \"Estos tíos no quieren ganarnos, quieren empatar\"",
+      "description": "El Manchester City certificó su cuarto título de Premier consecutivo tras la victoria ante el West Ham por 3-1. Una liga diferente al resto que ha conseguido Guardiola, pues la car",
+      "url": "https://www.marca.com/futbol/premier-league/2024/05/20/664b3da546163fb1648b467d.html",
+      "urlToImage": "https://ak.uecdn.es/p/110/thumbnail/entry_id/0_1f1d01jz/width/657/type/2/bgcolor/000000/0_1f1d01jz.jpg",
+      "publishedAt": "2024-05-20T13:21:20Z",
+      "content": "El Manchester City certificó su cuarto título de Premier consecutivo tras la victoria ante el West Ham por 3-1. Una liga diferente al resto que ha conseguido Guardiola, pues la carrera a tres con Ars… [+2430 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "marca.com",
+      "title": "El 'rey de los paparazzis' es agredido por Gérard Depardieu: le pegó varios puñetazos y le dejó en el suelo",
+      "description": "Rino Barillari se vió envuelto en otra polémica. Él es el &apos;rey de los paparazzis&apos;, el hombre que &ldquo;dispara&rdquo; antes de pensar, tiene 79 años y una larguísima car",
+      "url": "https://www.marca.com/tiramillas/cine/2024/05/22/664dcbe1ca4741fc2e8b4598.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/4e0cc19c46cdf173e3f1b023d050f938/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/22/17163744754026.jpg",
+      "publishedAt": "2024-05-22T10:46:35Z",
+      "content": "Rino Barillari se vió envuelto en otra polémica. Él es el 'rey de los paparazzis', el hombre que \"dispara\" antes de pensar, tiene 79 años y una larguísima carrera en la persecución de los famosos en … [+1637 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "IRATI PRAT",
+      "title": "Giro en el Bayern: tras cuatro rechazos... ¡Tuchel podría quedarse!",
+      "description": "Giro en Alemania: ¡Thomas Tuchel podría quedarse en el Bayern de Múnich!. Como informan &apos;BILD&apos; y &apos;Sky Alemania&apos;, el actual técnico del club podría seguir de car",
+      "url": "https://www.marca.com/futbol/bundesliga/2024/05/13/66423c2f268e3e45278b45ac.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/601e4ba3516fed5cde96f5c77f632055/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/13/17156168399850.jpg",
+      "publishedAt": "2024-05-13T16:24:19Z",
+      "content": "Giro en Alemania: ¡Thomas Tuchel podría quedarse en el Bayern de Múnich!. Como informan 'BILD' y 'Sky Alemania', el actual técnico del club podría seguir de cara a la temporada 2024-25. Si bien el pa… [+1697 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Slashdot.org"
+        "name": "Xataka.com"
       },
-      "author": "BeauHD",
-      "title": "Chemicals In Car Interiors May Cause Cancer, and They're Required By US Law",
-      "description": "An anonymous reader quotes a report from The Hill: Tens of millions of Americans each day breathe in carcinogenic chemicals that are woven into the interiors of their cars, a new study has found. While opening a window can help reduce the risk, only reforms c…",
-      "url": "https://tech.slashdot.org/story/24/05/09/2142259/chemicals-in-car-interiors-may-cause-cancer-and-theyre-required-by-us-law",
-      "urlToImage": "https://a.fsdn.com/sd/topics/transportation_64.png",
-      "publishedAt": "2024-05-10T03:30:00Z",
-      "content": "Tens of millions of Americans each day breathe in carcinogenic chemicals that are woven into the interiors of their cars, a new study has found. While opening a window can help reduce the risk, only … [+1666 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Grace Kay",
-      "title": "Inside Henrik Fisker's staff meeting, where the CEO announced more layoffs hitting his electric car company",
-      "description": "Henrik Fisker had grim news for his staff when they logged on to a short all-hands meeting Wednesday morning: more layoffs were happening.",
-      "url": "https://www.businessinsider.com/fisker-ceo-all-hands-meeting-announcing-layoffs-2024-5",
-      "urlToImage": "https://i.insider.com/665787b4cc442a2f676bfeb8?width=1200&format=jpeg",
-      "publishedAt": "2024-05-29T22:32:40Z",
-      "content": "Henrik Fisker told staff there would be another round of layoffs on Wednesday, four sources confirmed to Business Insider.Fisker\r\n<ul><li>Fisker announced another round of layoffs during an all-hands… [+3432 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Filip De Mott",
-      "title": "Car prices are finally falling. Here's why people still aren't buying.",
-      "description": "Consumers are staying out of the market amid high insurance, loan, and maintenance costs, BofA says.",
-      "url": "https://www.businessinsider.com/car-prices-falling-forecast-outlook-new-used-electric-vehicle-market-2024-6",
-      "urlToImage": "https://i.insider.com/6410e1729aa2e6001956ec7d?width=1200&format=jpeg",
-      "publishedAt": "2024-06-03T19:42:24Z",
-      "content": "Reuters\r\n<ul>\n<li>Both new and used car prices are normalizing from pandemic peaks. But sales have flatlined, Bank of America says.</li>\n<li>Consumers are still priced out of the market due to rising… [+2616 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "cchen@insider.com (Connie Chen,Alex Rennie)",
-      "title": "The 6 best garden hoses in 2024",
-      "description": "A reliable water hose is a must for taking care of plants, washing your car, or using a sprinkler. We tested 13 hoses to find the best garden hoses.",
-      "url": "https://www.businessinsider.com/guides/home/best-garden-hose",
-      "urlToImage": "https://i.insider.com/646e1d10a739dc00180929ab?width=1200&format=jpeg",
-      "publishedAt": "2024-06-06T21:36:56Z",
-      "content": "When you buy through our links, Business Insider may earn an affiliate commission. Learn more\r\nWater hoses are an essential tool for keeping your garden and landscaping properly irrigated, but they'r… [+19858 chars]"
+      "author": "Alberto de la Torre",
+      "title": "Japón vivió en la extrema locura en los años 80. Por eso idearon el \"Fórmula 1 de calle\" que nunca pisó la calle",
+      "description": "La segunda mitad de los años 80 fueron buenos tiempos para Japón. Al menos en la superficie porque como toda burbuja económica, las consecuencias de terminaron por arrollar a buena parte de la sociedad ya entrados los años 90.\n<!-- BREAK 1 -->\nEl país asiátic…",
+      "url": "https://www.xataka.com/movilidad/japon-vivio-extrema-locura-anos-80-eso-idearon-formula-1-calle-que-nunca-piso-calle",
+      "urlToImage": "https://i.blogs.es/4fd2e3/jiotto_caspita_1st_f/840_560.jpeg",
+      "publishedAt": "2024-06-01T11:01:41Z",
+      "content": "La segunda mitad de los años 80 fueron buenos tiempos para Japón. Al menos en la superficie porque como toda burbuja económica, las consecuencias de terminaron por arrollar a buena parte de la socied… [+5122 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "Xataka.com"
       },
-      "author": "Kris Holt",
-      "title": "Fortnite's new post-apocalyptic season taps into Fallout, Mad Max and X-Men",
-      "description": "Epic Games has an uncanny habit of making sure Fortnite\r\n is in tune with the cultural zeitgeist and that's very much the case once again. After a strong season focused on Greek gods and monsters, the latest major revamp of the battle royale is taking a vehic…",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_a1890fb0-e7a2-4a97-bb1a-e8a03d03859b",
-      "urlToImage": null,
-      "publishedAt": "2024-05-24T15:08:16Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
+      "author": "Alberto de la Torre",
+      "title": "Nos hemos subido al Tesla Cybertruck y hemos confirmado lo imaginado: es una completa locura",
+      "description": "No puede circular por Europa, donde no está homologado y donde todo indica que tendrá muy complicado ponerse en la carretera, así que no hemos podido conducirlo. Si lo hemos tocado y nos hemos subido a él. Y hemos confirmado lo que ya nos imaginábamos, el Tes…",
+      "url": "https://www.xataka.com/movilidad/nos-hemos-subido-al-tesla-cybertruck-hemos-confirmado-imaginado-completa-locura",
+      "urlToImage": "https://i.blogs.es/77d805/img_7328/840_560.jpeg",
+      "publishedAt": "2024-05-24T12:01:35Z",
+      "content": "No puede circular por Europa, donde no está homologado y donde todo indica que tendrá muy complicado ponerse en la carretera, así que no hemos podido conducirlo. Si lo hemos tocado y nos hemos subido… [+5696 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Wikipedia.org"
+        "name": "Muyinteresante.com"
       },
-      "author": "Contributors to Wikimedia projects",
-      "title": "Dymaxion Car",
-      "description": "Comments",
-      "url": "https://en.wikipedia.org/wiki/Dymaxion_car",
-      "urlToImage": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg",
-      "publishedAt": "2024-05-11T13:11:59Z",
-      "content": "With such a vehicle at our disposal, [Fuller] felt that human travel, like that of birds, would no longer be confined to airports, roads, and other bureaucratic boundaries, and that autonomous free-t… [+24989 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Champion boxer Andrew Tham dies after motorbike crash",
-      "description": "Andrew Tham, the reigning Scottish featherweight champion, died three days after a crash in Cumbernauld.",
-      "url": "https://www.bbc.com/news/articles/c0wwr0krqkko",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/0a06/live/25c3aef0-2264-11ef-b516-6deaab608533.jpg",
-      "publishedAt": "2024-06-04T11:26:48Z",
-      "content": "A champion boxer has died three days after he was critically injured in a motorbike crash.\r\nAndrew Tham, 28, was involved in a collision with a car at about 18.50 on Thursday on the B8039, near Lenzi… [+249 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "https://www.facebook.com/bbcnews",
-      "title": "Huge manhunt in France after two prison officers killed in van attack",
-      "description": "The French justice minister confirms two officers were killed, with three seriously injured.",
-      "url": "https://www.bbc.co.uk/news/live/world-europe-69009025",
-      "urlToImage": "https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png",
-      "publishedAt": "2024-05-14T11:44:15Z",
-      "content": "The ambush took place around 11:00 (09:00 GMT) near a toll booth\r\non the A154 motorway near Rouen, Normandy.\r\nThe attack was carried out by several individuals who approached\r\nthe prison convoy in tw… [+279 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "JSO: Man shot while driving, crashes car in Englewood neighborhood",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_51a0ff1e-6254-48d9-8b27-7ac9bed42094",
-      "urlToImage": null,
-      "publishedAt": "2024-05-27T11:58:58Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Dcnewsnow.com"
-      },
-      "author": "Paola Belloso",
-      "title": "Woman dead after car theft, crash in Northwest DC",
-      "description": "WASHINGTON (DC News Now) — The Metropolitan Police Department (MPD) said someone stole a car with a woman inside it in Northwest D.C. on Monday afternoon...",
-      "url": "https://www.dcnewsnow.com/news/local-news/washington-dc/car-with-elderly-person-inside-it-stolen-in-northwest-dc/",
-      "urlToImage": "https://media.zenfs.com/en/wdvm_articles_310/cc9b77f458943671d0b853b157bdda47",
-      "publishedAt": "2024-06-03T18:46:36Z",
-      "content": "WASHINGTON (DC News Now) The Metropolitan Police Department (MPD) said someone stole a car with a woman inside it in Northwest D.C. on Monday afternoon.\r\nPolice said that at about 1:10 p.m., they rec… [+882 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Footage Shows Scottie Scheffler’s Car Merely Crawling Through Crash Scene",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b23ab66c-21bc-4da9-b269-56cb343d0c10",
-      "urlToImage": null,
-      "publishedAt": "2024-05-23T18:46:01Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Siôn Geschwindt",
-      "title": "Teledriving startup Vay plans to bring remote-controlled cars to Belgium this year",
-      "description": "Last week I rented a vehicle through one of the many popular car-sharing platforms. The whole process went pretty smoothly and I didn’t crash, which is always a good thing. But the one inconvenient aspect was drop off and collection.  I had to cycle 10 minute…",
-      "url": "https://thenextweb.com/news/teledriving-startup-vay-launch-in-belgium-this-year",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F06%2Fvay-founders-teledriving-autonpmous-vehicle.jpg&signature=8290e53d9b6bf3f3f29197ec597bd57c",
-      "publishedAt": "2024-06-05T07:37:40Z",
-      "content": "Last week I rented a vehicle through one of the many popular car-sharing platforms. The whole process went pretty smoothly and I didnt crash, which is always a good thing. But the one inconvenient as… [+3193 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNET"
-      },
-      "author": "Katelyn Chedraoui",
-      "title": "I Love This Portable Car Jump Starter Battery Pack and It's Over 40% Off for Memorial Day - CNET",
-      "description": "Drivers can save themselves some stress and money on Memorial Day by grabbing this jump starter battery pack that I highly recommend.",
-      "url": "https://www.cnet.com/deals/i-love-this-portable-car-jump-starter-battery-pack-and-its-over-40-off-for-memorial-day/",
-      "urlToImage": "https://www.cnet.com/a/img/resize/e8403ae309b9fad997d392eb2ea37a3c73c0e7f3/hub/2023/11/16/d1cb0121-edcb-4992-946e-7e5b7c80e248/powrun-car-jump-start-battery-pack-blue.jpg?auto=webp&fit=crop&height=675&width=1200",
-      "publishedAt": "2024-05-26T00:24:00Z",
-      "content": "I'm no car girl, but there's one accessory that's taken up a permanent residence in my trunk, and it's over $40 off this Memorial Day. I'd recommend it to any driver, any day. \r\nFor context, I am a l… [+2882 chars]"
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Aarian Marshall",
-      "title": "How Many Charging Stations Would We Need to Totally Replace Gas Stations?",
-      "description": "The United States could fully transition to electric vehicles in about 20 years. When that happens, we’re going to need a lot of chargers.",
-      "url": "https://www.wired.com/story/how-many-charging-stations-would-we-need-to-totally-replace-gas-stations/",
-      "urlToImage": "https://media.wired.com/photos/6650c3c556be637959104b4c/191:100/w_1280,c_limit/How-Many-EV-Chargers-Do-We-Need--Gear-GettyImages-1242853407.jpg",
-      "publishedAt": "2024-05-27T10:30:00Z",
-      "content": "Buyers curious about making the switch to electric vehicles have made it clear in survey after survey after survey: Charging kind of freaks them out.\r\nIn many ways, drivers report, owning an EV is th… [+2124 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Coldplay singer gives fan with arthritis lift to show",
-      "description": "A woman with mobility issues tells of her shock when Chris Martin took her to the festival site.",
-      "url": "https://www.bbc.com/news/articles/c255132zj94o",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8f56/live/73757dc0-1c17-11ef-876a-93901bcf4952.jpg",
-      "publishedAt": "2024-05-27T11:46:20Z",
-      "content": "Danny Fullbrook,BBC News, Bedfordshire\r\nSaundra Glenn nearly went home before Chris Martin arrived in his Mercedes\r\nA woman with mobility issues was left shocked when Coldplay front-man Chris Martin … [+2304 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "WSBTV.com News Staff",
-      "title": "Drug trafficker wouldn’t get out of car, hinted something was inside, GA deputies say",
-      "description": "The deputy saw the driver zigzagging through traffic and had to pull him out of the car when he wouldn't get out.",
-      "url": "https://www.yahoo.com/news/drug-trafficker-wouldn-t-car-182900766.html",
-      "urlToImage": "https://media.zenfs.com/en/wsb_cox_articles_232/a412a87bcc21d7b14d405c484252389c",
-      "publishedAt": "2024-05-25T18:29:00Z",
-      "content": "A deputy on I-20 in Haralson County earlier this week spotted a driver tailgating a tractor-trailer. When the driver saw the deputy, he changed lanes and started zigzagging between cars.\r\nThe deputy … [+977 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "WSBTV.com News Staff",
-      "title": "7 men connected to 492 car break-ins across metro Atlanta indicted on RICO charges",
-      "description": "Seven suspects have been indicted in violation of Racketeer Influence and Corrupt Organizations Act in connection to hundreds of car break-ins across metro...",
-      "url": "https://www.yahoo.com/news/7-men-connected-492-car-151006680.html",
-      "urlToImage": "https://media.zenfs.com/en/wsb_cox_articles_232/e70bb3f6087e8267bf0befeb21b73790",
-      "publishedAt": "2024-06-06T15:10:06Z",
-      "content": "Seven suspects have been indicted in violation of Racketeer Influence and Corrupt Organizations Act in connection to hundreds of car break-ins across metro Atlanta. \r\nFive of them are in custody, but… [+1306 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Reuters",
-      "title": "Russian President Putin arrives in Uzbekistan, third foreign trip since re-election",
-      "description": "Russian news agencies said Mirziyoyev met Putin on arrival in Tashkent in the evening and the two leaders travelled together in a single car.  Photos and...",
-      "url": "https://ca.news.yahoo.com/russian-president-putin-arrives-uzbekistan-221942926.html",
-      "urlToImage": "https://media.zenfs.com/en/reuters.com/ea45ff26b6031ddc962b78b732aa95ea",
-      "publishedAt": "2024-05-26T22:19:42Z",
-      "content": "(Reuters) - Russian President Vladimir Putin, making his third foreign trip since his re-election in March, arrived in ex-Soviet Uzbekistan on Sunday and met with his counterpart Shavkat Mirziyoyev a… [+1037 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Amber DaSilva",
-      "title": "Elon Musk, Who Claimed 'Tesla Will Solve Autonomy' With Or Without Him, Now Wants To Hold AI Hostage For His Compensation Plan",
-      "description": "Elon Musk has recently become convinced that his floundering car company is actually, secretly, an incredibly powerful robotics company. Model Xes and Ys are...",
-      "url": "https://autos.yahoo.com/elon-musk-claimed-tesla-solve-120000369.html",
-      "urlToImage": "https://media.zenfs.com/en/jalopnik_622/17b07b3b3d2ae71a625180c06b3477d6",
-      "publishedAt": "2024-05-21T12:00:00Z",
-      "content": "The face of a man whos never been disowned by any of his kids for not accepting their identity - Photo: SONNY TUMBELAKA/AFP (Getty Images)\r\nElon Musk has recently become convinced that hisfloundering… [+3055 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "FOX 7 Austin Digital Team",
-      "title": "Man repeatedly slams car into vehicle carrying a family of 5 in north Austin: documents",
-      "description": "Police arrested a man after he rammed his car into another vehicle carrying a family of five, then crashed his vehicle into a utility pole in north Austin.",
-      "url": "https://www.yahoo.com/news/man-repeatedly-slams-car-vehicle-215416160.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/BFONL1SjIHvKO1ODc.bVRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/ktbc_fox_local_articles_950/d17ca6b3884aafe7f888e800a037692b",
-      "publishedAt": "2024-05-18T21:54:16Z",
-      "content": "AUSTIN, Texas - A man rammed his car into another car carrying a family of five before driving away and crashing into a utility pole in north Austin, according to an arrest affidavit.\r\n Click to open… [+1595 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Jonathan M. Gitlin",
-      "title": "Used Teslas are getting very cheap, but buying one can be risky",
-      "description": "As used Teslas drop in price, are they a bargain or buyer beware?",
-      "url": "https://arstechnica.com/cars/2024/05/used-teslas-are-getting-very-cheap-but-buying-one-can-be-risky/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/used-tesla-760x380.jpg",
-      "publishedAt": "2024-05-29T18:48:10Z",
-      "content": "Enlarge/ Used Tesla Model 3s can be had for less than $20,000 now.\r\n3\r\nThe launch of a new electric vehicle these days is invariably met with a chorus of \"this car is too expensive\"and rightfully so.… [+5095 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "Kelsey Vlamis",
-      "title": "Tesla is turning on the charm after leasing and rental-car companies say the value of their fleets have plummeted, but it may not be enough: report",
-      "description": "Tesla is offering discounts to rental and leasing firms in Europe after the value of their fleets dropped due to Tesla price cuts, Reuters reported.",
-      "url": "https://www.businessinsider.com/tesla-wooing-car-leasing-firms-value-of-fleets-declined-reuters-2024-5",
-      "urlToImage": "https://i.insider.com/664bfc3e14fb5b23cc5e87b2?width=1200&format=jpeg",
-      "publishedAt": "2024-05-21T02:19:02Z",
-      "content": "Newly completed Tesla Model Y electric cars stand at the new Tesla Gigafactory electric car manufacturing plant on March 25, 2022 near Gruenheide, Germany.Sean Gallup/Getty Images\r\n<ul><li>Tesla is o… [+2255 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "Man pleads guilty after crash death of woman, 25",
-      "description": "Demi Mabbitt was described as \"the most kind, gentle soul who would do anything to help anyone\".",
-      "url": "https://www.bbc.com/news/articles/cv22qjw2e5xo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5835/live/4f07ecc0-1f32-11ef-80aa-699d54c46324.jpg",
-      "publishedAt": "2024-05-31T09:54:51Z",
-      "content": "A man has pleaded guilty to causing death by dangerous driving after a car crash in Merthyr Tydfil last month.\r\nDemi Mabbitt, 25, died of her injuries a week after the one-vehicle collision on Swanse… [+813 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "St. Louis residents clean up after car windows smashed on Magnolia Avenue",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3ad40c88-37e0-4339-9774-6906e834a981",
-      "urlToImage": null,
-      "publishedAt": "2024-06-02T14:25:42Z",
-      "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Downtown Wichita building once home to ‘real cute’ car dealer to get new life as apartments",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9b7fcdd2-7a7c-4b2e-b546-b076cb405b8a",
-      "urlToImage": null,
-      "publishedAt": "2024-05-29T09:53:00Z",
-      "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Christoph Steitz and Christina Amann",
-      "title": "Volkswagen to develop low-cost electric car to tackle Chinese rivals",
-      "description": "Volkswagen will develop low-cost electric vehicles in a bid to better compete with fierce Chinese rivals, Europe's largest carmaker said on Tuesday, after...",
-      "url": "https://ca.finance.yahoo.com/news/volkswagen-develop-entry-level-electric-160405431.html",
-      "urlToImage": "https://media.zenfs.com/en/reuters.com/28812dc9a78530f06448b1465e16d24e",
-      "publishedAt": "2024-05-28T16:04:05Z",
-      "content": "By Christoph Steitz and Christina Amann\r\nFRANKFURT/BERLIN (Reuters) - Volkswagen will develop low-cost electric vehicles in a bid to better compete with fierce Chinese rivals, Europe's largest carmak… [+1844 chars]"
-    },
-    {
-      "source": {
-        "id": "fox-news",
-        "name": "Fox News"
-      },
-      "author": "Kurt Knutsson, CyberGuy Report",
-      "title": "A pedal-electric hybrid that's half bike, half car",
-      "description": "Created in Germany, Hopper Mobility's Hopper is a sleek, semi-enclosed, car-like three-wheeler that allows drivers to avoid traffic and travel in bike lanes.",
-      "url": "https://www.foxnews.com/tech/pedal-electric-hybrid-thats-half-bike-half-car",
-      "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/05/3-A-pedal-electric-hybrid-thats-half-bike-half-car.jpg",
-      "publishedAt": "2024-05-30T10:00:46Z",
-      "content": "If youve ever had to fight city traffic and, let's be honest, who hasn't, then youll love this new vehicle. Picture yourself zipping through the streets, dodging those bumper-to-bumper blues and the … [+5445 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Woman fights carjacking suspect in Mobile as her car is being driven away",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_123247cd-48b6-4847-9de3-2d733185ba86",
-      "urlToImage": null,
-      "publishedAt": "2024-05-12T16:44:14Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Man charged after fleeing traffic stop with officer stuck in car in Dayton",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_184a54a1-4c61-46b2-adc9-1c3230294420",
-      "urlToImage": null,
-      "publishedAt": "2024-05-16T01:03:00Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": null,
-      "title": "Body of a 5th victim is recovered from a submerged car after flooding in Germany",
-      "description": null,
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d4f76d96-fc94-4143-81dc-67ce55bff263",
-      "urlToImage": null,
-      "publishedAt": "2024-06-04T09:32:43Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hackaday"
-      },
-      "author": "Dan Maloney",
-      "title": "Thermoelectric Module Keeps Printer Filament Cool and Dry",
-      "description": "Anyone who has left their car windows open during a rainstorm will tell you the best way to dry the upholstery is to crank the AC and close the windows. A couple of hours later, presto — dry …",
-      "url": "https://hackaday.com/2024/06/05/thermoelectric-module-keeps-printer-filament-cool-and-dry/",
-      "urlToImage": "https://hackaday.com/wp-content/uploads/2024/06/DSC_06503_aec1b949e0.jpg",
-      "publishedAt": "2024-06-05T11:00:10Z",
-      "content": "Anyone who has left their car windows open during a rainstorm will tell you the best way to dry the upholstery is to crank the AC and close the windows. A couple of hours later, presto — dry seats. T… [+1334 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BBC News"
-      },
-      "author": null,
-      "title": "'Milton Keynes roundabouts helped me with Formula 1'",
-      "description": "The Red Bull reserve driver has been speaking to BBC Newsbeat about gaming and getting into F1.",
-      "url": "https://www.bbc.com/news/articles/cnllgzkgxdgo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/c348/live/04937de0-1f59-11ef-9347-7f244eca80a1.jpg",
-      "publishedAt": "2024-06-01T06:06:39Z",
-      "content": "Andrew Rogers,BBC Newsbeat\r\nLiam Lawson is seen as a rising star in Formula 1\r\nLiam Lawson has gone from one side of the world to the other in order to achieve his racing dreams.\r\nJoining the powerho… [+4453 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Spotify.com"
-      },
-      "author": null,
-      "title": "Spotify Car Thing will be discontinued",
-      "description": "Comments",
-      "url": "https://support.spotify.com/us/article/car-thing-discontinued/",
-      "urlToImage": "https://support.spotify.com//www.scdn.co/i/_global/open-graph-default.png",
-      "publishedAt": "2024-05-23T16:22:30Z",
-      "content": "Car Thing is our first hardware product that allows users to control Spotify through car speakers when connected to a phone by using both voice recognition and preset buttons.\r\nWe have made the decis… [+777 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Ben Hsu",
-      "title": "How to get a car loan",
-      "description": "Filed under:\n Car Buying Advice,Car Buying,Car Dealers,Used Car Buying\n Continue reading How to get a car loan\nHow to get a car loan originally appeared on Autoblog on Fri, 31 May 2024 15:11:00 EDT. Please see our terms for use of feeds.\nPermalink | \nEmail th…",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_00414e25-8ce7-47a5-b315-a02df6223556",
-      "urlToImage": null,
-      "publishedAt": "2024-05-31T19:11:00Z",
-      "content": "If you click 'Accept all', we and our partners, including 237 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Ted.com"
-      },
-      "author": "Vinod Khosla, contact@ted.com (TED)",
-      "title": "12 predictions for the future of technology | Vinod Khosla",
-      "description": "Techno-optimist Vinod Khosla believes in the world-changing power of \"foolish ideas.\" He offers 12 bold predictions for the future of technology — from preventative medicine to car-free cities to planes that get us from New York to London in 90 minutes — and …",
-      "url": "https://www.ted.com/talks/vinod_khosla_12_predictions_for_the_future_of_technology",
-      "urlToImage": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/cdd641ba-8d4a-4adb-b9b6-85e1e0c891da/VinodKhosla_2024-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82c=1050%2C550&w=1050",
-      "publishedAt": "2024-05-31T14:57:36Z",
-      "content": "TED is supported by ads and partners00:00"
+      "author": "José Manuel González Torres",
+      "title": "Alpenglow Hy4: el Hypercar de Alpine vínculo entre la competición y la carretera",
+      "description": "Antes de que finalice el año Alpine presentará una segunda versión funcional de Alpenglow equipada con un nuevo motor V6 concebido específicamente para funcionar con hidrógeno y desarrollado íntegramente por la marca",
+      "url": "https://www.muyinteresante.com/actualidad/64822.html",
+      "urlToImage": "https://imagenes.muyinteresante.com/files/article_social_75/uploads/2024/05/18/6648c5bea3ecb.jpeg",
+      "publishedAt": "2024-05-20T15:15:00Z",
+      "content": "Bajo los focos del Salón del Automóvil de París 2022, Alpine presentó el concept-car Alpenglow, un verdadero manifiesto de las futuras orientaciones de la marca en términos de diseño e innovación sos… [+6031 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Gizmodo.com"
       },
-      "author": "Florence Ion",
-      "title": "Android Will Finally Let You Edit RCS Messages After You’ve Sent Them",
-      "description": "Perfectionists unite (Virgos out there, raise your hands). Android will let you edit RCS messages you send through Google Messages. The company announced the ability, alongside other updates across the Android ecosystem.Read more...",
-      "url": "https://gizmodo.com/android-rcs-messages-edit-1851507993",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/9a9e99bc0813b6f323d216b289f1698a.png",
-      "publishedAt": "2024-05-30T16:00:00Z",
-      "content": "Perfectionists unite (Virgos out there, raise your hands). Android will let you edit RCS messages you send through Google Messages. The company announced the ability, alongside other updates across t… [+1695 chars]"
+      "author": "Dua Rashid",
+      "title": "Spotify está bloqueando el coche, dejando a los usuarios (con razón) furiosos",
+      "description": "Spotify envió recientemente un correo electrónico a sus clientes informándoles que Car Thing dejará de estar disponible y dejará de estar operativo después del 9 de diciembre de 2024. El dispositivo es el primer intento de hardware de la compañía de streaming…",
+      "url": "https://es.gizmodo.com/spotify-car-cosa-bricked-transmision-de-musica-1851499396",
+      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/0499f2c3b13b9d001a65f96d0825947c.jpg",
+      "publishedAt": "2024-05-24T15:40:00Z",
+      "content": "Spotify envió recientemente un correo electrónico a sus clientes informándoles que Car Thing dejará de estar disponible y dejará de estar operativo después del 9 de diciembre de 2024. El dispositivo … [+2449 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Slashdot.org"
+        "name": "Xataka.com"
       },
-      "author": "msmash",
-      "title": "VW and Renault End Talks To Develop Affordable EV",
-      "description": "Volkswagen has walked away from talks with Renault to jointly develop an affordable electric version of the Twingo car, Reuters reported Friday, citing sources familiar with the situation, in a setback for the EU carmakers' efforts to fend off Chinese rivals.…",
-      "url": "https://tech.slashdot.org/story/24/05/17/163227/vw-and-renault-end-talks-to-develop-affordable-ev",
-      "urlToImage": "https://a.fsdn.com/sd/topics/transportation_64.png",
-      "publishedAt": "2024-05-17T16:03:00Z",
-      "content": "VW...think about doing something with your heritage...\r\nHow about an electric Karmann Ghia? \r\nOr resurrect the old VW \"Thing\"...?\r\nI know the bug seems obvious....but I was thinking right now in the … [+317 chars]"
-    },
-    {
-      "source": {
-        "id": "ars-technica",
-        "name": "Ars Technica"
-      },
-      "author": "Ashley Belanger",
-      "title": "Feds probe Waymo driverless cars hitting parked cars, drifting into traffic",
-      "description": "Auto-safety regulator is investigating 22 reports of Waymo cars malfunctioning.",
-      "url": "https://arstechnica.com/tech-policy/2024/05/feds-probe-waymo-driverless-cars-hitting-parked-cars-drifting-into-traffic/",
-      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-2149191987-760x380.jpg",
-      "publishedAt": "2024-05-14T17:13:36Z",
-      "content": "Enlarge/ A Waymo self-driving car in downtown San Francisco on Bush and Sansome Streets as it drives and transports passengers.\r\n18\r\nCrashing into parked cars, drifting over into oncoming traffic, in… [+5732 chars]"
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Matt Simon",
-      "title": "Don’t Believe the Biggest Myth About Heat Pumps",
-      "description": "Not only do heat pumps work fine in cold weather, they’re still more efficient than gas furnaces in such conditions.",
-      "url": "https://www.wired.com/story/myth-heat-pumps-cold-weather-freezing-subzero/",
-      "urlToImage": "https://media.wired.com/photos/664e4688a6a4667fb965e01f/191:100/w_1280,c_limit/Science_GettyImages-907945646.jpg",
-      "publishedAt": "2024-05-24T10:30:00Z",
-      "content": "By contrast, a heat pump works by circulating refrigerants and changing their pressure, and thus their temperature, both to grab thermal energy from outdoor air and then do the reverse in the summer … [+2849 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news",
-        "name": "ABC News"
-      },
-      "author": "The Associated Press",
-      "title": "6 people killed, 10 others injured in Idaho when pickup crashes into passenger van",
-      "description": "The two-car accident included a large passenger van, authorities said.",
-      "url": "https://abcnews.go.com/US/wireStory/6-people-killed-10-injured-idaho-pickup-crashes-110366762",
-      "urlToImage": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
-      "publishedAt": "2024-05-18T23:02:59Z",
-      "content": "IDAHO FALLS, Idaho -- Six people were killed Saturday in Idaho in a two-car accident that included a large passenger van, authorities said.\r\nTen others were injured in the crash on U.S. Highway 20 in… [+641 chars]"
+      "author": "Alberto de la Torre",
+      "title": "\"Nos imponen cosas que no queremos\": el coche eléctrico más espectacular no se vende y su fabricante tiene claro por qué",
+      "description": "La transición al coche eléctrico o, al menos, más o menos electrificado en el mercado del lujo se está resistiendo en algunas marcas. Concretamente en aquellas que han hecho del superdeportivo (o hiperdeportivo) de gasolina santo y seña. Los fabricantes más r…",
+      "url": "https://www.xataka.com/movilidad/nos-imponen-cosas-que-no-queremos-coche-electrico-espectacular-no-se-vende-rimac-tiene-muy-claro-quien-culpa",
+      "urlToImage": "https://i.blogs.es/1f4729/rimac-nevera-2022-1600-02/840_560.jpeg",
+      "publishedAt": "2024-05-16T13:00:56Z",
+      "content": "La transición al coche eléctrico o, al menos, más o menos electrificado en el mercado del lujo se está resistiendo en algunas marcas. Concretamente en aquellas que han hecho del superdeportivo (o hip… [+5923 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Autoblog"
+        "name": "Applesfera.com"
       },
-      "author": "Stephen Williams",
-      "title": "Costco's car-buying program: Here's how it works",
-      "description": "Filed under:\n Car Buying,Car Dealers,Used Car Buying,Ownership\n Continue reading Costco's car-buying program: Here's how it works\nCostco's car-buying program: Here's how it works originally appeared on Autoblog on Thu, 30 May 2024 16:02:00 EDT. Please see our…",
-      "url": "https://www.autoblog.com/article/costcos-car-buying-program-heres-how-it-works/",
-      "urlToImage": "https://s.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2024/05/28175458/costco_gas_station.jpeg",
-      "publishedAt": "2024-05-30T20:02:00Z",
-      "content": "The Costco Auto Program's come-on is enticing: Car buying made easy! Who among us wouldnt respond positively to such an proposition?\r\nSince 1989, Costco, the wholesale retail giant, has been offering… [+2891 chars]"
+      "author": "Álvaro García M.",
+      "title": "Ni Samsung, ni Xiaomi, quienes más han atizado a Apple son los Simpson y estas son todas las veces",
+      "description": "El polémico anuncio de Apple con la presa hidráulica ha despertado las ansias creativas de competidores como Xiaomi y Samsung, quienes han publicado sus propios contra anuncios. Lo hacen con mucho ingenio para tirar la pulla a Apple, aunque realmente hay quie…",
+      "url": "https://www.applesfera.com/curiosidades/todas-veces-que-simpson-parodiaron-a-steve-jobs-apple",
+      "urlToImage": "https://i.blogs.es/99ba9f/simpson/840_560.jpeg",
+      "publishedAt": "2024-05-29T10:01:56Z",
+      "content": "El polémico anuncio de Apple con la presa hidráulica ha despertado las ansias creativas de competidores como Xiaomi y Samsung, quienes han publicado sus propios contra anuncios. Lo hacen con mucho in… [+7400 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "Applesfera.com"
       },
-      "author": "Josh Max",
-      "title": "7 questions to ask when buying a used car",
-      "description": "Filed under:\n Car Buying,Car Dealers,Used Car Buying\n Continue reading 7 questions to ask when buying a used car\n7 questions to ask when buying a used car originally appeared on Autoblog on Wed, 5 Jun 2024 12:35:00 EDT. Please see our terms for use of feeds.\n…",
-      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c370cf47-579e-4bcf-b931-2e8a5d496643",
-      "urlToImage": null,
-      "publishedAt": "2024-06-05T16:35:00Z",
-      "content": "If you click 'Accept all', we and our partners, including 238 who are part of the IAB Transparency &amp; Consent Framework, will also store and/or access information on a device (in other words, use … [+678 chars]"
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Jeffrey Parkin",
-      "title": "GTA Online update for the week of June 6",
-      "description": "Our GTA Online weekly update guide will tell you everything happening in Los Santos during the week of June 6, which features the LS Car Meet Series.",
-      "url": "https://www.polygon.com/gta-online-guides/2024/6/6/24172841/june-6-weekly-update-events-ls-car-meet",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/tVhQipGdonPeGmgU5a6azUOErjg=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25470767/GTA_Online_20240530_9.jpg",
-      "publishedAt": "2024-06-06T17:01:56Z",
-      "content": "The weekly GTA Online update for June 6, 2024, is live with reward events, discounts, prizes, and a lot of street racing.\r\nOur GTA Online weekly update guide will tell you everything happening in Los… [+2571 chars]"
+      "author": "Isra Fdez",
+      "title": "Estos serán los productos del futuro de Apple según la Inteligencia Artificial",
+      "description": "Un 'Apple Toilet' por 10.169 dólares. ¿Una moto eléctrica con el sello de Apple? También, a partir de 240.000 dólares. Un poco cara, sí: el Apple Car, por ejemplo, viene preciado por bastante menos, 119,900 dólares, casi 110.000 euros. Y eso que la propia App…",
+      "url": "https://www.applesfera.com/curiosidades/estos-seran-productos-futuro-apple-inteligencia-artificial",
+      "urlToImage": "https://i.blogs.es/350f7d/apple-teleport/840_560.jpeg",
+      "publishedAt": "2024-06-06T14:01:35Z",
+      "content": "Un 'Apple Toilet' por 10.169 dólares. ¿Una moto eléctrica con el sello de Apple? También, a partir de 240.000 dólares. Un poco cara, sí: el Apple Car, por ejemplo, viene preciado por bastante menos, … [+3642 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Kotaku"
+        "name": "Elespanol.com"
       },
-      "author": "Zack Zwiezen",
-      "title": "Fortnite's Free Cars Will Get You Killed Faster Than Its Paid Ones, New Video Shows",
-      "description": "A new viral video shows that many of Fortnite’s premium cars—which can only be unlocked by purchasing them with V-Bucks—are safer to drive around in compared to the free models in the game. This is proving to be a problem in Fortnite’s newest car-focused seas…",
-      "url": "https://kotaku.com/fortnite-free-cars-pay-to-win-season-3-premium-skins-1851516668",
-      "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/dbf76ebef8fcfcd08cfa40922af1a40c.jpg",
-      "publishedAt": "2024-06-03T19:45:00Z",
-      "content": "A new viral video shows that many of Fortnites premium carswhich can only be unlocked by purchasing them with V-Bucksare safer to drive around in compared to the free models in the game. This is prov… [+2288 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "https://www.facebook.com/bbcnews",
-      "title": "TikTok trainspotter Francis Bourgeois: 'Passion is cool'",
-      "description": "The star, fresh from a UK rail adventure for the BBC, talks identity, hate and saving the railway.",
-      "url": "https://www.bbc.co.uk/news/entertainment-arts-69053034",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1542B/production/_133338078_whatsappimage2024-05-22at12.10.44-2.jpg",
-      "publishedAt": "2024-05-23T23:29:27Z",
-      "content": "\"I've got a model railway that runs all the way around my flat,\" says TikTok trainspotter Francis Bourgeois.\r\nThis admission will make perfect sense, and perhaps bring a grin, to the millions who fol… [+1014 chars]"
+      "author": "Jorge Cano",
+      "title": "Doble de recompensas por competir en las series del Car Meet de LS esta semana en GTA Online",
+      "description": "<!--cache-->Rockstar Games actualiza el multijugador de GTA 5 una semana más con novedades, boniticaciones, descuentos y regalos, así como multiplicadores de GTA $ y RP.<!--aa--->Rokstar Games ha anunciado las novedades para esta semana de de GTA Online, el m…",
+      "url": "https://vandal.elespanol.com/noticia/1350771891/doble-de-recompensas-por-competir-en-las-series-del-car-meet-de-ls-esta-semana-en-gta-online/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/6/6-2024/7/20246710394690_1.jpg",
+      "publishedAt": "2024-06-07T08:55:00Z",
+      "content": "Rokstar Games ha anunciado las novedades para esta semana de de GTA Online, el multijugador de Grand Theft Auto V, destacando el doble de recompensas (GTA$, RP y reputación) por competir en las serie… [+2223 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "Xataka.com"
       },
-      "author": "Ben Goggin",
-      "title": "A Tesla owner says his car’s ‘self-driving’ technology failed to detect a moving train ahead of a crash caught on camera",
-      "description": "A Tesla car in Full-Self Driving mode appeared to fail to detect a moving train and stop on its own, ahead of a chaotic accident caught on video.",
-      "url": "https://www.yahoo.com/tech/tesla-owner-says-car-self-212417665.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/s7s581WOk5l9ZKZI5uQmWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/nbc_news_122/534cd569de5db75196126f60b9f585f1",
-      "publishedAt": "2024-05-23T21:24:17Z",
-      "content": "A Tesla vehicle in Full-Self Driving mode appeared to fail to detect a moving train and stop on its own, leading to a chaotic accident depicted in a video that has been viewed millions of times on so… [+7106 chars]"
+      "author": "Alberto de la Torre",
+      "title": "Los clientes de Mercedes y Volkswagen confirman una tendencia: cuanto más dinero, más recelan del coche eléctrico",
+      "description": "El coche eléctrico es la tecnología del futuro. Al menos eso es lo que parece haber fomentado las políticas de la Unión Europea y lo que anunciaban, una tras otra, los fabricantes occidentales, en lo que parecía ser una carrera por lanzar una fecha al aire en…",
+      "url": "https://www.xataka.com/movilidad/clientes-mercedes-volkswagen-confirman-tendencia-cuanto-dinero-recelan-coche-electrico",
+      "urlToImage": "https://i.blogs.es/6f0a38/mercedes-benz-c43_amg-2023-1600-02/840_560.jpeg",
+      "publishedAt": "2024-05-30T13:01:23Z",
+      "content": "El coche eléctrico es la tecnología del futuro. Al menos eso es lo que parece haber fomentado las políticas de la Unión Europea y lo que anunciaban, una tras otra, los fabricantes occidentales, en lo… [+8768 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "WREG NewsChannel 3"
+        "name": "Expansion.com"
       },
-      "author": "David Royer",
-      "title": "Couple carjacked at East Memphis McDonald’s by 10 armed men, police say",
-      "description": "MEMPHIS, Tenn. — A man waiting in the drive-through line at an East Memphis McDonald’s says he was attacked and pulled out of his car by a group of armed...",
-      "url": "https://wreg.com/news/local/couple-carjacked-at-east-memphis-mcdonalds-by-10-armed-men-police-say/",
-      "urlToImage": "https://media.zenfs.com/en/wreg_articles_784/86e7d337bee60b0c1acca1a44e2dfec0",
-      "publishedAt": "2024-06-04T14:05:10Z",
-      "content": "MEMPHIS, Tenn. A man waiting in the drive-through line at an East Memphis McDonalds says he was attacked and pulled out of his car by a group of armed carjackers Monday night.\r\nMemphis Police say the… [+826 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "https://www.facebook.com/bbcnews",
-      "title": "Nail attack was bid to 'stamp terror' on area",
-      "description": "Jim Allister was speaking after a man was left nailed to a fence in Bushmills, County Antrim.",
-      "url": "https://www.bbc.co.uk/news/uk-northern-ireland-68969509",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/13201/production/_133273387_ca7f2111684d5cf7e20ded0f1ceadeffc689507b.png",
-      "publishedAt": "2024-05-07T11:23:02Z",
-      "content": "Those responsible for a serious assault in which a man was left nailed to a fence in Bushmills intended to \"stamp their terror upon the area\", TUV leader Jim Allister has said.\r\nA man was taken to ho… [+3221 chars]"
+      "author": "A.Polo. París",
+      "title": "Arte sobre cuatro ruedas: así es el coche con el que BMW quiere ganar las 24 horas de Le Mans",
+      "description": "Convencer a la artista Julie Mehretu de que se uniera al proyecto BMW Art Car no fue fácil. Aunque ella misma reconoce que le fascinan los coches y sus obras siempre tienen un...",
+      "url": "https://www.expansion.com/fueradeserie/motor/2024/05/23/664f7111468aebdc278b458f.html",
+      "urlToImage": "https://phantom-expansion.unidadeditorial.es/8fc699e1408fc158fcfe78a968174ab4/crop/136x99/1942x1281/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/23/17164821589100.jpg",
+      "publishedAt": "2024-05-23T21:52:57Z",
+      "content": "La artista etíope-americana Julie Mehretu asegura que el BMW M Hybrid V8 puede ser el primer coche diseñado por una mujer que gane la famosa carrera francesa.Convencer a la artista Julie Mehretu de q… [+4644 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "Applesfera.com"
       },
-      "author": "Tim Stanley",
-      "title": "The United States is lurching towards civil war",
-      "description": "When the news of the Trump verdict came over the car radio, I almost had to pull over. My thought was: “This is Fort Sumter.” Just as when the South decided ...",
-      "url": "https://uk.news.yahoo.com/united-states-lurching-towards-civil-181613015.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/lD1eApwzJinfqfSbSwzSrg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NTI-/https://media.zenfs.com/en/the_telegraph_818/c564a7bd56677839b33b2b0cca035277",
-      "publishedAt": "2024-06-02T18:16:13Z",
-      "content": "When the news of the Trump verdict came over the car radio, I almost had to pull over. My thought was: This is Fort Sumter. Just as when the South decided to shell a Northern-held fort in 1861, it fe… [+5076 chars]"
+      "author": "Isra Fdez",
+      "title": "Qué tenían de especial las zapatillas favoritas de Steve Jobs. También eran las de Donald Trump y, si quieres comprarlas, este es su precio",
+      "description": "Steve Jobs quería unas zapatillas cómodas y sencillas, que no llamaran mucho la atención y que complementaran con su austero su jersey negro de cuello alto, sus jeans y su reloj Seiko. De hecho, durante años usó sandalias, un modelo humilde que repetía una y …",
+      "url": "https://www.applesfera.com/curiosidades/que-tenian-especial-zapatillas-favoritas-steve-jobs-tambien-eran-donald-trump-quieres-comprarlas-este-su-precio",
+      "urlToImage": "https://i.blogs.es/a70335/zapatillas-de-steve-jobs/840_560.jpeg",
+      "publishedAt": "2024-05-18T11:00:52Z",
+      "content": "Steve Jobs quería unas zapatillas cómodas y sencillas, que no llamaran mucho la atención y que complementaran con su austero su jersey negro de cuello alto, sus jeans y su reloj Seiko. De hecho, dura… [+3862 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Yahoo Entertainment"
+        "name": "Applesfera.com"
       },
-      "author": "Inside Edition",
-      "title": "Woman Spots 5-Foot-Long Monster Lizard While Driving",
-      "description": "Florida resident Renee Aland was with her daughter in a car when she spotted a 5-foot-long monster lizard. At first, they thought it was a gator. But it...",
-      "url": "https://www.yahoo.com/news/woman-spots-5-foot-long-122002650.html",
-      "urlToImage": "https://media.zenfs.com/en/inside_edition_video_216/37e1a3dc6f3e37447b88d550e0e59f96",
-      "publishedAt": "2024-06-04T12:20:02Z",
-      "content": "Florida resident Renee Aland was with her daughter in a car when she spotted a 5-foot-long monster lizard. At first, they thought it was a gator. But it turns out, the creature is an Asian water moni… [+231 chars]"
+      "author": "Isra Fdez",
+      "title": "\"Finalmente lo descifré\". Este es el último gran proyecto en el que trabajó Steve Jobs y que aún está pendiente de venderse",
+      "description": "El 9 de enero de 2007 comenzó a venderse esta cajita que lo cambió todo. Y eso que, en realidad, nunca convenció al propio Steve Jobs por considerarlo un \"pez más\" dentro de una gran pecera. Pero le sirvió para dar con la tecla de su siguiente proyecto: Jobs …",
+      "url": "https://www.applesfera.com/iphone/finalmente-descifre-este-ultimo-gran-proyecto-que-trabajo-steve-jobs-que-esta-pendiente-venderse",
+      "urlToImage": "https://i.blogs.es/7f675d/steve-jobs-pensando-en-el-futuro/840_560.jpeg",
+      "publishedAt": "2024-05-31T14:01:30Z",
+      "content": "El 9 de enero de 2007 comenzó a venderse esta cajita que lo cambió todo. Y eso que, en realidad, nunca convenció al propio Steve Jobs por considerarlo un \"pez más\" dentro de una gran pecera. Pero le … [+5044 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "ReadWrite"
+        "name": "Applesfera.com"
       },
-      "author": "James Spillane",
-      "title": "Dreamcars Launches Presale: Buy Porsche, Bentley, and Rolls-Royce Starting at $10 and Earn Daily Rental Income",
-      "description": "Dreamcars is a new cryptocurrency project that aims to democratize access to luxury car ownership while allowing its community members… Continue reading Dreamcars Launches Presale: Buy Porsche, Bentley, and Rolls-Royce Starting at $10 and Earn Daily Rental In…",
-      "url": "https://readwrite.com/dreamcars-launches-presale-buy-porsche-bentley-and-rolls-royce-starting-at-10-and-earn-daily-rental-income/",
-      "urlToImage": "https://readwrite.com/wp-content/uploads/2024/06/Dreamcars-Presale-launched.jpg",
-      "publishedAt": "2024-06-01T02:24:18Z",
-      "content": "Dreamcars is a new cryptocurrency project that aims to democratize access to luxury car ownership while allowing its community members to earn rewards and passive income using blockchain technology. … [+4891 chars]"
+      "author": "Álvaro García M.",
+      "title": "Una Siri renovada con un ChatGPT para el iPhone: la última hora de la IA que Apple presentará el mes que viene",
+      "description": "La cuenta atrás para conocer iOS 18 está a punto de tocar su fin. Queda ya menos de un mes, pues será el próximo 10 de junio cuando se presente junto al resto de sistemas operativos en la WWDC 2024. Tal y como ha confirmado ya en varias ocasiones el CEO de la…",
+      "url": "https://www.applesfera.com/rumores/siri-renovada-chatgpt-para-iphone-ultima-hora-ia-que-apple-presentara-mes-que-viene",
+      "urlToImage": "https://i.blogs.es/6fc24d/siri-ios-18/840_560.jpeg",
+      "publishedAt": "2024-05-13T07:14:42Z",
+      "content": "La cuenta atrás para conocer iOS 18 está a punto de tocar su fin. Queda ya menos de un mes, pues será el próximo 10 de junio cuando se presente junto al resto de sistemas operativos en la WWDC 2024. … [+4025 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "ReadWrite"
+        "name": "Expansion.com"
       },
-      "author": "Sophie Atkinson",
-      "title": "Android Auto 12.0 is here and drivers can now watch TV and streaming platforms",
-      "description": "Google has officially released Android Auto 12.0, the latest version of the built-in app that connects to car dashboards and… Continue reading Android Auto 12.0 is here and drivers can now watch TV and streaming platforms\nThe post Android Auto 12.0 is here an…",
-      "url": "https://readwrite.com/android-auto-12-new-features-streaming-max-peacock-google-cast/",
-      "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/k_YPfwCqQQ6_8lgCHVfqOQ.webp",
-      "publishedAt": "2024-05-29T19:48:19Z",
-      "content": "Google has officially released Android Auto 12.0, the latest version of the built-in app that connects to car dashboards and entertainment units.\r\nThe update brings several changes, including new app… [+1715 chars]"
+      "author": "Marga Castillo",
+      "title": "Una única inyección consigue eliminar el asma en ratones",
+      "description": "Un equipo de investigadores chinos diseña un tratamiento contra el asma basado en una inyección de células CAR-T que consigue remitir el asma en ratones con un solo pinchazo, lo que se convierte en una prometedora vía de tratamiento. Leer",
+      "url": "https://www.expansion.com/directivos/estilo-vida/salud/2024/05/28/6655b2fbe5fdea44638b456d.html",
+      "urlToImage": "https://phantom-expansion.unidadeditorial.es/7935270585812443ebc155fb985d896a/crop/0x178/2028x1530/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/28/17168927797475.jpg",
+      "publishedAt": "2024-05-28T10:41:53Z",
+      "content": "Un equipo de investigadores chinos diseña un tratamiento contra el asma basado en una inyección de células CAR-T que consigue remitir el asma en ratones con un solo pinchazo, lo que se convierte en u… [+4406 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Slashdot.org"
+        "name": "Xataka Android"
       },
-      "author": "BeauHD",
-      "title": "Bike Brands Start To Adopt C-V2X To Warn Cyclists About Cars",
-      "description": "An anonymous reader quotes a report from Ars Technica: There's a fundamental flaw in current car safety tech: It's limited to line of sight. Or, perhaps, line of \"sensing\" is more accurate, because the way cameras and lidar work is to inspect the perimeter of…",
-      "url": "https://tech.slashdot.org/story/24/05/11/013226/bike-brands-start-to-adopt-c-v2x-to-warn-cyclists-about-cars",
-      "urlToImage": "https://a.fsdn.com/sd/topics/transportation_64.png",
-      "publishedAt": "2024-05-11T13:00:00Z",
-      "content": "There's a fundamental flaw in current car safety tech: It's limited to line of sight. Or, perhaps, line of \"sensing\" is more accurate, because the way cameras and lidar work is to inspect the perimet… [+3586 chars]"
+      "author": "Amparo Babiloni",
+      "title": "Lo nuevo de Android Automotive permitirá enviar contenido a la pantalla del coche como si fuera un Chromecast",
+      "description": "El Google I/O es el evento del año para Google y, por primera vez, no nos hablaron de las novedades de Android en la keynote de inauguración. En su lugar, centraron esta conferencia en novedades de IA como el impresionante Project Astra, el nuevo Gemini 1.5 F…",
+      "url": "https://www.xatakandroid.com/sistema-operativo/nuevo-android-automotive-permitira-enviar-contenido-a-pantalla-coche-como-fuera-chromecast",
+      "urlToImage": "https://i.blogs.es/35d7af/android-automotive-google-cast/840_560.jpeg",
+      "publishedAt": "2024-05-15T17:05:57Z",
+      "content": "El Google I/O es el evento del año para Google y, por primera vez, no nos hablaron de las novedades de Android en la keynote de inauguración. En su lugar, centraron esta conferencia en novedades de I… [+3948 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "marca.com",
+      "title": "MARCA la Diferencia, programa 58: Marta Fernández, Sheila Guijarro y Elia Canales",
+      "description": "La nadadora paralímpica visita nuestro plató antes de competir en París, la jugadora del Atlético de Madrid se somete a nuestro test y compartimos entrenamiento con la arquera española más en forma  Leer",
+      "url": "https://www.marca.com/marca-la-diferencia/2024/05/22/664cbf8322601da2788b45ce.html",
+      "urlToImage": "https://i.ytimg.com/vi/vcJb-hzOWSs/maxresdefault.jpg",
+      "publishedAt": "2024-05-22T06:16:47Z",
+      "content": "Este miércoles visita el plató de 'MARCA la Diferencia' la nadadora Marta Fernández. Desde que debutó a nivel internacional en 2021, la burgalesa acumula 25 medallas: tres en los Juegos Paralímpicos … [+1139 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "NPR"
+        "name": "Www.abc.es"
       },
-      "author": "Camila Domonoske",
-      "title": "Does mining for batteries erase the climate benefits of EVs? No, and here's why",
-      "description": "NPR listeners wrote to ask whether the environmental harm from building EVs \"cancels out\" the cars' climate benefits. Experts say the answer is clear.",
-      "url": "https://www.npr.org/2024/05/09/1250212212/ev-batteries-environmental-impact",
-      "urlToImage": "https://media.npr.org/assets/img/2024/05/09/gettyimages-1265764462_wide-452187223f6f0e4dd776d27f518f9ab9fd410f01.jpg?s=1400&c=100&f=jpeg",
-      "publishedAt": "2024-05-09T18:34:13Z",
-      "content": "Tenke Fungurume Mine, one of the largest copper and cobalt mines in the world, is owned by Chinese company CMOC, in southeastern Democratic Republic of Congo. Minerals like cobalt are important compo… [+6753 chars]"
+      "author": "(abc)",
+      "title": "Descubren una inyección eficaz para el tratamiento del asma alérgico",
+      "description": "La terapia con células T CAR (CAR-T) ha demostrado ser disruptiva en el tratamiento de algunos tipos de cáncer. Ahora, un estudio publicado en ' Nature Immunology ' muestra los resultados de su empleo para el tratamiento del asma alérgico en ratones. La terap…",
+      "url": "https://www.abc.es/salud/enfermedades/prueban-terapia-celulas-cart-sama-alergico-20240527133252-nt.html",
+      "urlToImage": "https://s2.abcstatics.com/abc/www/multimedia/salud/2024/05/27/raton-joven-U33652670121XPX-1024x512@diario_abc.png",
+      "publishedAt": "2024-05-27T15:00:07Z",
+      "content": "La terapia con células T CAR (CAR-T) ha demostrado ser disruptiva en el tratamiento de algunos tipos de cáncer. Ahora, un estudio publicado en 'Nature Immunology ' muestra los resultados de su empleo… [+1971 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "ALBERTO RUBIO",
+      "title": "Modric abandera la lista de Croacia, rival de España en la Euro 2024",
+      "description": "Luka Modric volverá a ser el líder de Croacia en la Eurocopa 2024. El &apos;10&apos; del Real Madrid será rival de España, junto a Italia y Albania, en el Grupo D.  \n\nEl jugador co",
+      "url": "https://www.marca.com/futbol/eurocopa/2024/05/20/664b290bca474179598b459d.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/971a8b70590a1c27a30888058f15d9fb/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/20/17162016561784.jpg",
+      "publishedAt": "2024-05-20T10:42:43Z",
+      "content": "Luka Modric volverá a ser el líder de Croacia en la Eurocopa 2024. El '10' del Real Madrid será rival de España, junto a Italia y Albania, en el Grupo D. \r\nEl jugador con más internacionalidades en l… [+1643 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "ENRIQUE NARANJO",
+      "title": "Fernando Alonso exprime el V8 del Aston Martin Vantage: \"¡Escucha eso!\"",
+      "description": "El año pasado Aston Martin estaba de estreno y fue el DB12 el que surcó las calles del Principado en las manos de sus pilotos del equipo de F1. Aproximadamente 365 días después la",
+      "url": "https://www.marca.com/coches-y-motos/coches/aston-martin/2024/05/25/665101bf22601de2458b45af.html",
+      "urlToImage": "https://ak.uecdn.es/p/110/thumbnail/entry_id/0_oylu7skk/width/657/type/2/bgcolor/000000/0_oylu7skk.jpg",
+      "publishedAt": "2024-05-25T07:03:40Z",
+      "content": "El año pasado Aston Martin estaba de estreno y fue el DB12 el que surcó las calles del Principado en las manos de sus pilotos del equipo de F1. Aproximadamente 365 días después la marca británica ha … [+1204 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "La Vanguardia"
+      },
+      "author": "Fran Besora",
+      "title": "Estas son las aplicaciones finalistas de los Apple Design Awards",
+      "description": "La WWDC siempre es una conferencia centrada en el software. Es por eso que Apple siempre quiere reconocer el trabajo que hacen los desarrolladores de apps con premios como los Apple Design Awards, que destacan las aplicaciones con mejor diseño del App Store d…",
+      "url": "https://www.lavanguardia.com/andro4all/apple/estas-son-las-aplicaciones-finalistas-de-los-apple-design-awards",
+      "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2024/05/2024-apple-design-award.jpeg?width=1200",
+      "publishedAt": "2024-05-29T12:01:55Z",
+      "content": "Así luce el premio que recibirán los ganadores de los Apple Design Awards\r\nLa WWDC siempre es una conferencia centrada en el software. Es por eso que Apple siempre quiere reconocer el trabajo que hac… [+2112 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Muyinteresante.com"
+      },
+      "author": "José Manuel González Torres",
+      "title": "En la búsqueda del asiento perfecto para el coche",
+      "description": "Tanto si eliges el compacto Volvo EX30 como un modelo más grande como el Volvo EX90, puedes esperar el mismo compromiso con la comodidad y la adaptabilidad",
+      "url": "https://www.muyinteresante.com/actualidad/64818.html",
+      "urlToImage": "https://imagenes.muyinteresante.com/files/article_social_75/uploads/2024/05/17/66476cbd3e264.jpeg",
+      "publishedAt": "2024-05-17T14:45:34Z",
+      "content": "A la hora de elegir un coche de empresa, la comodidad no debe ser una ocurrencia de última hora. Es un factor importante para el bienestar, la concentración y la seguridad del conductor. Volvo Cars s… [+4200 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "David Durán",
+      "title": "Estos coches son la antítesis de los SUV, ¿podrían funcionar en Europa?",
+      "description": "En ocasiones recientes hemos escuchado al CEO de Renault, Luca de Meo, realizando comentarios sobre los Kei Car y su viabilidad en Europa. Los Kei Car son coches ligeros (literalmente es su significado en japonés), de tamaño reducido y una cilindrada no mayor…",
+      "url": "https://www.diariomotor.com/noticia/kei-cars-luca-meo-renault-twingo/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2023/11/renault-twingo-2026-3.jpeg",
+      "publishedAt": "2024-05-21T08:00:24Z",
+      "content": "En ocasiones recientes hemos escuchado al CEO de Renault, Luca de Meo, realizando comentarios sobre los Kei Car y su viabilidad en Europa. Los Kei Car son coches ligeros (literalmente es su significa… [+3680 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "ALMUDENA RIVERA, RODOLFO ESPINOSA",
+      "title": "Elia Canales apunta a París: \"Tenemos nivel para ganar medalla\"",
+      "description": "Elia Canales recibe a &apos;MARCA la Diferencia&apos; en el campo de tiro con arco del Centro de Alto Rendimiento de Madrid días después de proclamarse subcampeona de Europa. La ci",
+      "url": "https://www.marca.com/marca-la-diferencia/2024/05/22/664cb5b522601d184f8b456f.html",
+      "urlToImage": "https://ak.uecdn.es/p/110/thumbnail/entry_id/0_su5gmeul/width/657/type/2/bgcolor/000000/0_su5gmeul.jpg",
+      "publishedAt": "2024-05-22T10:44:19Z",
+      "content": "Elia Canales recibe a 'MARCA la Diferencia' en el campo de tiro con arco del Centro de Alto Rendimiento de Madrid días después de proclamarse subcampeona de Europa. La cita es a las 11:00 horas, pero… [+5104 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "Alpine Alpenglow: un concept car funcional con motor de combustión de hidrógeno",
+      "description": "Fue en el Salón del Automóvil de París 2022 cuando Alpine presentó el concept-car Alpenglow. Este modelo simbolizaba los estudios ya iniciados por la marca sobre el motor térmico de hidrógeno para automóviles deportivos, con perspectivas de altas prestaciones…",
+      "url": "https://www.abc.es/motor/novedades/alpine-alpenglow-concept-car-funcional-motor-combustion-20240512095900-nt.html",
+      "urlToImage": "https://s1.abcstatics.com/abc/www/multimedia/motor/2024/05/10/R-DAM_1565180-U15373185433QQg-1024x512@diario_abc.jpg",
+      "publishedAt": "2024-05-12T07:59:00Z",
+      "content": "Fue en el Salón del Automóvil de París 2022 cuando Alpine presentó el concept-car Alpenglow. Este modelo simbolizaba los estudios ya iniciados por la marca sobre el motor térmico de hidrógeno para au… [+10165 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elespanol.com"
+      },
+      "author": "Manu Delgado",
+      "title": "Puedes conseguir 100.000 dólares extra y un coche gratis esta semana en GTA Online",
+      "description": "<!--cache-->Rockstar Games actualiza el multijugador de GTA 5 una semana más con novedades, boniticaciones, descuentos y regalos, así como multiplicadores de GTA $ y RP.<!--aa--->Esta semana, el catálogo de vehículos premium de Benefactor domina la escena aut…",
+      "url": "https://vandal.elespanol.com/noticia/1350771720/puedes-conseguir-100000-dolares-extra-y-un-coche-gratis-esta-semana-en-gta-online/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/5/5-2024/31/20245311264959_1.jpg",
+      "publishedAt": "2024-05-31T10:07:00Z",
+      "content": "Esta semana, el catálogo de vehículos premium de Benefactor domina la escena automovilística de GTA Online, el multijugador de Grand Theft Auto V, ofreciendo una variedad de descuentos, ropa gratuita… [+2308 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Guille Lomener",
+      "title": "Tres grandes cambios que llegan a CarPlay y adelantan por la derecha a Android Auto",
+      "description": "Conducir con CarPlay es todo un placer, desde la estética, la facilidad de uso, hasta la integración con el resto de funciones Apple. Con cada nueva versión del sistema operativo llegan funcionalidades diferentes, y con iOS 18 promete que así será. Quedan dos…",
+      "url": "https://www.applesfera.com/ios/tres-grandes-cambios-que-llegan-a-carplay-adelantan-derecha-a-android-auto",
+      "urlToImage": "https://i.blogs.es/0a9e90/ios-18/840_560.jpeg",
+      "publishedAt": "2024-05-21T09:01:00Z",
+      "content": "Conducir con CarPlay es todo un placer, desde la estética, la facilidad de uso, hasta la integración con el resto de funciones Apple. Con cada nueva versión del sistema operativo llegan funcionalidad… [+2587 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Geeksroom.com"
+      },
+      "author": "Hector Russo",
+      "title": "OMODA 5, su versión EV y el nuevo JAECOO 7 serán protagonistas del próximo Madrid Car Experience",
+      "description": "La emergente marca china de automóviles OMODA y su firma hermana de todoterrenos, JAECOO, se preparan para una destacada participación en el prestigioso salón Madrid …\nThe post OMODA 5, su versión EV y el nuevo JAECOO 7 serán protagonistas del próximo Madrid …",
+      "url": "https://geeksroom.com/2024/05/omoda-jaecoo-mce/138365/",
+      "urlToImage": "https://geeksroom.com/wp-content/uploads/2024/05/Omoda-5.jpg",
+      "publishedAt": "2024-05-20T10:02:39Z",
+      "content": "La emergente marca china de automóviles OMODA y su firma hermana de todoterrenos, JAECOO, se preparan para una destacada participación en el prestigioso salón Madrid Car Experience (MCE), que tendrá … [+2800 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Iván Fernández",
+      "title": "Este es el espectacular Art Car con el que BMW quiere volver a ganar Le Mans",
+      "description": "Siempre es especial ver la presentación de un nuevo Art Car para las 24 Horas de Le Mans. Con el calendario descontando los días hasta la semana del 12 al 16 de junio, BMW acaba de mostrar en el prestigioso Centro Pompidou de París el que se convierte en la v…",
+      "url": "https://www.diariomotor.com/competicion/noticia/art-car-bmw-24-horas-le-mans/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/bmw-m-v8-hybrid-lmdh-2024-wec-le-mans-art-car-1072057.jpg",
+      "publishedAt": "2024-05-21T20:19:56Z",
+      "content": "Siempre es especial ver la presentación de un nuevo Art Car para las 24 Horas de Le Mans. Con el calendario descontando los días hasta la semana del 12 al 16 de junio, BMW acaba de mostrar en el pres… [+1962 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elconfidencialdigital.com"
+      },
+      "author": "B.G.H",
+      "title": "Arrancan las Votaciones de la VII Edición del Concurso de Diseño Lexus Art Car",
+      "description": "La nueva edición del concurso de diseño Lexus Art Car abre sus votaciones para que el público vote sus proyectos favoritos. \n En esta ocasión, el nuevo LBX será el protagonista de esta edición de Art Car 2024, sobre el que los artistas...",
+      "url": "https://www.elconfidencialdigital.com/articulo/motor/arrancan-votaciones-vii-edicion-concurso-diseno-lexus-art-car/20240530104946788961.html",
+      "urlToImage": "https://www.elconfidencialdigital.com/media/elconfidencialdigital/images/2024/05/30/2024053010480641214.jpg",
+      "publishedAt": "2024-05-31T22:00:00Z",
+      "content": "<ul><li>La nueva edición del concurso de diseño Lexus Art Car abre sus votaciones para que el público vote sus proyectos favoritos.</li><li>En esta ocasión, el nuevo LBX será el protagonista de esta … [+7571 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "La Vanguardia"
+      },
+      "author": "Beatriz Alcántara",
+      "title": "El truco viral que te permite abrir tu coche desde lejos usando tu cabeza",
+      "description": "Vas a un enorme centro comercial, dejas el coche en un aparcamiento aún más grande y, cuando tratas de encontrarlo por volver a casa, no sabes dónde está. Es muy probable que este problema te haya sucedido en alguna ocasión, y también que pueda volver a ocurr…",
+      "url": "https://www.lavanguardia.com/andro4all/tecnologia/el-truco-viral-que-te-permite-abrir-tu-coche-desde-lejos-usando-tu-cabeza",
+      "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2024/06/llaves-coche-nissan-gtr.jpg?width=1200",
+      "publishedAt": "2024-06-01T17:03:17Z",
+      "content": "Este truco que se ha viralizado puede ayudarte a encontrar tu coche en grandes aparcamientos | Fotografía de Pexels\r\nVas a un enorme centro comercial, dejas el coche en un aparcamiento aún más grande… [+3154 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Androidsis.com"
+      },
+      "author": "Nerea Pereira",
+      "title": "Cómo escuchar Spotify en el coche sin Bluetooth y más opciones",
+      "description": "Spotify es la aplicación de música por antonomasia, así que es normal que quieras disfrutar de tus canciones preferidas mientras...",
+      "url": "https://www.androidsis.com/como-escuchar-spotify-en-el-coche/",
+      "urlToImage": "https://www.androidsis.com/wp-content/uploads/2024/05/como-escuchar-spotify-en-el-coche-scaled.webp",
+      "publishedAt": "2024-05-12T19:44:41Z",
+      "content": "Spotify es la aplicación de música por antonomasia, así que es normal que quieras disfrutar de tus canciones preferidas mientras conduces. ¿Quieres saber cómo escuchar Spotify en el coche? Te contamo… [+6242 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Muycomputer.com"
+      },
+      "author": "David Salces",
+      "title": "Spotify reembolsará las compras de Car Thing",
+      "description": "Bien está lo que bien acaba y, aunque apuntaba a no acabar bien, finalmente Spotify le ha dado un final digno a Car Thing. O, bueno, no al dispositivo, sino a los usuarios del dispositivo, pues lo que pretendía convertirse en un revolucionario reproductor de …",
+      "url": "https://www.muycomputer.com/2024/05/31/spotify-reembolsara-las-compras-de-car-thing/",
+      "urlToImage": "https://www.muycomputer.com/wp-content/uploads/2024/05/Spotify-1-1-1000x600.jpg",
+      "publishedAt": "2024-05-31T18:35:51Z",
+      "content": "Bien está lo que bien acaba y, aunque apuntaba a no acabar bien, finalmente Spotify le ha dado un final digno a Car Thing. O, bueno, no al dispositivo, sino a los usuarios del dispositivo, pues lo qu… [+2921 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elespanol.com"
+      },
+      "author": "Ramón Varela",
+      "title": "F1 Manager 2024 pone fecha al lanzamiento y muestra gameplay en vídeo",
+      "description": "<!--cache-->Gestiona una escudería y llévala a lo más alto con la nueva edición de F1 Manager, el juego desarrollado por Frontier Developments.<!--aa--->Frontier Developments ha anunciado que el juego de gestión oficial de Fórmula 1, F1 Manager 2024, estará d…",
+      "url": "https://vandal.elespanol.com/noticia/1350771326/f1-manager-2024-pone-fecha-al-lanzamiento-y-muestra-gameplay-en-video/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/5/5-2024/16/202451610154153_1.jpg",
+      "publishedAt": "2024-05-16T08:18:00Z",
+      "content": "Frontier Developments ha anunciado que el juego de gestión oficial de Fórmula 1, F1 Manager 2024, estará disponible el 23 de julio en PlayStation 5, Xbox Series, PC, PlayStation 4 y Xbox One. Os most… [+1221 chars]"
+    },
+    {
+      "source": {
+        "id": "rt",
+        "name": "RT"
+      },
+      "author": "RT en Español\n , RT en Español",
+      "title": "'Yeezy Cybertruck': la verdad sobre el coche futurista de Tesla y Kanye West",
+      "description": "La noticia surgió tras un video viral en redes sociales que aseguraba que el vehículo colaborativo se vendería por 1,2 millones de dólares y que solo se fabricarían tres ejemplares.",
+      "url": "https://actualidad.rt.com/viral/510962-yeezy-cybertruck-verdad-coche-futurista-tesla-kanye-west",
+      "urlToImage": "https://mf.b37mrtl.ru/actualidad/public_images/2024.05/article/66558fb9e9ff71745c4c83ce.jpg",
+      "publishedAt": "2024-05-28T08:53:55Z",
+      "content": "La semana pasada circularon en redes sociales rumores sobre la fabricación de una Cybertruck en colaboración con la línea de ropa Yeezy del rapero estadounidense Kanye West, conocido como Ye.\r\nLa not… [+1536 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Muycomputer.com"
+      },
+      "author": "David Salces",
+      "title": "El lamentable final de Spotify Car Thing",
+      "description": "Spotify es, por méritos propios, el servicio de música en streaming más empleado en el mundo. Es cierto que ya no ejerce la supremacía de antaño, pues otros servicios como Apple Music, Prime Music y los ofrecidos por Tencent Music para el mercado chino han id…",
+      "url": "https://www.muycomputer.com/2024/05/24/el-lamentable-final-de-spotify-car-thing/",
+      "urlToImage": "https://www.muycomputer.com/wp-content/uploads/2024/05/Spotify-1-1000x600.jpg",
+      "publishedAt": "2024-05-24T16:03:53Z",
+      "content": "Spotify es, por méritos propios, el servicio de música en streaming más empleado en el mundo. Es cierto que ya no ejerce la supremacía de antaño, pues otros servicios como Apple Music, Prime Music y … [+3166 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Humberto Gutiérrez",
+      "title": "El Corvette E-Ray 3LZ, el híbrido de tracción total, es el Pace Car de la Indy 500",
+      "description": "Desde el año 2002 Chevrolet ha sido el fabricante seleccionado para presentar el Pace Car de las 500 Millas de Indianápolis y en esta ocasión tendrá en el Corvette E-Ray 3LZ al coche que liderará la parrilla de 33 monoplazas el venidero domingo 26 del mes en …",
+      "url": "https://www.diariomotor.com/competicion/noticia/el-corvette-e-ray-3lz-el-hibrido-de-traccion-total-es-el-pace-car-de-la-indy-500/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/Chevrolet-Corvette-E-Ray-3LZ_P3_2024.jpg",
+      "publishedAt": "2024-05-09T12:15:23Z",
+      "content": "Desde el año 2002 Chevrolet ha sido el fabricante seleccionado para presentar el Pace Car de las 500 Millas de Indianápolis y en esta ocasión tendrá en el Corvette E-Ray 3LZ al coche que liderará la … [+1257 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Trendencias.com"
+      },
+      "author": "Joel Calata",
+      "title": "Hay famosos a los que Ferrari les ha prohibido comprar sus autos, y Justin Bieber y Kim Kardashian encabezan esa lista",
+      "description": "Bien dicen que el amor y el dinero no se pueden esconder: se presumen a todo el mundo y, cuando hay de sobra, lo mejor es que todos se enteren, sin embargo, para las celebridades es un poco diferente, y es que, cuando creen que el dinero todo lo puede comprar…",
+      "url": "https://www.trendencias.com/celebrities/hay-famosos-a-que-ferrari-les-ha-prohibido-comprarse-sus-autos-justin-bieber-kim-kardashian-encabezan-esa-lista",
+      "urlToImage": "https://i.blogs.es/d36e70/desktop/840_560.jpeg",
+      "publishedAt": "2024-05-27T16:54:00Z",
+      "content": "Bien dicen que el amor y el dinero no se pueden esconder: se presumen a todo el mundo y, cuando hay de sobra, lo mejor es que todos se enteren, sin embargo, para las celebridades es un poco diferente… [+3128 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elespanol.com"
+      },
+      "author": "Saúl González",
+      "title": "Gran Turismo 7 se actualiza con el regreso de una emblemática marca de coches y un modelo campeón de campeones",
+      "description": "Plyphony Digital ha detallado el contenido que llegará con la próxima actualización de su videojuego que recibirá nuevos coches, circuitos y otras novedades para mejorar su experiencia.<!--aa--->Hace ya más de dos años que los jugadores de la marca PlayStatio…",
+      "url": "https://vandal.elespanol.com/noticia/1350771666/gran-turismo-7-se-actualiza-con-el-regreso-de-una-emblematica-marca-de-coches-y-un-modelo-campeon-de-campeones/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/5/5-2024/29/202452917492598_1.jpg",
+      "publishedAt": "2024-05-29T15:50:00Z",
+      "content": "Hace ya más de dos años que los jugadores de la marca PlayStation están disfrutando de Gran Turismo 7, la última entrega de una de las sagas de videojuegos de conducción más famosas de todos los tiem… [+1346 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finofilipino.org"
+      },
+      "author": "Fino",
+      "title": "Imagina que empieza a llover fuerte y te pilla descapotado…",
+      "description": "Amazing Car pic.twitter.com/TanyM1R09n — The Best (@ThebestFigen) May 3, 2024 [Ver vídeo en X] Para cuando terminas puedes usar el coche de piscina.\nVer post completo: Imagina que empieza a llover fuerte y te pilla descapotado…",
+      "url": "https://finofilipino.org/imagina-que-empieza-a-llover-fuerte-y-te-pilla-descapotado/",
+      "urlToImage": "https://finofilipino.org/wp-content/uploads/2024/05/ertewferthrtyjrytuj.jpg",
+      "publishedAt": "2024-05-12T10:00:29Z",
+      "content": "En el norte de Tailandia, afectado por la sequía, los habitantes de un pueblo llevaron a cabo un ritual para invocar la lluvia, utilizando un peluche del popular Doraemon como sustituto del tradicion… [+271 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "La gesta del Club Amigos del Rugby de Sevilla, campeón de España en Valladolid",
+      "description": "No sólo de fútbol vive el deporte sevillano, que en otras disciplinas también destaca sobremanera, como en el rugby, gracias al gran trabajo que los clubes de la capital y la provincia hacen con miles de niños de manera altruista. El rugby, de indisimulable e…",
+      "url": "https://www.abc.es/deportes/gesta-club-amigos-rugby-sevilla-campeon-espana-20240513180033-nt.html",
+      "urlToImage": "https://s2.abcstatics.com/abc/www/multimedia/deportes/2024/05/13/car-rugby-espana-U30524534085Nft-1024x512@diario_abc.JPG",
+      "publishedAt": "2024-05-13T16:00:33Z",
+      "content": "No sólo de fútbol vive el deporte sevillano, que en otras disciplinas también destaca sobremanera, como en el rugby, gracias al gran trabajo que los clubes de la capital y la provincia hacen con mile… [+3066 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xataka.com"
+      },
+      "author": "Alberto de la Torre",
+      "title": "Renault tiene claro cómo debe ser el robotaxi del futuro. Ya tiene uno preparado y nos hemos subido",
+      "description": "El Technocentro de Renault es el corazón de la compañía. Allí, en un espacio situado a unos pocos minutos en coche desde Versalles (aunque en París los minutos en coche avanzan, generalmente, mucho más despacio de lo que estamos acostumbrados) confluyen 9.000…",
+      "url": "https://www.xataka.com/movilidad/renault-tiene-claro-como-debe-ser-robotaxi-futuro-tiene-uno-preparado-nos-hemos-subido",
+      "urlToImage": "https://i.blogs.es/52a5a3/img_4858/840_560.jpeg",
+      "publishedAt": "2024-05-15T06:01:57Z",
+      "content": "El Technocentro de Renault es el corazón de la compañía. Allí, en un espacio situado a unos pocos minutos en coche desde Versalles (aunque en París los minutos en coche avanzan, generalmente, mucho m… [+13265 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Javier Montoro",
+      "title": "Parece una inocentada, pero el nuevo Safety Car de la Fórmula E es casi tan rápido como un Fórmula E (al menos en las rectas)",
+      "description": "La Fórmula E es la categoría de monoplazas eléctricos de la Federación Internacional del Automóvil y, como cualquier competición de este tipo, cuenta con un Safery Car o coche de seguridad oficial. Desde el año 2022, el modelo encargado de esta tarea es el Po…",
+      "url": "https://www.diariomotor.com/noticia/nuevo-safety-car-formula-e-2024-porsche-taycan-turbo-gt/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/SAFETY_CAR_FORMULA_E_2024_7.jpg",
+      "publishedAt": "2024-05-09T13:00:01Z",
+      "content": "La Fórmula E es la categoría de monoplazas eléctricos de la Federación Internacional del Automóvil y, como cualquier competición de este tipo, cuenta con un Safery Car o coche de seguridad oficial. D… [+3171 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sopitas.com"
+      },
+      "author": "Daniela Bárcenas",
+      "title": "“Soñábamos con algún Safety Car que nos regresara a la pelea”: Checo Pérez sobre el Gran Premio de Imola",
+      "description": "Checo Pérez sufrió bastante durante el fin de semana del Gran Premio de Imola. Por primera vez en la temporada se quedó fuera de la Q2...\nThe post “Soñábamos con algún Safety Car que nos regresara a la pelea”: Checo Pérez sobre el Gran Premio de Imola appeare…",
+      "url": "https://www.sopitas.com/deportes/checo-perez-que-paso-gran-premio-imola-f1-podio-resultado/",
+      "urlToImage": "https://www.sopitas.com/wp-content/uploads/2024/05/checo-perez-gp-imola.jpeg",
+      "publishedAt": "2024-05-19T15:39:23Z",
+      "content": "Lo que necesitas saber: \r\nCheco Pérez cayó del segundo al tercer lugar en el campeonato de pilotos con 107 puntos, detrás de Max Verstappen y Charles Leclerc.\r\nCheco Pérez sufrió bastante durante el … [+2586 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Emmanuel Jiménez",
+      "title": "El lujo no tiene por qué ser elegante, también puede ser brutal: así lo demuestra este muscle car con motor de 1.000 CV, el look de un Challenger vintage y equipado con últimas tecnologías",
+      "description": "Al hablar de vehículos lujosos fácilmente uno piensa en Rolls Royce o Bentley. Algo menos «clásicos» podrían ser los más deportivos Bugatti, Lamborghini o McLaren. Sin embargo, el lujo también puede disfrazarse de muscle car. Y así lo demuestra esta versión m…",
+      "url": "https://www.diariomotor.com/noticia/exomod-ascent-blue-angel-dodge/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/Exomod-Ascend-Blue-Angel-4.webp",
+      "publishedAt": "2024-05-12T11:00:15Z",
+      "content": "Al hablar de vehículos lujosos fácilmente uno piensa en Rolls Royce o Bentley. Algo menos «clásicos» podrían ser los más deportivos Bugatti, Lamborghini o McLaren. Sin embargo, el lujo también puede … [+3205 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Javier Montoro",
+      "title": "El Salón del Automóvil de Madrid ahora se llama Madrid Car Experience y reunirá las novedades del sector esta misma semana",
+      "description": "El Salón del Automóvil de Madrid, que se alterna bianualmente con el de Barcelona, ha cambiado su denominación a Madrid Car Experience en 2024. Esta exposición nacional, que contará con las últimas novedades de casi una treintena de marcas, tendrá lugar en IF…",
+      "url": "https://www.diariomotor.com/noticia/madrid-car-experience-2024-salon-automovil/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/madrid-car-experience-2024-vehiculos-expuestos-1071555.jpg",
+      "publishedAt": "2024-05-20T15:00:56Z",
+      "content": "El Salón del Automóvil de Madrid, que se alterna bianualmente con el de Barcelona, ha cambiado su denominación a Madrid Car Experience en 2024. Esta exposición nacional, que contará con las últimas n… [+2722 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "David Durán",
+      "title": "¿El Dark Horse te parece poco? He aquí su versión Hennessey con 850 caballos",
+      "description": "Hennessey ha revelado las cifras de su interpretación del Ford Mustang Dark Horse, la versión de altas prestaciones del icónico pony car que sirve como antesala del brutal Mustang GTD basado en las versiones de competición. El ‘tratamiento Hennessey’, partien…",
+      "url": "https://www.diariomotor.com/noticia/hennessey-ford-mustang-dark-horse/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/hennessey-h850-mustang-dark-horse-1072513.jpg",
+      "publishedAt": "2024-05-23T09:34:56Z",
+      "content": "Hennessey ha revelado las cifras de su interpretación del Ford Mustang Dark Horse, la versión de altas prestaciones del icónico pony car que sirve como antesala del brutal Mustang GTD basado en las v… [+2678 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Javier Montoro",
+      "title": "¿Vives en Galicia o estás cerca? No te pierdas la mayor concentración de Renault Sport y Alpine, tanto clásicos como modernos",
+      "description": "El Madrid Car Experience 2024 no es el único evento del motor al que puedes acudir en España durante el último fin de semana de este mes de mayo. Rodosa, el concesionario oficial de Renault en Vigo, ha organizado un domingo de ensueño para los amantes de los …",
+      "url": "https://www.diariomotor.com/noticia/vives-en-galicia-o-estas-cerca-no-te-pierdas-la-mayor-concentracion-de-renault-sport-y-alpine-tanto-clasicos-como-modernos/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/rodosa-collection-day-galicia-1072192.jpg",
+      "publishedAt": "2024-05-23T13:00:11Z",
+      "content": "El Madrid Car Experience 2024 no es el único evento del motor al que puedes acudir en España durante el último fin de semana de este mes de mayo. Rodosa, el concesionario oficial de Renault en Vigo, … [+1787 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Ni Steve Jobs, ni Tim Cook. Sólo hay una persona en Apple que tiene este curioso premio a su trayectoria en la compañía",
+      "description": "Pasar casi 50 años en una empresa, ya es todo un logro. Pasarlos años en una gran empresa, más. Si encima esa compañía es Apple, todo cobra aún más relevancia. Y más cuando supone haber resistido hasta siete CEOs. Desde el oficialmente primer CEO de Apple, Mi…",
+      "url": "https://www.applesfera.com/curiosidades/steve-jobs-tim-cook-solo-hay-persona-apple-que-tiene-este-curioso-premio-a-su-trayectoria-compania",
+      "urlToImage": "https://i.blogs.es/67bd19/9to5mac/840_560.jpeg",
+      "publishedAt": "2024-05-23T11:01:30Z",
+      "content": "Pasar casi 50 años en una empresa, ya es todo un logro. Pasarlos años en una gran empresa, más. Si encima esa compañía es Apple, todo cobra aún más relevancia. Y más cuando supone haber resistido has… [+4314 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "ALBERTO R. BARBERO",
+      "title": "Escalada de copago: \"Después de la medalla, todo ha ido a peor\"",
+      "description": "Un amplio grupo de deportistas convocados por la Federación para competiciones internacionales tiene que abonar sus propios viajes por falta de recursos, según la explicación oficial  Leer",
+      "url": "https://www.marca.com/primera-plana/2024/05/14/663e387546163f9d8d8b45a4.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/7bc16c0163f61368c87d1af2ec7f2204/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/10/17153537411374.jpg",
+      "publishedAt": "2024-05-14T04:08:56Z",
+      "content": "\"¡Hola! Somos deportistas madrileños de escalada de velocidad. Hemos sido seleccionados por la Federación Española de Deportes de Montaña y Escalada (FEDME) para ir al circuito internacional de compe… [+9872 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Este es el accesorio que utilizo para cocinar con el iPhone al lado y sacarle todo el partido",
+      "description": "Hace tiempo que me quise poner en serio con eso de cocinar y que vi en el iPhone mi mejor aliado, ya sea para ver recetas en texto o en vídeo. Sin embargo, como en toda cocina que se precie, hay riesgo de que el iPhone se ensucie e incluso pueda romperse por …",
+      "url": "https://www.applesfera.com/accesorios/este-accesorio-que-utilizo-para-cocinar-iphone-al-lado-sacarle-todo-partido",
+      "urlToImage": "https://i.blogs.es/3dbe34/accesorio-iphone-1/840_560.jpeg",
+      "publishedAt": "2024-06-02T15:01:55Z",
+      "content": "Hace tiempo que me quise poner en serio con eso de cocinar y que vi en el iPhone mi mejor aliado, ya sea para ver recetas en texto o en vídeo. Sin embargo, como en toda cocina que se precie, hay ries… [+2683 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elespanol.com"
+      },
+      "author": "Ramón Varela",
+      "title": "GTA Online trae esta semana bonificaciones en Superyate, plantas de peyote y más",
+      "description": "<!--cache-->El multijugador de Grand Theft Auto 5 se actualiza una semana más con diversas recompensas, novedades en concesionario y otros beneficios.<!--aa--->GTA Online, el popular multijugador de Grand Theft Auto 5, se actualiza una semana más con diversas…",
+      "url": "https://vandal.elespanol.com/noticia/1350771185/gta-online-trae-esta-semana-bonificaciones-en-superyate-plantas-de-peyote-y-mas/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/5/5-2024/10/20245109582342_1.jpg",
+      "publishedAt": "2024-05-10T08:01:00Z",
+      "content": "GTA Online, el popular multijugador de Grand Theft Auto 5, se actualiza una semana más con diversas novedades, incluyendo doble de recompensas en Superyate y una bonificación de 100.000 GTA$ por comp… [+3805 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Marketingdirecto.com"
+      },
+      "author": "Redacción",
+      "title": "Xiaomi TV+ elige a Smartclip como socio preferente para su inventario de CTV en España",
+      "description": "Xiaomi colabora con Smartclip para ofrecer a los anunciantes acceso prioritario al inventario de los canales FAST en España, reforzando así su posición en el mercado de la publicidad digital.\nLa entrada Xiaomi TV+ elige a Smartclip como socio preferente para …",
+      "url": "https://www.marketingdirecto.com/marketing-general/publicidad/xiaomi-elige-smartclip-socio-preferente",
+      "urlToImage": "https://www.marketingdirecto.com/wp-content/uploads/2024/06/Diseno-sin-titulo-2024-06-03T162724.853.jpg",
+      "publishedAt": "2024-06-04T07:30:00Z",
+      "content": "Xiaomi colabora con Smartclip para ofrecer a los anunciantes acceso prioritario al inventario de los canales FAST en España, reforzando así su posición en el mercado de la publicidad digital.Xiaomi, … [+4417 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elespanol.com"
+      },
+      "author": "Sara Borondo",
+      "title": "Exhibición de vehículos de lujo Dewbauchee esta semana en GTA Online, nuevas series de la comunidad y más",
+      "description": "<!--cache-->El multijugador de Grand Theft Auto 5 trae esta semana la pasión por el lujo británico con los vehículos Dewbauchee con recompensas de ropa de la marca y nuevas series de la comunidad.La actividad de Grant Theft Auto Online esta semana gira en tor…",
+      "url": "https://vandal.elespanol.com/noticia/1350771535/exhibicion-de-vehiculos-de-lujo-dewbauchee-esta-semana-en-gta-online-nuevas-series-de-la-comunidad-y-mas/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/5/5-2024/24/2024524104008_1.jpg",
+      "publishedAt": "2024-05-24T08:49:00Z",
+      "content": "La actividad de Grant Theft Auto Online esta semana gira en torno al lujo británico, con una serie de vehículos Dewbauchee disponibles para probar y comprar con grandes descuentos en los concesionari… [+6152 chars]"
+    },
+    {
+      "source": {
+        "id": "el-mundo",
+        "name": "El Mundo"
+      },
+      "author": "EL MUNDO",
+      "title": "Doce profesionales sanitarios premiados por Diario Médico y Correo Farmacéutico en la cuarta edición de 'Admirables'",
+      "description": "Desde el área de Salud de Unidad Editorial, a través de sus publicaciones líderes Diario Médico y Correo Farmacéutico, se han entregado esta tarde los Premios Admirables 2024,...",
+      "url": "https://www.elmundo.es/ciencia-y-salud/salud/2024/05/21/664ce7e6e4d4d882728b4593.html",
+      "urlToImage": "https://phantom-elmundo.unidadeditorial.es/bdcaac16107cec247da73815eaa6893e/crop/0x0/3072x2048/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/21/17163161732176.jpg",
+      "publishedAt": "2024-05-21T19:26:10Z",
+      "content": "Desde el área de Salud de Unidad Editorial, a través de sus publicaciones líderes Diario Médico y Correo Farmacéutico, se han entregado esta tarde los Premios Admirables 2024, unos galardones que rec… [+4786 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Expansion.com"
+      },
+      "author": "Daniel G. Lifona",
+      "title": "Madrid Car Experience: la fiesta del automóvil llega a Madrid",
+      "description": "Un año más, Madrid se ha convertido por unos días en la capital mundial del automóvil gracias a Madrid Car Experience, la mayor plataforma de promoción de los vehículos eléctricos, híbridos e híbridos enchufables en España. Cerca de 30 marcas presentan, desde…",
+      "url": "https://www.expansion.com/empresas/motor/album/2024/05/24/665049ab468aebb2538b45ba.html",
+      "urlToImage": "https://phantom-expansion.unidadeditorial.es/dfb31ce75d80a0bf095061bf8f36bbac/crop/646x0/1942x848/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/24/17165364620269.jpg",
+      "publishedAt": "2024-05-24T08:03:20Z",
+      "content": "Por:Daniel G. Lifona\r\nActualizado:\r\n24-05-202410:03 horas\r\nUn año más, Madrid se ha convertido por unos días en la capital mundial del automóvil gracias a Madrid Car Experience, la mayor plataforma d… [+263 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "Joaquín se confiesa con Ángel Gaitán: «Tengo un coche híbrido por la etiqueta, si no me daría igual»",
+      "description": "El ex jugador bético Joaquín Sánchez se ha confesado en un vídeo de Tik Tok con el empresario Ángel Gaitán apuntando que «tengo un coche híbrido por la etiqueta, si no me daría igual. En la cuenta de la red social, ambos hablan sobre los vehículos eléctricos …",
+      "url": "https://www.abc.es/motor/sevilla/joaquin-confiesa-angel-gaitan-coche-hibrido-etiqueta-20240510172741-nts.html",
+      "urlToImage": "https://s2.abcstatics.com/abc/www/multimedia/sevilla/2024/05/10/angel-gaitan-joaquin_20240510164502-U54444382208eBE-1024x512@diario_abc.JPG",
+      "publishedAt": "2024-05-10T15:29:01Z",
+      "content": "El ex jugador bético Joaquín Sánchez se ha confesado en un vídeo de Tik Tok con el empresario Ángel Gaitán apuntando que «tengo un coche híbrido por la etiqueta, si no me daría igual. En la cuenta de… [+1361 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "Fernando M. Carreño",
+      "title": "Biosuit TEM Project: El triatlón tiene un traje con 'poderes'",
+      "description": "Desarrollado por la FETRI, Austral y Wiemspro',&nbsp; 'lee' y ayuda en tiempo real al deportista con Inteligencia artificial y electroestimulación  Leer",
+      "url": "https://www.marca.com/triatlon/2024/05/14/biosuit-tem-project-triatlon-traje-poderes.html",
+      "urlToImage": "https://e00-xlk-ue-marca.uecdn.es/files/phantom_desktop_1200w/uploads/2024/05/14/064c4e7d6164ae5fd7bf12c3c2d17c57.jpeg",
+      "publishedAt": "2024-05-14T09:03:48Z",
+      "content": "El fin último del entrenamiento consiste en que quien lo realiza pueda practicar una actividad manteniendo el máximo nivel el mayor tiempo posible. El entrenamiento es, también, una parte de esa acti… [+5977 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Adslzone.net"
+      },
+      "author": "Justo Romanos",
+      "title": "Un Chromecast en Android Auto es la nueva idea de Google para tu coche",
+      "description": "Google tiene grandes planes para Android Auto y uno de ellos consiste en introducir un Chromecast directamente en tu vehículo. ¿Te imaginas las posibilidades? La compañía tiene muy claro que aprovechar su tecnología y ofrecerte más posibilidades en el coche e…",
+      "url": "https://www.adslzone.net/e-movilidad/noticias-en-marcha/chromecast-android-auto-nueva-idea-google-coche-0524/",
+      "urlToImage": "https://www.adslzone.net/app/uploads-adslzone.net/2024/05/Android-Auto-novedades-Angry-Birds.jpg",
+      "publishedAt": "2024-05-16T16:30:20Z",
+      "content": "Como seguro que ya sabes, Google lleva varios días en los que no para de anunciar novedades para sus principales servicios. Android Auto, como no podía ser de otra forma, también tiene su propia raci… [+3777 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "Un empresario de Huelva se enfrenta a tres años de prisión por usar 300.000 euros de los ERE para «pagar nóminas»",
+      "description": "Está acusado de un delito de prevaricación en concurso con un delito de malversación de caudales públicos, derivado de los 300.000 euros recibidos por su empresa de concesionarios de coches para «pagar nóminas» adeudadas a la plantilla, mediante el mecanismo …",
+      "url": "https://www.abc.es/espana/andalucia/gestor-concesionarios-huelva-enfrenta-tres-anos-prision-20240606135626-nts.html",
+      "urlToImage": "https://s1.abcstatics.com/abc/www/multimedia/espana/2024/06/06/audiencia-sevilla-U01772101785nki-1024x512@diario_abc.jpg",
+      "publishedAt": "2024-06-06T11:59:49Z",
+      "content": "Está acusado de un delito de prevaricación en concurso con un delito de malversación de caudales públicos, derivado de los 300.000 euros recibidos por su empresa de concesionarios de coches para «pag… [+4298 chars]"
+    },
+    {
+      "source": {
+        "id": "rt",
+        "name": "RT"
+      },
+      "author": "RT en Español\n , RT en Español",
+      "title": "\"¡Eres un puto idiota!\": De Niro explota tras ser abucheado e insultado por partidarios de Trump",
+      "description": "Durante un evento realizado frente al tribunal donde se celebraba el juicio contra el exmandatario, De Niro lo llamó \"bufón\", \"payaso\", \"pecador\" y \"playboy de poca monta\", y se enfrentó a la ira de sus partidarios.",
+      "url": "https://actualidad.rt.com/actualidad/511054-puto-idiota-deniro-explota-abucheado",
+      "urlToImage": "https://mf.b37mrtl.ru/actualidad/public_images/2024.05/article/66565c8be9ff7113023d7446.jpg",
+      "publishedAt": "2024-05-28T23:35:54Z",
+      "content": "El octogenario actor estadounidense Robert De Niro encabezó este martes una tumultuosa conferencia de prensa frente al tribunal de Manhattan, Nueva York, donde la defensa del expresidente Donald Trum… [+2445 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mundodeportivo.com"
+      },
+      "author": "Marta Pérez González",
+      "title": "El deporte catalán presenta a sus preseleccionados para los Juegos Paralímpicos",
+      "description": "El CAR de Sant Cugat ha acogido este martes el acto de presentación de los deportistas catalanes que participarán en los Juegos Paralímpicos de París 2024. En procesos clasificatorios que siguen todavía en marcha, ya son cuarenta y cuatro los deportistas pres…",
+      "url": "https://www.mundodeportivo.com/juegos-olimpicos/20240521/1002250699/deporte-catalan-presenta-preseleccionados-juegos-paralimpicos-paris-2024.html",
+      "urlToImage": "https://www.mundodeportivo.com/files/og_thumbnail/uploads/2024/05/21/664c99f11de5a.jpeg",
+      "publishedAt": "2024-05-21T12:32:33Z",
+      "content": "El CAR de Sant Cugat ha acogido este martes el acto de presentación de los deportistas catalanes que participarán en los Juegos Paralímpicos de París 2024. En procesos clasificatorios que siguen toda… [+7109 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Quiso comprar una de las reliquias más exclusivas de Apple, pagó casi 1.000 dólares por ella y acabó con un trozo de cartón en el bolsillo",
+      "description": "Las reliquias de Apple no son sólo sus viejos dispositivos que se subastan por un dineral. También encontramos otros más particulares como viejas mochilas que también valen una fortuna e incluso tarjetas de empleado. No la tarjeta del mismísimo Steve Jobs, pe…",
+      "url": "https://www.applesfera.com/curiosidades/quiso-comprar-reliquias-exclusivas-apple-pago-casi-1-000-dolares-ella-acabo-trozo-carton-bolsillo",
+      "urlToImage": "https://i.blogs.es/5e10cd/estafa/840_560.png",
+      "publishedAt": "2024-05-22T15:01:21Z",
+      "content": "Las reliquias de Apple no son sólo sus viejos dispositivos que se subastan por un dineral. También encontramos otros más particulares como viejas mochilas que también valen una fortuna e incluso tarj… [+5216 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Álvaro García M.",
+      "title": "Cómo Steve Jobs convenció a Tim Cook de entrar en Apple: le bastaron cinco minutos... y una gigantesca subida de salario",
+      "description": "La persuasión de Steve Jobs es ya legendaria. No sólo para convencer al público de las virtudes de las decenas de productos de Apple, sino también para cerrar el fichaje de lo que para él eran grandes promesas para la compañía. Un ejemplo más el de cómo reclu…",
+      "url": "https://www.applesfera.com/curiosidades/como-steve-jobs-convencio-a-tim-cook-entrar-apple-le-bastaron-cinco-minutos-gigantesca-subida-salario",
+      "urlToImage": "https://i.blogs.es/1b9af2/steve-y-tim/840_560.jpeg",
+      "publishedAt": "2024-05-26T15:02:00Z",
+      "content": "La persuasión de Steve Jobs es ya legendaria. No sólo para convencer al público de las virtudes de las decenas de productos de Apple, sino también para cerrar el fichaje de lo que para él eran grande… [+4725 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finofilipino.org"
+      },
+      "author": "Fino",
+      "title": "Hay dos cosas que dan inicio al verano: el balconing, y el niño de la piscina de Teruel.",
+      "description": "Ver post completo: Hay dos cosas que dan inicio al verano: el balconing, y el niño de la piscina de Teruel.",
+      "url": "https://finofilipino.org/hay-dos-cosas-que-dan-inicio-al-verano-el-balconing-y-el-nino-de-la-piscina-de-teruel/",
+      "urlToImage": "https://finofilipino.org/wp-content/uploads/2024/05/wertfqedwwcrtegwerth.jpg",
+      "publishedAt": "2024-05-30T09:00:23Z",
+      "content": "Conectó por zoom mientras llegaba al juicio.NEW: Man with a suspended license joins court Zoom call while driving in his car.\r\nThis is the funniest video I've seen in a long time.\r\nJudge Cedric Simps… [+280 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finofilipino.org"
+      },
+      "author": "Fino",
+      "title": "Interceptan a un vehículo que se había dado a la fuga y, al verse acorralado, el conductor empieza a impactar contra otros coches y atropeIIa a uno de los policías.",
+      "description": "Esto ha ocurrido en #León, la #PolicíaLocal intercepta un vehículo que se había dado a la fuga. El conductor al verse atrapado comienza a embestir con el vehículo para tratar de abrir un hueco para seguir con la huida. En una de esas maniobras, el conductor a…",
+      "url": "https://finofilipino.org/interceptan-a-un-vehiculo-que-se-habia-dado-a-la-fuga-y-al-verse-acorralado-el-conductor-empieza-a-impactar-contra-otros-coches-y-atropeiia-a-uno-de-los-policias/",
+      "urlToImage": "https://finofilipino.org/wp-content/uploads/2024/05/werfqewdwertgertherfewwetrgwrgt.jpg",
+      "publishedAt": "2024-05-30T10:00:09Z",
+      "content": "Conectó por zoom mientras llegaba al juicio.NEW: Man with a suspended license joins court Zoom call while driving in his car.\r\nThis is the funniest video I've seen in a long time.\r\nJudge Cedric Simps… [+280 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finofilipino.org"
+      },
+      "author": "Fino",
+      "title": "Vayamos por partes, como dijo JAIME EL GAITERO.",
+      "description": "@dos_frente\nVer post completo: Vayamos por partes, como dijo JAIME EL GAITERO.",
+      "url": "https://finofilipino.org/vayamos-por-partes-como-dijo-jaime-el-gaitero/",
+      "urlToImage": "https://finofilipino.org/wp-content/uploads/2024/05/ftgdghwsertrtyjtyruk.jpg",
+      "publishedAt": "2024-05-30T09:30:02Z",
+      "content": "Conectó por zoom mientras llegaba al juicio.NEW: Man with a suspended license joins court Zoom call while driving in his car.\r\nThis is the funniest video I've seen in a long time.\r\nJudge Cedric Simps… [+280 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Finofilipino.org"
+      },
+      "author": "Fino",
+      "title": "Porcentaje de producción de electricidad renovable en el mundo.",
+      "description": "Ver post completo: Porcentaje de producción de electricidad renovable en el mundo.",
+      "url": "https://finofilipino.org/porcentaje-de-produccion-de-electricidad-renovable-en-el-mundo/",
+      "urlToImage": "https://finofilipino.org/wp-content/uploads/2024/05/asdfqererthrtyj.jpg",
+      "publishedAt": "2024-05-30T07:40:12Z",
+      "content": "Conectó por zoom mientras llegaba al juicio.NEW: Man with a suspended license joins court Zoom call while driving in his car.\r\nThis is the funniest video I've seen in a long time.\r\nJudge Cedric Simps… [+280 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "ALMUDENA RIVERA, RODOLFO ESPINOSA",
+      "title": "Adiaratou Iglesias, con un 20% de visión: \"El atletismo significa para mí mucho más que libertad\"",
+      "description": "&quot;No sé cómo hubiera sido mi vida si me hubiera quedado en Mali, sinceramente. Lo que sí sé es que no estaría haciendo atletismo o no hubiera estudiado porque ser albina me hub",
+      "url": "https://www.marca.com/paralimpicos/2024/05/27/664f27b1e2704edf9d8b459f.html",
+      "urlToImage": "https://ak.uecdn.es/p/110/thumbnail/entry_id/0_u01p4umt/width/657/type/2/bgcolor/000000/0_u01p4umt.jpg",
+      "publishedAt": "2024-05-27T08:53:31Z",
+      "content": "\"No sé cómo hubiera sido mi vida si me hubiera quedado en Mali, sinceramente. Lo que sí sé es que no estaría haciendo atletismo o no hubiera estudiado porque ser albina me hubiera cerrado muchísimas … [+5339 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mundodeportivo.com"
+      },
+      "author": "Autor Redacción",
+      "title": "BMW Serie 5, premio como mejor coche de Lujo 2024",
+      "description": "Más dinámico, con muchas innovaciones digitales, con un interior espacioso y, en la forma del BMW i5, con una transmisión totalmente eléctrica por 1ª vez, el nuevo BMW Serie 5 ha sido considerado por un jurado de expertos, por los World Car Awards, la novedad…",
+      "url": "https://www.mundodeportivo.com/ocio/coches/20240526/1002252876/bmw-serie-5-premio-mejor-coche-lujo-2024.html",
+      "urlToImage": "https://www.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2024/05/24/6650d2773002f.r_d.1305-1188-5859.jpeg",
+      "publishedAt": "2024-05-26T05:00:00Z",
+      "content": "Más dinámico, con muchas innovaciones digitales, con un interior espacioso y, en la forma del BMW i5, con una transmisión totalmente eléctrica por 1ª vez, el nuevo BMW Serie 5 ha sido considerado por… [+963 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Marketingdirecto.com"
+      },
+      "author": "Redacción",
+      "title": "iryo Summer Edition 2024: Más rutas y nuevas alianzas con Vectalia y GNV para conectar hasta 54 destinos este verano",
+      "description": "El primer operador privado español de Alta Velocidad, que hasta ahora conectaba 11 destinos entre sí, integrará desde este verano nuevas soluciones de viaje con tren, autobús,\nbarco y avión bajo el paraguas de su marca de multimodalidad ‘iryo Conecta’.\nLa ent…",
+      "url": "https://www.marketingdirecto.com/marketing-general/publicidad/iryo-summer-edition-rutas-alianzas-vectalia-gnv",
+      "urlToImage": "https://www.marketingdirecto.com/wp-content/uploads/2024/06/Diseno-sin-titulo-2024-06-05T094229.429.jpg",
+      "publishedAt": "2024-06-05T07:48:17Z",
+      "content": "El primer operador privado español de Alta Velocidad, que hasta ahora conectaba 11 destinos entre sí, integrará desde este verano nuevas soluciones de viaje con tren, autobús,\r\nbarco y avión bajo el … [+6911 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hipersonica.com"
+      },
+      "author": "Hipersónica",
+      "title": "La desastrosa gira de The Black Keys, el inútil aparato de Spotify, el doblaje de IA bochornoso de Amazon...",
+      "description": "...y otras noticias y playlists con las que ponerse al día",
+      "url": "https://www.hipersonica.com/p/la-desastrosa-gira-de-the-black-keys",
+      "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35acd7d4-70c8-4d74-8481-2c2c675338f4_1772x409.png",
+      "publishedAt": "2024-05-27T05:02:04Z",
+      "content": "¡Valladolid, buenos días!\r\nAntes de empezar, la dosis de post sólo para suscriptores del finde:\r\nPara empezar el lunes, la ración de las canciones y jitazos de la semana ya está actualizada en la pla… [+3372 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Reforma.com"
+      },
+      "author": "Grupo REFORMA",
+      "title": "Afirma ex guardaespaldas ver a 'Diddy' golpear a ex parejas",
+      "description": "El ex guardaespaldas de Sean 'Diddy' Combs, Roger Bonds, afirmó haber visto al rapero golpear a sus ex parejas Cassie Ventura y Kim Porter.",
+      "url": "https://www.reforma.com/afirma-ex-guardaespaldas-ver-a-diddy-golpear-a-ex-parejas/ar2811209",
+      "urlToImage": "https://reforma.com/aplicacioneslibre/compartir/ImageTransformer.aspx?img=https://img.gruporeforma.com/imagenes/960x640/6/727/5726604.jpg&wm=1&ang=0",
+      "publishedAt": "2024-05-21T16:53:22Z",
+      "content": "Diddy's former bodyguard, Roger Bonds, says he witnessed Diddy act violently towards Cassie and Kim Porter 4 to 5 times and details a situation where Diddy smacked Kim Porter in a car at the Beverly … [+114 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Clipset.com"
+      },
+      "author": "mixx.io",
+      "title": "Metiendo máquinas en todas partes",
+      "description": "Investigan la privacidad de Windows Recall / Responder llamadas con tu voz sintética / Wikimedia quiere que los Gepetés paguen / Regulador español quiere separar humanos de máquinas / Spotify mata Car Thing / Novedades en Waze\nEste interesante post Metiendo m…",
+      "url": "https://clipset.com/metiendo-maquinas-en-todas-partes/",
+      "urlToImage": "https://clipset.com/wp-content/uploads/2024/05/diario-2024-05-27-youtube.jpg",
+      "publishedAt": "2024-05-27T07:28:10Z",
+      "content": "Suscríbete a mixx.io y recibe un email con los mejores enlaces tecnológicos del día.\r\nWikimedia licenciará su contenido en tiempo real para entrenar LLMs. Un API que ofrecerán a partir de 100.000$ al… [+3830 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Blogdechollos.com"
+      },
+      "author": "José Almazán",
+      "title": "California Scents, ambientador de coche Coronado Cherry, olor piruleta de cereza, pack de 4 – 12.43€ – 37%",
+      "description": "Para adquirir el producto a un precio promocionado, debes **SELECCIONAR COMPRA RECURRENTE**.El ambientador de coche California Scents Car con fragancia a Coronado Cherry es una opción que se destaca por su olor intenso y duradero, proporcionando un aroma que …",
+      "url": "https://www.blogdechollos.com/california-scents-ambientador-de-coche-coronado-cherry-olor-piruleta-de-cereza-pack-de-4-12-43e-37/",
+      "urlToImage": "https://www.blogdechollos.com/wp-content/uploads/2024/06/california-scents-ambientador-de-coche-coronado-cherry-olor-piruleta-de-cereza-pack-de-4-12-43e-37.png",
+      "publishedAt": "2024-06-07T08:09:46Z",
+      "content": "Para adquirir el producto a un precio promocionado, debes **SELECCIONAR COMPRA RECURRENTE**.\r\nEl ambientador de coche California Scents Car con fragancia a Coronado Cherry es una opción que se destac… [+3639 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Expansion.com"
+      },
+      "author": "CARLOS DRAKE",
+      "title": "La venta de coches sube por el 'rent a car', pero el eléctrico frena",
+      "description": "El canal de las empresas de alquiler de vehículos es el que está sosteniendo el mercado automovilístico español en lo que va de año. Sin contar con este canal, las...",
+      "url": "https://www.expansion.com/empresas/motor/2024/06/04/665e0adb468aeb6a7b8b45b0.html",
+      "urlToImage": "https://phantom-expansion.unidadeditorial.es/9ca629b9ead5a8492c30f79960ff00aa/resize/1200/f/webp/assets/multimedia/imagenes/2023/07/20/16898760501660.jpg",
+      "publishedAt": "2024-06-03T22:01:43Z",
+      "content": "El mercado automovilístico español crece un 7%, impulsado por el avance del 45% del canal alquilador.El canal de las empresas de alquiler de vehículos es el que está sosteniendo el mercado automovilí… [+349 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Publico.es"
+      },
+      "author": "eldiariocantabria.es",
+      "title": "Alberto de Mónaco visitará en las próximas dos semanas el Centro de Arte Rupestre de Cantabria",
+      "description": "El príncipe Alberto II de Mónaco visitará este mes el Centro de Arte Rupestre (CAR) de Cantabria (Puente Viesgo), denominado como su tatarabuelo, Alberto I de Mónaco, para ver acabado el centro, tras no poder acudir en enero, por problemas de...",
+      "url": "https://eldiariocantabria.publico.es/articulo/politica/alberto-monaco-visitara-proximas-semanas-centro-arte-rupestre-cantabria/20240514172110156638.html",
+      "urlToImage": "https://eldiariocantabria.publico.es/media/eldiariocantabria/images/2024/05/14/2024051417202092815.jpg",
+      "publishedAt": "2024-05-14T15:21:10Z",
+      "content": "El príncipe Alberto II de Mónaco visitará este mes el Centro de Arte Rupestre (CAR) de Cantabria (Puente Viesgo), denominado como su tatarabuelo, Alberto I de Mónaco, para ver acabado el centro, tras… [+1633 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "Telva Somoza",
+      "title": "El renovado Ford Mustang se queda sin rivales con su V8 y cambio manual",
+      "description": "Es complicado expresar en palabras el alma que esconden máquinas que trascienden la lógica de la practicidad. Un Ford Mustang jamás ha sido solo un coche. Es la esencia americana s",
+      "url": "https://www.marca.com/coches-y-motos/coches/2024/05/22/664db290268e3e67508b45b4.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/a5c8346839b6e5557c4fdc811032ccfd/crop/109x235/1733x1318/resize/1200/f/webp/assets/multimedia/imagenes/2024/05/22/17163691164832.jpg",
+      "publishedAt": "2024-05-22T09:22:17Z",
+      "content": "Es complicado expresar en palabras el alma que esconden máquinas que trascienden la lógica de la practicidad. Un Ford Mustang jamás ha sido solo un coche. Es la esencia americana sobre cuatro ruedas … [+6799 chars]"
+    },
+    {
+      "source": {
+        "id": "marca",
+        "name": "Marca"
+      },
+      "author": "ALMUDENA RIVERA, DAVID MENAYO",
+      "title": "El diván de Cecilia Castro: \"Quiero ser campeona olímpica\"",
+      "description": "La taekwondista madrileña, que se clasificó 'in extremis' para los Juegos Olímpicos de 2024, llega a París mentalizada de dar su mejor versión y con la medalla como gran objetivo  Leer",
+      "url": "https://www.marca.com/marca-la-diferencia/2024/06/05/665da501e2704e83928b45a6.html",
+      "urlToImage": "https://phantom-marca.unidadeditorial.es/6c77b19c9fbb903d24a7b9db1f6352b7/resize/1200/f/webp/assets/multimedia/imagenes/2024/06/03/17174137514329.jpg",
+      "publishedAt": "2024-06-05T11:18:30Z",
+      "content": "Cecilia Castro (Madrid, 1997) cumplirá en París el sueño de ser olímpica. La taekwondista logró la clasificación para los Juegos en el Preolímpico celebrado el pasado mes de marzo en el Sports Comple… [+7171 chars]"
+    },
+    {
+      "source": {
+        "id": "rt",
+        "name": "RT"
+      },
+      "author": "RT en Español\n , RT en Español",
+      "title": "Un hombre conduce la camioneta equivocada y se da cuenta al ver a un perro en la parte trasera",
+      "description": "\"Este no es mi perro ni mi auto\", dijo, al darse cuenta de la equivocación.",
+      "url": "https://actualidad.rt.com/viral/511344-hombre-conducir-camioneta-equivocada-perro-parte-trasera",
+      "urlToImage": "https://mf.b37mrtl.ru/actualidad/public_images/2024.05/original/6659e61f59bf5b1df21da5a7.jpg",
+      "publishedAt": "2024-05-31T15:00:47Z",
+      "content": "Un hombre identificado como Vincent Zepeda, de 53 años, estacionó su camioneta al lado de otra idéntica, del mismo modelo y color. Al regresar con una pizza, subió y dio marcha atrás, sin darse cuent… [+1343 chars]"
+    },
+    {
+      "source": {
+        "id": "rt",
+        "name": "RT"
+      },
+      "author": "RT en Español\n , RT en Español",
+      "title": "Hallan en un granero coches clásicos robados avaluados en casi 3 millones de dólares",
+      "description": "Tras una ardua investigación, se incautaron varios Corvette, una camioneta Ford F-1, antiguos Ford Coupe y ejemplares de los llamados 'Hot rod'.",
+      "url": "https://actualidad.rt.com/actualidad/511518-hallan-granero-coches-clasicos-robados",
+      "urlToImage": "https://mf.b37mrtl.ru/actualidad/public_images/2024.06/article/665c7a64e9ff71542f0e6a1b.jpg",
+      "publishedAt": "2024-06-02T15:28:30Z",
+      "content": "Autoridades canadienses incautaron un extenso lote de coches robados, entre ellos varios autos clásicos, en un sector rural del condado de Hastings, al suroeste de la provincia de Ontario.\r\nEl hallaz… [+1876 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Diariomotor.com"
+      },
+      "author": "Humberto Gutiérrez",
+      "title": "Katherine Legge y HRC US se unen para afrontar la subida de Pikes Peak",
+      "description": "Un Acura Integra Type S DE5 respaldado por HRC US y Acura Motorsport será confiado a Katherine Legge para afrontar la Pikes Peak International Hill Climb en la clase Time Attack 1, coches de producción ligeramente modificados por el fabricante. Esta versión D…",
+      "url": "https://www.diariomotor.com/competicion/noticia/katherine-legge-y-hrc-us-se-unen-para-afrontar-la-subida-de-pikes-peak/",
+      "urlToImage": "https://www.diariomotor.com/imagenes/2024/05/Acura_Integra_Type_S_DE5_HRC_Pikes_Peak_E_2024_24-6645471011bfe.jpg",
+      "publishedAt": "2024-05-16T00:26:58Z",
+      "content": "Un Acura Integra Type S DE5 respaldado por HRC US y Acura Motorsport será confiado a Katherine Legge para afrontar la Pikes Peak International Hill Climb en la clase Time Attack 1, coches de producci… [+2112 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Expansion.com"
+      },
+      "author": "Expansión.com",
+      "title": "Carnero (Seat) pide para la marca uno de los eléctricos baratos que planea Volkswagen",
+      "description": "El presidente del comité de empresa de Seat, Matías Carnero, ha reclamado que la marca histórica Seat sea una de las enseñas del Grupo Volkswagen que consiga la adjudicación del eléctrico barato que el consorcio alemán planea fabricar por unos 20.000 euros pa…",
+      "url": "https://www.expansion.com/empresas/motor/2024/06/01/665ae1ed468aeb0a1c8b45a7.html",
+      "urlToImage": "https://phantom-expansion.unidadeditorial.es/4db84a9839b372e0f8b6fb385e2813ce/crop/75x50/2023x1348/resize/1200/f/webp/assets/multimedia/imagenes/2024/06/01/17172323050957.jpg",
+      "publishedAt": "2024-06-01T08:59:29Z",
+      "content": "El presidente del comité de empresa de Seat, Matías Carnero, ha reclamado que la marca histórica Seat sea una de las enseñas del Grupo Volkswagen que consiga la adjudicación del eléctrico barato que … [+2667 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "Un Rolls-Royce Phantom a precio de chollo, pero con un oscuro secreto",
+      "description": "Cuando te dicen que hay un Rolls-Royce Phantom de 2004 a un precio de venta de 69.950 dólares (aproximadamente 65.000 euros), estamos seguros de que saldrías corriendo a por él, sobre todo porque en su época adquirirlo suponía un desembolso de 320.000 dólares…",
+      "url": "https://www.abc.es/motor/reportajes/rollsroyce-phantom-precio-chollo-oscuro-secreto-20240525130000-nt.html",
+      "urlToImage": "https://s1.abcstatics.com/abc/www/multimedia/motor/2024/05/25/11123xx211299999_sumautof-2024_008-jpg-U36056214401YmH-1024x512@diario_abc.jpg",
+      "publishedAt": "2024-05-25T11:00:00Z",
+      "content": "Cuando te dicen que hay un Rolls-Royce Phantom de 2004 a un precio de venta de 69.950 dólares (aproximadamente 65.000 euros), estamos seguros de que saldrías corriendo a por él, sobre todo porque en … [+1217 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.abc.es"
+      },
+      "author": "(abc)",
+      "title": "Los coches híbridos roban protagonismo a los eléctricos en el Salón de Madrid",
+      "description": "Del 22 al 26 de mayo, los Pabellones 1, 3 y 5, junto con una amplia zona exterior del Recinto Ferial de IFEMA, acoge la celebración de Madrid Car Experience, tal y como se denomina el salón del automóvil de Madrid, un espacio en donde los aficionados al mundo…",
+      "url": "https://www.abc.es/motor/economia/coches-hibridos-roban-protagonismo-electricos-salon-madrid-20240523113300-nt.html",
+      "urlToImage": "https://s1.abcstatics.com/abc/www/multimedia/motor/2024/05/23/DAMBin-U65536661168FyH-1024x512@diario_abc.jpg",
+      "publishedAt": "2024-05-23T09:33:00Z",
+      "content": "Del 22 al 26 de mayo, los Pabellones 1, 3 y 5, junto con una amplia zona exterior del Recinto Ferial de IFEMA, acoge la celebración de Madrid Car Experience, tal y como se denomina el salón del autom… [+6773 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Merca20.com"
+      },
+      "author": "Pablo Petovel",
+      "title": "CEO de Mercedes: Habrá noticias inminentes sobre los autos eléctricos chinos",
+      "description": "El CEO de Mercedes, Ola Kaellenius, anticipó una decisión \"inminente\" sobre los aranceles de importación para vehículos eléctricos provenientes de China.",
+      "url": "https://www.merca20.com/ceo-de-mercedes-habra-noticias-inminentes-sobre-los-autos-electricos-chinos/",
+      "urlToImage": "https://files.merca20.com/uploads/2024/02/CEO-Mercedes-Benz-Ola-Kaellenius.jpeg",
+      "publishedAt": "2024-06-06T13:20:27Z",
+      "content": "<ul>\n<li>Mercedes, al igual que otras marcas alemanas, depende de los ingresos provenientes de China, su mayor mercado.</li>\n<li>El CEO de Mercedes, Ola Kaellenius, se opone a la implementación de re… [+3804 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Elespanol.com"
+      },
+      "author": "Daniel González",
+      "title": "Las mejores ofertas de Nintendo Switch en la eShop de esta semana (23/05/2024)",
+      "description": "<!--cache-->Repasamos algunas de las ofertas más interesantes para Nintendo Switch que han comenzado a estar disponibles desde el jueves 23 de mayo de 2024 en la eShop digital de Nintendo.Una semana más, la tienda digital de Nintendo, la Nintendo eShop, vuelv…",
+      "url": "https://vandal.elespanol.com/noticia/1350771494/las-mejores-ofertas-de-nintendo-switch-en-la-eshop-de-esta-semana-23052024/",
+      "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/5/5-2024/23/20245238481142_1.jpg",
+      "publishedAt": "2024-05-23T06:48:00Z",
+      "content": "Una semana más, la tienda digital de Nintendo, la Nintendo eShop, vuelve a ofrecernos numerosas ofertas de videojuegos. Como ya sabemos, por norma general el grueso de actualizaciones de la tienda de… [+5542 chars]"
+    },
+    {
+      "source": {
+        "id": "rt",
+        "name": "RT"
+      },
+      "author": "RT en Español\n , RT en Español",
+      "title": "VIDEO: Hombre con licencia suspendida hace una videollamada a la corte mientras conduce",
+      "description": "El hecho dejó boquiabierto al juez.",
+      "url": "https://actualidad.rt.com/viral/511165-estadounidense-licencia-suspendida-hace-videollamada",
+      "urlToImage": "https://mf.b37mrtl.ru/actualidad/public_images/2024.05/original/6657bacb59bf5b23450d0b8d.jpg",
+      "publishedAt": "2024-05-29T23:31:23Z",
+      "content": "En redes sociales se ha hecho viral un divertido video de una reunión por Zoom, en el que se observa al estadounidense Corey Harris uniéndose a una audiencia judicial programada a través de videollam… [+1896 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mundodeportivo.com"
+      },
+      "author": "Fabio Marchi Vilches",
+      "title": "Así ha sido la salida del GP de Imola de F1 2024: Alonso, desde el pit lane y Sainz se defiende",
+      "description": "La salida del GP de Emilia-Romagna de F1 2024, en Imola, fue muy limpia. Era un momento clave. Debido a lo difícil que es adelantar en esta pista, era la ocasión de adelantar posiciones, pero en las primeras plazas no hubo cambios de posición, con Max Verstap…",
+      "url": "https://www.mundodeportivo.com/motor/f1/20240519/1002249491/asi-sido-salida-gp-imola-f1-2024-alonso-pit-lane-sainz-defiende.html",
+      "urlToImage": "https://www.mundodeportivo.com/files/og_thumbnail/files/fp/uploads/2024/05/19/6649fc6bc3112.r_d.2456-1933-2520.jpeg",
+      "publishedAt": "2024-05-19T13:20:03Z",
+      "content": "La salida del GP de Emilia-Romagna de F1 2024, en Imola, fue muy limpia. Era un momento clave. Debido a lo difícil que es adelantar en esta pista, era la ocasión de adelantar posiciones, pero en las … [+1497 chars]"
     }
   ]
 }

@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import HomeIcon from '@mui/icons-material/Home';
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
@@ -14,6 +14,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MapIcon from '@mui/icons-material/Map';
 import ThemeToggle from './tema';
 import CarIcon from '../ui/CarIcon';
+import NewspaperIcon from '@mui/icons-material/Newspaper';
 
 export function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +24,21 @@ export function Navbar() {
         setIsOpen(!isOpen);
     };
 
+    // Cierra el menú cuando el tamaño de la pantalla cambia a móvil
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 768) {
+                setIsOpen(false);
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <nav>
-            <aside id="sidebar-multi-level-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+            <aside id="sidebar-multi-level-sidebar" className={`fixed top-0 left-0 z-40 w-64 h-screen transition-transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} sm:translate-x-0`} aria-label="Sidebar">
                 <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
                     <ul className="space-y-2 font-medium">
                         <CarIcon></CarIcon>
@@ -60,12 +73,12 @@ export function Navbar() {
                                 <span>Posts</span>
                             </Link>
                         </li>
-                        {/* <li>
-                            <Link href="/pages/site/settings" className='flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2'>
-                                <SettingsIcon />
-                                <span>Ajustes</span>
+                        <li>
+                            <Link href="/pages/news" className='flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group space-x-2'>
+                                <NewspaperIcon />
+                                <span>Noticias</span>
                             </Link>
-                        </li> */}
+                        </li>
                         <li>
                             <ThemeToggle />
                         </li>
@@ -91,23 +104,26 @@ export function MobileNavbar() {
                     <Link href="/pages/site/home" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
                         <HomeIcon />
                     </Link>
-                    <Link href="/pages/site/posts" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
-                        <AddAPhotoIcon />
-                    </Link>
                     <Link href="/pages/site/messages" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
                         <InboxIcon />
                     </Link>
-                    <Link href="/pages/site/users" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
-                        <PeopleIcon />
-                    </Link>
-                    <Link href="/pages/site/settings" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
-                        <SettingsIcon />
+                    <Link href="/pages/site/posts" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+                        <AddAPhotoIcon />
                     </Link>
                     <button onClick={toggleTheme} className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
                         {theme === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
                     </button>
-                    <Link href="/pages/site/logout" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
-                        <LogoutIcon />
+                    <Link href="/pages/site/users" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+                        <PeopleIcon />
+                    </Link>
+                    <Link href="/pages/site/maps" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+                        <MapIcon />
+                    </Link>
+                    <Link href="/pages/site/settings" passHref className="flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+                        <SettingsIcon />
+                    </Link>
+                    <Link href="/pages/news" className='flex flex-col items-center justify-center text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300'>
+                        <NewspaperIcon />
                     </Link>
                 </div>
             </aside>

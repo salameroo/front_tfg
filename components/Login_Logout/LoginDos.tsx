@@ -89,7 +89,7 @@ export default function Component() {
         <form onSubmit={handleSubmit(handleFormSubmit)} className="flex h-screen items-center justify-center bg-gray-100 dark:bg-gray-950">
             <div className="mx-auto w-full max-w-md space-y-6 rounded-lg bg-white p-6 shadow-lg dark:bg-gray-800">
                 <div className="space-y-2 text-center">
-                    <h1 className="text-3xl font-bold">Bienvenido a Cargram</h1>
+                    <h1 className="text-3xl font-bold">Bienvenido a <Link href={"/"}>CarGram</Link></h1>
                     <p className="text-gray-500 dark:text-gray-400">Inicia sesión para continuar</p>
                 </div>
                 <div className="space-y-4">

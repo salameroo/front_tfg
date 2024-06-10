@@ -131,12 +131,12 @@ export default function CreatePostPage() {
     };
 
     return (
-        <div className="max-w-md mx-auto">
-            <h1 className="text-black text-bold text-center mt-8 mb-2 font-sans text-2xl">Nuevo Post</h1>
+        <div className="max-w-md mx-auto p-2">
+            <h1 className="text-black text-bold text-center mt-8 mb-2 font-sans text-2xl dark:text-white">Nuevo Post</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-4">
-                    <label htmlFor="images" className="block text-gray-700 font-semibold mb-4">Imágenes</label>
-                    <label className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-green-500 hover:to-blue-500 text-white font-semibold py-2 px-4 rounded-md cursor-pointer transition duration-200 ease-in-out w-full text-center">
+                    <label htmlFor="images" className="block  text-gray-700 font-semibold mb-4">Imágenes</label>
+                    <label className="bg-black dark:text-black dark:bg-green-400 text-white font-semibold py-2 px-4 rounded-md cursor-pointer transition duration-200 ease-in-out w-full text-center">
                         Subir Imágenes
                         <input type="file" id="images" name="images" accept="image/*" multiple style={{ display: 'none' }} onChange={handleChange} />
                     </label>
@@ -166,15 +166,15 @@ export default function CreatePostPage() {
                 <div className="mb-4">
                     <label htmlFor="location" className="block text-gray-700 font-semibold">Ubicación</label>
                     <input type="text" id="location" name="location" value={formData.location || ''} readOnly className="text-black mt-1 p-2 border rounded-md w-full" hidden />
-                    <Button onClick={() => setMapOpen(true)} className="mt-2 p-2 bg-blue-500 text-white rounded-md">Seleccionar Ubicación</Button>
+                    <Button onClick={() => setMapOpen(true)} className="mt-2 p-2 bg-yellow-500 text-white rounded-md">Seleccionar Ubicación</Button>
                 </div>
-                <Button type="submit" className="bg-gradient-to-bl from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:via-pink-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4 mt-2 w-full">
+                <Button type="submit" className="bg-black dark:bg-green-400 dark:text-black hover:from-red-500 hover:via-pink-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4 mt-2 w-full">
                     Publicar
                 </Button>
             </form>
 
             <Dialog open={mapOpen} onClose={() => setMapOpen(false)} fullWidth maxWidth="md">
-                <DialogTitle>Selecciona la Ubicación</DialogTitle>
+                <DialogTitle className='p-0 flex items-center justify-center mt-2'>Selecciona la Ubicación</DialogTitle>
                 <DialogContent>
                     <SearchBox onLocationSelected={handleLocationSelected} />
                     <LocationPicker onLocationSelected={handleLocationSelected} center={center} />

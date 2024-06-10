@@ -15,11 +15,11 @@ const Ajustes = dynamic(
 
 const PageAjustes = () => {
     return (
-        <div className="bg-gray-600 min-h-screen flex flex-col m-0 p-0 align-center">
+        <div className="bg-gray-400 dark:bg-dark-bg min-h-screen flex flex-col m-0 p-0 justify-center align-center">
             <Ajustes />
-            <br />
-            <Logout />
-            <br />
+            <div className='md:hidden'>
+                <Logout />
+            </div>
         </div>
     )
 }

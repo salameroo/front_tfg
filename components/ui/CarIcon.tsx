@@ -5,7 +5,7 @@ interface CarIconProps extends SVGProps<SVGSVGElement> { }
 
 export default function CarIcon(props: CarIconProps) {
     return (
-        <div className="pl-4 lg:pl-6 pt-2">
+        <div className="pl-4 lg:pl-6 pt-2 dark:text-white">
             <Link className="flex items-center" href={"/"}>
                 <svg
                     {...props}
