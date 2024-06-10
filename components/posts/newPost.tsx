@@ -131,11 +131,11 @@ export default function CreatePostPage() {
     };
 
     return (
-        <div className="max-w-md mx-auto p-2">
-            <h1 className="text-black text-bold text-center mt-8 mb-2 font-sans text-2xl dark:text-white">Nuevo Post</h1>
-            <form onSubmit={handleSubmit}>
+        <div className="max-w-md mx-auto p-2 min-h-screen flex flex-col">
+            <h1 className="text-black font-bold text-center mt-8 mb-2 font-sans text-2xl dark:text-white">Nuevo Post</h1>
+            <form onSubmit={handleSubmit} className="flex-1 overflow-auto">
                 <div className="mb-4">
-                    <label htmlFor="images" className="block  text-gray-700 font-semibold mb-4">Imágenes</label>
+                    <label htmlFor="images" className="block text-gray-700 font-semibold mb-4">Imágenes</label>
                     <label className="bg-black dark:text-black dark:bg-green-400 text-white font-semibold py-2 px-4 rounded-md cursor-pointer transition duration-200 ease-in-out w-full text-center">
                         Subir Imágenes
                         <input type="file" id="images" name="images" accept="image/*" multiple style={{ display: 'none' }} onChange={handleChange} />
@@ -152,7 +152,7 @@ export default function CreatePostPage() {
                     {confirmation && <div className="text-green-500 text-center mt-2">Las imágenes se han cargado correctamente. Post publicado</div>}
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="title" className="block text-gray-700 font-semibold">Título </label>
+                    <label htmlFor="title" className="block text-gray-700 font-semibold">Título</label>
                     <input type="text" id="title" name="title" value={formData.title || ''} onChange={handleChange} className="text-black mt-1 p-2 border rounded-md w-full" required />
                 </div>
                 <div className="mb-4">
@@ -187,4 +187,5 @@ export default function CreatePostPage() {
             </Dialog>
         </div>
     );
+
 }
