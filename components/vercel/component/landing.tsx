@@ -63,6 +63,9 @@ export default function Landing() {
                 <Button className="w-full min-[400px]:w-auto" variant="outline">
                   <Link href="/pages/manual">Aprende Más</Link>
                 </Button>
+                <Button className="w-full min-[400px]:w-auto bg-gray-400" variant="outline">
+                  <Link href="/pages/news">Noticias</Link>
+                </Button>
               </div>
             </div>
           </div>

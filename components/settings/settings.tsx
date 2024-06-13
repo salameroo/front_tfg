@@ -7,9 +7,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import Image from 'next/image';
 import SinglePostMalone from '../posts/postAlone'; // Import your SinglePostMalone component
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import LoadingSpinner from '../loading/spinner';
-import LogoutIcon from '@mui/icons-material/Logout';
 import Logout from '@/components/Login_Logout/LogoutButton';
 
 interface User {

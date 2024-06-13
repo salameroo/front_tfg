@@ -23,7 +23,7 @@ const NewsPage: React.FC<{ news: NewsItem[] }> = ({ news }) => {
                 <div>
                     <Link href="/pages/login">
                         <button className="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                            Access webpage
+                            Acceso al sitio
                         </button>
                     </Link>
                 </div>
@@ -33,20 +33,20 @@ const NewsPage: React.FC<{ news: NewsItem[] }> = ({ news }) => {
                     <div className="container px-4 md:px-6 mx-auto">
                         <div className="text-center">
                             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                                The Latest in Automotive News
+                                Lo último en noticias automotivas
                             </h1>
                             <p className="mt-4 text-lg text-gray-400">
-                                Stay up-to-date with the latest news, reviews, and features from the world of cars.
+                                ¿Quieres estar al día con las ultimas noticias, reseñas y modificaciones del mundo?
                             </p>
-                            <div className="mt-8 text-xl flex justify-center gap-4">
-                                Welcome to CarGram news page
+                            <div className="mt-8 mb-4 text-xl flex justify-center gap-4">
+                                Bienvenido a la pagina de noticias de CarGram
                             </div>
                         </div>
                     </div>
                 </section>
                 <section>
                     <div className="max-w-8xl mx-auto p-4">
-                        <h1 className="text-3xl font-bold mb-6 text-center">Car News</h1>
+                        <h1 className="text-3xl font-bold mb-6 text-center">Últimas entradas</h1>
                         <div id='news' className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
                             {news.map((article, index) => (
                                 <div key={index} className="bg-white p-4 rounded-lg shadow-lg">
