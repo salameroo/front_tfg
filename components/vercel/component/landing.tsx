@@ -59,12 +59,12 @@ export default function Landing() {
                 Cargram es la red social definitiva para los entusiastas de los coches. Comparte tus rutas favoritas, mantente actualizado con noticias, descubre cosas únicas y mucho más...
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button className="w-full min-[400px]:w-auto">Únete Ahora</Button>
+                <Button className="w-full min-[400px]:w-auto"><Link href={"/pages/register"}>Únete Ahora</Link></Button>
                 <Button className="w-full min-[400px]:w-auto" variant="outline">
-                  <Link href="/pages/manual">Aprende Más</Link>
+                  <Link href={"/pages/manual"}>Aprende Más</Link>
                 </Button>
                 <Button className="w-full min-[400px]:w-auto bg-gray-400" variant="outline">
-                  <Link href="/pages/news">Noticias</Link>
+                  <Link href={"/pages/news"}>Noticias</Link>
                 </Button>
               </div>
             </div>

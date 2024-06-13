@@ -21,7 +21,7 @@ const NewsPage: React.FC<{ news: NewsItem[] }> = ({ news }) => {
                 </Link>
 
                 <div>
-                    <Link href="/pages/login">
+                    <Link href="/pages/site/home">
                         <button className="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
                             Acceso al sitio
                         </button>
