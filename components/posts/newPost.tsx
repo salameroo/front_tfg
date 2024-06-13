@@ -131,7 +131,7 @@ export default function CreatePostPage() {
     };
 
     return (
-        <div className="max-w-md mx-auto p-2 min-h-screen flex flex-col">
+        <div className="max-w-md mx-auto p-2 min-h-screen h-screen flex flex-col">
             <h1 className="text-black font-bold text-center mt-8 mb-2 font-sans text-2xl dark:text-white">Nuevo Post</h1>
             <form onSubmit={handleSubmit} className="flex-1 overflow-auto">
                 <div className="mb-4">
@@ -171,6 +171,9 @@ export default function CreatePostPage() {
                 <Button type="submit" className="bg-black dark:bg-green-400 dark:text-black hover:from-red-500 hover:via-pink-500 hover:to-purple-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md mb-4 mt-2 w-full">
                     Publicar
                 </Button>
+                <div className='p-8'>
+                    <h1> </h1>
+                </div>
             </form>
 
             <Dialog open={mapOpen} onClose={() => setMapOpen(false)} fullWidth maxWidth="md">
