@@ -74,7 +74,8 @@ export default function CreatePostPage() {
                     'Authorization': `Bearer ${token}`,
                 },
                 body: formDataToSend,
-                credentials: 'include'
+                credentials: 'include',
+                mode: 'cors'
             });
 
             if (!response.ok) {
