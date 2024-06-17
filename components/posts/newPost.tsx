@@ -49,6 +49,8 @@ export default function CreatePostPage() {
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log("Attempting to submit post");
+
         let token = Cookies.get('auth_token');
         setLoading(true);
         setConfirmation(false);
@@ -68,18 +70,17 @@ export default function CreatePostPage() {
         });
 
         try {
-            const url = `${process.env.LARAVEL}/api/newpost`;
-            console.log('Fetching from:', url);
-
-            const response = await fetch(url, {
+            const response = await fetch(`${process.env.LARAVEL}/api/nuevoPost`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
+                    credentials: 'include',
+                    mode: 'cors'
                 },
                 body: formDataToSend,
-                credentials: 'include',
-                mode: 'cors'
             });
+
+            console.log("Response status:", response.status);
 
             if (!response.ok) {
                 const res = await response.json();
@@ -97,6 +98,7 @@ export default function CreatePostPage() {
             setLoading(false);
         }
     };
+
 
 
     const handleLocationSelected = (latlng: LatLngLiteral, displayName: string) => {
