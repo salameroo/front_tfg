@@ -82,7 +82,6 @@ export default function CreatePostPage() {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
-                mode: 'no-cors',
                 body: formDataToSend,
                 credentials: 'include'
             });
