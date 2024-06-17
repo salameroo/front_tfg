@@ -47,15 +47,6 @@ export default function CreatePostPage() {
         }
     };
 
-    const getCsrfToken = async () => {
-        const response = await fetch(`${process.env.LARAVEL}/sanctum/csrf-cookie`, {
-            credentials: 'include'
-        });
-        if (!response.ok) {
-            throw new Error('Failed to fetch CSRF token');
-        }
-    };
-
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         let token = Cookies.get('auth_token');
