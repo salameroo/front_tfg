@@ -74,9 +74,8 @@ export default function CreatePostPage() {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
-                    credentials: 'include',
-                    mode: 'cors'
                 },
+                credentials: 'include',
                 body: formDataToSend,
             });
 
