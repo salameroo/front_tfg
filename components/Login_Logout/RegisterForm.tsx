@@ -22,12 +22,13 @@ const schema: ZodType<TRegisterForm> = z
         }),
         password: z
             .string()
-            .min(8, { message: "La contraseña debe tener al menos 8 caracteres" })
-            .regex(/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,}$/, {
+            .min(8, { message: "La contraseña debe tener al menos 6 caracteres" })
+            .regex(/^(?=.*[0-9])(?=.*[!@#$%^&*_\-\/<>])[a-zA-Z0-9!@#$%^&*_\-\/<>]{6,}$/, {
                 message:
                     "La contraseña debe contener al menos un número y un carácter especial",
             }),
         cPassword: z.string(),
+
         ip: z.string(),
     })
     .refine((data) => data.password === data.cPassword, {
