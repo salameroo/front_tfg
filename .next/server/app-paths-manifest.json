@@ -1,1 +1,19 @@
-{}
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/pages/manual/page": "app/pages/manual/page.js",
+  "/pages/news/page": "app/pages/news/page.js",
+  "/pages/normativa/terms/page": "app/pages/normativa/terms/page.js",
+  "/pages/inicio/page": "app/pages/inicio/page.js",
+  "/pages/register/page": "app/pages/register/page.js",
+  "/pages/login/page": "app/pages/login/page.js",
+  "/pages/normativa/page": "app/pages/normativa/page.js",
+  "/pages/site/home/page": "app/pages/site/home/page.js",
+  "/pages/site/logout/page": "app/pages/site/logout/page.js",
+  "/pages/site/maps/page": "app/pages/site/maps/page.js",
+  "/pages/site/messages/page": "app/pages/site/messages/page.js",
+  "/pages/site/posts/page": "app/pages/site/posts/page.js",
+  "/pages/site/users/page": "app/pages/site/users/page.js",
+  "/pages/site/settings/page": "app/pages/site/settings/page.js"
+}
