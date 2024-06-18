@@ -70,7 +70,7 @@ export default function CreatePostPage() {
         });
 
         try {
-            const response = await fetch(`${process.env.LARAVEL}/api/nuevoPost`, {
+            const response = await fetch(`${process.env.LARAVEL}/api/postnuevopublicacion`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
