@@ -65,6 +65,10 @@ export default function CreatePostPage() {
         if (latitude) formDataToSend.append('latitude', latitude.toString());
         if (longitude) formDataToSend.append('longitude', longitude.toString());
 
+        images.forEach((image, index) => {
+            formDataToSend.append('images[]', image, image.name);
+        });
+
         try {
             const response = await fetch(`${process.env.LARAVEL}/api/postnuevopublicacion`, {
                 method: 'POST',
